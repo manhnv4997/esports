@@ -1,0 +1,332 @@
+@import "variables/colors"
+@import 'utils/border'
+
+body
+    margin: 0
+
+p
+    margin: 0
+
+.header
+    background-color: #0B1D40
+    display: flex
+    gap: 0 12px
+    padding: 10px 75px
+
+    @media (max-width: 992px)
+        justify-content: center
+        padding: 10px 20px
+
+    .menu
+        margin: 0
+        padding: 0
+        /* width: 888px */
+        /* display: flex */
+        align-items: center
+        width: 100%
+        text-transform: uppercase
+        width: 100%
+        justify-content: space-between
+
+        &__item
+            display: flex
+            align-items: center
+            color: $whiteColor
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 700
+            line-height: 28px /* 200% */
+            text-transform: uppercase
+            text-align: center
+
+    .logo
+        text-transform: uppercase
+
+        &__box
+            display: flex
+            align-items: flex-end
+
+        &__text
+            color: $whiteColor
+            font-family: Mulish
+            font-size: 8px
+            font-style: normal
+            font-weight: 500
+            line-height: 12px /* 150% */
+            text-transform: math-auto
+
+        &__icon
+            width: 1336px
+            height: 70px
+            flex-shrink: 0
+
+        &__e
+            color: $orangeColor
+            -webkit-text-stroke-width: 0.4000000059604645
+            -webkit-text-stroke-color: #0B1D40
+            font-family: "Nico Moji"
+            font-size: 34px
+            font-style: normal
+            font-weight: 400
+            line-height: 28px /* 82.353% */
+
+        &__s
+            color: $redColor
+            font-family: "Nico Moji"
+            font-size: 34px
+            font-style: normal
+            font-weight: 400
+            line-height: 28px
+
+        &__p
+            color: $greenColor2
+            font-family: "Nico Moji"
+            font-size: 34px
+            font-style: normal
+            font-weight: 400
+            line-height: 28px
+
+        &__o
+            color: $blueColor3
+            font-family: "Nico Moji"
+            font-size: 34px
+            font-style: normal
+            font-weight: 400
+            line-height: 28px
+
+        &__r
+            color: $purpleColor2
+            font-family: "Nico Moji"
+            font-size: 34px
+            font-style: normal
+            font-weight: 400
+            line-height: 28px
+
+        &__t
+            color: $whiteColor
+            font-family: "Nico Moji"
+            font-size: 34px
+            font-style: normal
+            font-weight: 400
+            line-height: 28px
+
+.homepage
+    padding-top: 16px
+    .container
+        // background-color: gray
+    // START BLOCK 1
+    .block-1
+        .left-content
+            padding: 15px
+            flex-shrink: 0
+            border-right: 0.5px solid $borderColor
+            @media (max-width: 992px)
+                padding: 0
+
+            &__main-post
+                border-radius: 6px
+                background: linear-gradient(0deg, $blueColor 0%, $blueColor 100%), url(<path-to-image>) lightgray 50% / cover no-repeat
+                @media (max-width: 992px)
+                    background: unset
+
+            &__list-post
+                color: $textColor
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 600
+                line-height: 20px
+                padding: 16px 15px
+
+                & ul
+                    padding: 0
+
+            .main-post
+                &__content
+                    padding: 15px 15px 30px 15px
+                    width: auto
+                    height: 173px
+                    flex-shrink: 0
+                    @media (max-width: 992px)
+                        width: 100%
+                        height: auto
+                        display: flex
+                        flex-flow: column
+                        padding: 16px 12px 0 12px
+
+                &__image
+                    width: 100%
+                    height: 332px
+                    border-radius: 6px 6px 0px 0px
+
+                    @media (max-width: 992px)
+                        border-radius: unset
+                        height: 212px
+                        object-fit: cover
+
+                &__info
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+
+                    @media (max-width: 992px)
+                        order: 3
+                        border-bottom: 0.8px solid gray
+                        padding: 14px 0 16px 0
+                        justify-content: flex-start
+
+                &__time-comment
+                    display: flex
+                    gap: 0 6px
+                    @media (max-width: 992px)
+                        order: 1
+
+                &__description
+                    @media (max-width: 992px)
+                        order: 2
+
+                &__category
+                    color: $redColor
+                    font-family: Mulish
+                    font-size: 11px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 28px
+                    text-transform: uppercase
+                    @media (max-width: 992px)
+                        order: 2
+                        color: $redColor1
+                        font-family: Mulish
+                        font-size: 10px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 16px
+                        text-transform: uppercase
+
+                &__created-at,
+                &__created-at-hour
+                    color: $whiteColor
+                    text-align: right
+                    font-family: Mulish
+                    font-size: 11px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 28px
+
+                    @media (max-width: 992px)
+                        color: $grayColor2
+                        font-family: Mulish
+                        font-size: 10px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 16px
+                        text-transform: uppercase
+
+                &__title
+                    color: $whiteColor
+                    font-family: Mulish
+                    font-size: 26px
+                    font-style: normal
+                    font-weight: 800
+                    line-height: 36px
+                    margin: 0
+                    width: 459px
+                    height: 107px
+                    flex-shrink: 0
+
+                    @media (max-width: 992px)
+                        color: $blackColor1
+                        width: 100%
+                        order: 1
+
+                &__comment
+                    color: $whiteColor
+                    font-family: Mulish
+                    font-size: 11px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 28px
+
+            &__li
+                margin-bottom: 12px
+
+            &__li:last-child
+                margin-bottom: 0px
+
+        .right-content
+            padding: 15px
+
+            &__item
+                display: flex
+                flex-flow: column
+                border-bottom: 0.8px solid $borderColor
+                padding-bottom: 15px
+                margin-bottom: 15px
+
+                @media (max-width: 992px)
+                    padding-bottom: 12px
+                    margin-bottom: 12px
+
+            &__item:last-child
+                border-bottom: unset
+                padding-bottom: 0
+                margin-bottom: 0
+
+            &__item-content
+                display: flex
+                flex-flow: row
+                gap: 0 32px
+                @media (max-width: 992px)
+                    gap: 0 12px
+                    justify-content: space-between
+
+            &__title-box
+                display: flex
+                flex-flow: column
+                justify-content: space-between
+
+            &__title
+                color: $blackColor
+                font-family: Mulish
+                font-size: 17px
+                font-style: normal
+                font-weight: 700
+                line-height: 24px
+
+            &__info
+                align-items: flex-end
+                margin-top: 5px
+
+            &__created-at
+                color: $grayColor2
+                font-family: Mulish
+                font-size: 10px
+                font-style: normal
+                font-weight: 500
+                line-height: 16px
+                text-transform: uppercase
+
+            & ul
+                margin: 0
+
+            &__category
+                color: $redColor1
+                font-family: Mulish
+                font-size: 10px
+                font-style: normal
+                font-weight: 500
+                line-height: 16px
+                text-transform: uppercase
+
+            &__image
+                width: 161px
+                height: 111px
+                flex-shrink: 0
+                border-radius: 4px
+                object-fit: cover
+                @media (max-width: 992px)
+                    width: 134px
+                    height: 93px
+                    flex-shrink: 0
+    // END BLOCK 1
