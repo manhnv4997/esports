@@ -115,8 +115,50 @@ p
     padding-top: 16px
     .container
         // background-color: gray
-    // START BLOCK 1
+    // ---- START BLOCK 1
+
+    .item-info
+        display: flex
+
+        &__created-at,
+        &__created-at-hour
+            color: $grayColor2
+            font-family: Mulish
+            font-size: 10px
+            font-style: normal
+            font-weight: 500
+            line-height: 16px
+            text-transform: uppercase
+
+        &__category
+            color: $redColor1
+            font-family: Mulish
+            font-size: 10px
+            font-style: normal
+            font-weight: 500
+            line-height: 16px
+            text-transform: uppercase
+
     .block-1
+        .list-post
+            color: $redColor
+            padding: 15px 12px 15px 25px
+
+            @media (max-width: 992px)
+                margin-bottom: 0
+
+            span
+                color: $textColor
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 600
+                line-height: 20px
+
+        &.box-border
+            @media (max-width: 992px)
+                border: unset
+
         .left-content
             padding: 15px
             flex-shrink: 0
@@ -189,7 +231,7 @@ p
                 &__category
                     color: $redColor
                     font-family: Mulish
-                    font-size: 11px
+                    font-size: 10px
                     font-style: normal
                     font-weight: 600
                     line-height: 28px
@@ -209,7 +251,7 @@ p
                     color: $whiteColor
                     text-align: right
                     font-family: Mulish
-                    font-size: 11px
+                    font-size: 10px
                     font-style: normal
                     font-weight: 600
                     line-height: 28px
@@ -256,6 +298,8 @@ p
 
         .right-content
             padding: 15px
+            @media (max-width: 992px)
+                padding: 15px 12px
 
             &__item
                 display: flex
@@ -298,26 +342,8 @@ p
                 align-items: flex-end
                 margin-top: 5px
 
-            &__created-at
-                color: $grayColor2
-                font-family: Mulish
-                font-size: 10px
-                font-style: normal
-                font-weight: 500
-                line-height: 16px
-                text-transform: uppercase
-
             & ul
                 margin: 0
-
-            &__category
-                color: $redColor1
-                font-family: Mulish
-                font-size: 10px
-                font-style: normal
-                font-weight: 500
-                line-height: 16px
-                text-transform: uppercase
 
             &__image
                 width: 161px
@@ -329,4 +355,105 @@ p
                     width: 134px
                     height: 93px
                     flex-shrink: 0
-    // END BLOCK 1
+    // ---- END BLOCK 1
+
+    // ---- START BLOCK 2
+    .block-2
+        display: flex
+        gap: 0 16px
+        padding: 23px 12px 12px 12px
+        margin-right: calc(-.5* 1.5rem)
+        margin-left: calc(-.5* 1.5rem)
+
+        @media (max-width: 992px)
+            flex-flow: column
+            padding: 8px 12px 12px 12px
+
+        .main-content
+            width: calc(100% - 300px)
+            @media (max-width: 992px)
+                order: 2
+                width: 100%
+
+            .item
+                display: flex
+                gap: 0 16px
+                border-bottom: 0.8px solid $borderColor
+                padding-bottom: 14px
+                margin-bottom: 14px
+
+                @media (max-width: 992px)
+                    padding-bottom: 12px
+                    margin-bottom: 12px
+                    flex-flow: column
+
+                &:last-child
+                    border-bottom: unset
+                    padding-bottom: 0
+                    margin-bottom: 0
+
+                & .item-info
+                    @media (max-width: 992px)
+                        margin-top: 5px
+
+                &__content-box
+                    display: flex
+                    flex-flow: row
+                    @media (max-width: 992px)
+                        justify-content: space-between
+
+                &__title
+                    color: $blackColor
+                    font-family: Mulish
+                    font-size: 18px
+                    font-style: normal
+                    font-weight: 800
+                    line-height: 24px
+                    @media (max-width: 992px)
+                        color: $blackColor
+                        font-family: Mulish
+                        font-size: 17px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 24px
+
+                &__content
+                    order: 1
+                    display: flex
+                    flex-flow: column
+                    justify-content: space-between
+
+                &__image
+                    order: 2
+                    width: 161px
+                    height: 111px
+                    flex-shrink: 0
+                    border-radius: 4px
+                    @media (max-width: 992px)
+                        width: 134px
+                        height: 93px
+                        flex-shrink: 0
+
+        .ads
+            width: 316px
+            height: 616px
+            padding: 8px
+            border: 0.8px solid $borderColor
+            background: $whiteColor
+
+            @media (max-width: 992px)
+                order: 1
+                width: 100%
+                height: 600px
+
+                display: flex
+                justify-content: center
+                margin-bottom: 24px
+                border: unset
+                padding: 0
+
+            &__content
+                width: 300px
+                height: 600px
+                background: $grayColor3
+    // ---- END BLOCK 2

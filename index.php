@@ -157,18 +157,18 @@
                                     Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
                                 </p>
                                 <div class="right-content__info d-none d-md-flex">
-                                    <span class="right-content__created-at">23/01/2022 18:24 </span>
+                                    <span class="item-info__created-at">23/01/2022 18:24 </span>
                                     <ul>
-                                        <li class="right-content__category">Ngôi sao</li>
+                                        <li class="item-info__category">Ngôi sao</li>
                                     </ul>
                                 </div>
                             </div>
                             <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="right-content__image">
                         </div>
                         <div class="right-content__info d-flex d-md-none">
-                            <span class="right-content__created-at">23/01/2022 18:24 </span>
+                            <span class="item-info__created-at">23/01/2022 18:24 </span>
                             <ul>
-                                <li class="right-content__category">Ngôi sao</li>
+                                <li class="item-info__category">Ngôi sao</li>
                             </ul>
                         </div>
                     </div>
@@ -179,18 +179,18 @@
                                     Đột Kích Việt Nam sẵn sàng bảo vệ ngôi vương tại SEA Games 32
                                 </p>
                                 <div class="right-content__info d-none d-md-flex">
-                                    <span class="right-content__created-at">23/01/2022 18:24 </span>
+                                    <span class="item-info__created-at">23/01/2022 18:24 </span>
                                     <ul>
-                                        <li class="right-content__category">Liên Quân Huyền thoại</li>
+                                        <li class="item-info__category">Liên Quân Huyền thoại</li>
                                     </ul>
                                 </div>
                             </div>
                             <img src="https://s3-alpha-sig.figma.com/img/0624/90f0/94148f264714e2102b9138a6710ff1bb?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g1tmQaGyyf~aWHHFoc3A~397SXwN4ihzi79YgvZr7d6TwwOIlkB8xD5x6TGSE6WKvsYYhdQPHG5~gXHDbyrfp8XvjkWb4O5lFAbi7li62OsLGZ-gTnRSC~ooHfFPwBjvXvoL5PzkahHQ5psomvhGzbY7iBy5QtfK~HkRFjGmkN3q9bdBacwH1asqjP--OqodaOFvaDrYSCokZcl0Uot4YKvnfnnoJK4-SJA7-jhvyBO9apTFpF71dQvljHS4fKFmZh9X5RBR0-e172Jr59-bbtfg1qapcR1dCoXJSI01uG3qyXmuJv3zfrEKbvey9anaIT0pydPWeYbJd5enU1rP1w__" alt="" class="right-content__image">
                         </div>
                         <div class="right-content__info d-flex d-md-none">
-                            <span class="right-content__created-at">23/01/2022 18:24 </span>
+                            <span class="item-info__created-at">23/01/2022 18:24 </span>
                             <ul>
-                                <li class="right-content__category">Liên Quân Huyền thoại</li>
+                                <li class="item-info__category">Liên Quân Huyền thoại</li>
                             </ul>
                         </div>
                     </div>
@@ -201,18 +201,18 @@
                                     Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
                                 </p>
                                 <div class="right-content__info d-none d-md-flex">
-                                    <span class="right-content__created-at">23/01/2022 18:24 </span>
+                                    <span class="item-info__created-at">23/01/2022 18:24 </span>
                                     <ul>
-                                        <li class="right-content__category">Liên Quân Huyền thoại</li>
+                                        <li class="item-info__category">Liên Quân Huyền thoại</li>
                                     </ul>
                                 </div>
                             </div>
                             <img src="https://s3-alpha-sig.figma.com/img/f5fc/b4af/abb03b218127851f8b61a698c3c046fc?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Q-QBdBhDjOKt1VqplCvotxwNhGkIoHPyY8MdHHOT5XOL5Cq3QEUXJkJzgLuL-abBieRErKkcO4f3MlJO-Vs8Pk6ve9668wtw2Wt1XIFYh5MIm88TSyvujmPE~X2lzkzfm83G1XmkEQ9SLKsYUWJHMLYhb0F4Nv8NRQdURcUigzvgKPG~VKtt-lTtZEmFXyWzwvh4gaa9iTiE4ixgnroqoAiTVy1nEPwLq84W4quaItq~OxEOirxr3qZQADkbR-K0U4TT37ORn9Oe6wzvbfB91VndgOEdt-1P-HTh4PxFaMmdtbo8JzerGU14iEySquuew1cnzcsp6Y9kKYjdSVzB-g__" alt="" class="right-content__image">
                         </div>
                         <div class="right-content__info d-flex d-md-none">
-                            <span class="right-content__created-at">23/01/2022 18:24 </span>
+                            <span class="item-info__created-at">23/01/2022 18:24 </span>
                             <ul>
-                                <li class="right-content__category">Liên Quân Huyền thoại</li>
+                                <li class="item-info__category">Liên Quân Huyền thoại</li>
                             </ul>
                         </div>
                     </div>
@@ -223,17 +223,18 @@
                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại trong năm nay
                                 </p>
                                 <div class="right-content__info d-none d-md-flex">
-                                    <span class="right-content__created-at">23/01/2022 18:24 </span>
+                                    <span class="item-info__created-at">23/01/2022 18:24 </span>
                                     <ul>
+                                        <li class="item-info__category">Liên Quân Huyền thoại</li>
                                     </ul>
                                 </div>
                             </div>
                             <img src="https://s3-alpha-sig.figma.com/img/7051/544d/6dabe03a9b03c69918a52ec9dfd04827?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PUYAVzhyommFa2F1l9kLXyrJ~HAWeL350bWYbyaU8nsUgoG7y~tErsYW4QRVNH-23OEXsDYKX5R1FTYCo7BhCTn3OuKzMlG~jPt6BttgsaQbsJwa0Ess-F5LMr6~OjpoL~FtMWUE-mepnB4kQJ97vAEJcEQsvy7UD~v5IjkAy~lGF9cnQnh68KW9ghDw9YfgHz2PN0~sN-ISrLd7JjWIJdsjL6c308KshRKahvDDmBsjPC3KkwKKFkcdHmMbJvKDZB7bmRoeLW4zUjKJq8xMRRNkJw~fYZNvqsgvLsei1DlzTP0hh1xpyoKIvbmCRyWPFPNfqayqAiGh6eX~Vzax1Q__" alt="" class="right-content__image">
                         </div>
                         <div class="right-content__info d-flex d-md-none">
-                            <span class="right-content__created-at">23/01/2022 18:24 </span>
+                            <span class="item-info__created-at">23/01/2022 18:24 </span>
                             <ul>
-                                <li class="right-content__category">Liên Quân Huyền thoại</li>
+                                <li class="item-info__category">Liên Quân Huyền thoại</li>
                             </ul>
                         </div>
                     </div>
@@ -244,27 +245,182 @@
                                     HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
                                 </p>
                                 <div class="right-content__info d-none d-md-flex">
-                                    <span class="right-content__created-at">23/01/2022 18:24 </span>
+                                    <span class="item-info__created-at">23/01/2022 18:24 </span>
                                     <ul>
+                                        <li class="item-info__category">Liên Quân Huyền thoại</li>
                                     </ul>
                                 </div>
                             </div>
                             <img src="https://s3-alpha-sig.figma.com/img/6394/2c22/10b0cac0d01cccb052d345012102324d?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mSJ-xxQWPL5wuaq4~ImG~X6WhiP~FXWJ64ZailT~HGdHeqkUyiUUmLf-1duURUe7mo-4qLStAvj71UFya2SlnrslYzSfNYGKe814IUNrIjXrhxKm3BrVm11gvxGpC7nCgacAYLrB3AFjxYE3qYCRnXrDPzCD1NhM9AdqZTmZcKvga~gyUChe~d~JhZ8kDGWpe2P7ck2zdRcAtf-8ArftKOoHdFuLa064l9-DVZBiSUZfqMslQPdGgt4OSRK-OweHTtUvwhcRLQQAsW4nHBajy1zd~~sUJwrJzWr-fXCQVs6lZyESq4cJg3heZF6HLz5I9dxpwoeaDvJmeclBy3p9ag__" alt="" class="right-content__image">
                         </div>
                         <div class="right-content__info d-flex d-md-none">
-                            <span class="right-content__created-at">23/01/2022 18:24 </span>
+                            <span class="item-info__created-at">23/01/2022 18:24 </span>
                             <ul>
-                                <li class="right-content__category">Liên Quân Huyền thoại</li>
+                                <li class="item-info__category">Liên Quân Huyền thoại</li>
                             </ul>
                         </div>
                     </div>
 
                 </div>
+
+                <ul class="list-post d-block d-md-none">
+                    <li class="list-post__item">
+                        <span>
+                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                        </span>
+                    </li>
+
+                    <li class="list-post__item">
+                        <span>
+                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                        </span>
+
+                    </li>
+                    <li class="list-post__item">
+                        <span>
+                            Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                        </span>
+                    </li>
+                </ul>
             </div>
 
             <div class="block-2">
-                <div class="main-content">content</div>
-                <div class="ads-content">ADS</div>
+                <div class="main-content">
+                    <div class="item">
+                        <div class="item__content-box">
+                            <img src="https://s3-alpha-sig.figma.com/img/4434/ccfe/5e87e21b02506a1a7e0b18bb35c91bdd?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vcevpm9dNdBq8eNbWkhZqF11YRwe5lfDup4K16XgDbmsQQOayQYsu7HNVTLKMTECZ6jnbIRjxsmQ6n6YstwuTyPv2i0GNTF7kOkRs3oLWj~rv7qkzk7B9Nh30aRr72t~u5X8~QBl-cEVikpfdSU3ZWAlhZShIRExLXujt~aS~FHhcqeOOKGOnWdN2QoiFAw~ZZOPG1M0A1INefldYTlwjAMTK2HBOOliG6D6kqFtVrlmg4ByMX4kVFdxt7m~uxjDc2WAyW1wV8kBPNXHJLtahlG9SXYkLP65uUy2GbEWU8cA2WJjhbXnW8LplNgrzWCK4O6iEf6eIzNxQd3qNljTXQ__" alt="" class="item__image">
+                            <div class="item__content">
+                                <p class="item__title">
+                                    Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                </p>
+                                <div class="item-info d-none d-md-flex">
+                                    <span class="item-info__created-at">
+                                        23/01/2022 18:24
+                                    </span>
+                                    <ul class="item-info__category m-0">
+                                        <li>Liên Quân Huyền Thoại</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-info d-flex d-md-none">
+                            <span class="item-info__created-at">
+                                23/01/2022 18:24
+                            </span>
+                            <ul class="item-info__category m-0">
+                                <li>Liên Quân Huyền Thoại</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__content-box">
+                            <img src="https://s3-alpha-sig.figma.com/img/ee5c/0e28/21a1cf08b8c1400ffbb22193cb4d3ebe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hlzBhvXRfalfZSjCsX5ub0Dr1CUMSsCso-Qwhb60LpeDZoVWDXsZy0aQme0zzzKQ4ARe-ipBgwwSB0YphYSvL8zUwoLgT0-OROJU98jmmCz0barAKeecbHFg3MJBq0QBHNVdRoKKeDgSpzRP7XyE~0~fmIRuuNNNn-G9poK5pa~MFk2TpOktkKKzklmzja2EzFZglaSURHlCAfON-KQ6EETt9bTlbuETjQuSvIzEWeolbyV2Ipg9F3z2T86pAoauSnBceY~ky-vKzjUy2ZIq2bNXhbBW9znE2r9bGoalfpCTULHVxLJDqCpTh46UkkMv5qh3HuhRuXvzooE1CcN0Fg__" alt="" class="item__image">
+                            <div class="item__content">
+                                <p class="item__title">
+                                    Đột Kích Việt Nam sẵn sàng bảo vệ ngôi vương quán quân tại SEA Games 32
+                                </p>
+                                <div class="item-info d-none d-md-flex">
+                                    <span class="item-info__created-at">
+                                        23/01/2022 18:24
+                                    </span>
+                                    <ul class="item-info__category m-0">
+                                        <li>Liên Quân Huyền Thoại</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-info d-flex d-md-none">
+                            <span class="item-info__created-at">
+                                23/01/2022 18:24
+                            </span>
+                            <ul class="item-info__category m-0">
+                                <li>Liên Quân Huyền Thoại</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__content-box">
+                            <img src="https://s3-alpha-sig.figma.com/img/4434/ccfe/5e87e21b02506a1a7e0b18bb35c91bdd?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vcevpm9dNdBq8eNbWkhZqF11YRwe5lfDup4K16XgDbmsQQOayQYsu7HNVTLKMTECZ6jnbIRjxsmQ6n6YstwuTyPv2i0GNTF7kOkRs3oLWj~rv7qkzk7B9Nh30aRr72t~u5X8~QBl-cEVikpfdSU3ZWAlhZShIRExLXujt~aS~FHhcqeOOKGOnWdN2QoiFAw~ZZOPG1M0A1INefldYTlwjAMTK2HBOOliG6D6kqFtVrlmg4ByMX4kVFdxt7m~uxjDc2WAyW1wV8kBPNXHJLtahlG9SXYkLP65uUy2GbEWU8cA2WJjhbXnW8LplNgrzWCK4O6iEf6eIzNxQd3qNljTXQ__" alt="" class="item__image">
+                            <div class="item__content">
+                                <p class="item__title">
+                                    Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                </p>
+                                <div class="item-info d-none d-md-flex">
+                                    <span class="item-info__created-at">
+                                        23/01/2022 18:24
+                                    </span>
+                                    <ul class="item-info__category m-0">
+                                        <li>Liên Quân Huyền Thoại</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-info d-flex d-md-none">
+                            <span class="item-info__created-at">
+                                23/01/2022 18:24
+                            </span>
+                            <ul class="item-info__category m-0">
+                                <li>Liên Quân Huyền Thoại</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__content-box">
+                            <img src="https://s3-alpha-sig.figma.com/img/ee5c/0e28/21a1cf08b8c1400ffbb22193cb4d3ebe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hlzBhvXRfalfZSjCsX5ub0Dr1CUMSsCso-Qwhb60LpeDZoVWDXsZy0aQme0zzzKQ4ARe-ipBgwwSB0YphYSvL8zUwoLgT0-OROJU98jmmCz0barAKeecbHFg3MJBq0QBHNVdRoKKeDgSpzRP7XyE~0~fmIRuuNNNn-G9poK5pa~MFk2TpOktkKKzklmzja2EzFZglaSURHlCAfON-KQ6EETt9bTlbuETjQuSvIzEWeolbyV2Ipg9F3z2T86pAoauSnBceY~ky-vKzjUy2ZIq2bNXhbBW9znE2r9bGoalfpCTULHVxLJDqCpTh46UkkMv5qh3HuhRuXvzooE1CcN0Fg__" alt="" class="item__image">
+                            <div class="item__content">
+                                <p class="item__title">
+                                    Đột Kích Việt Nam sẵn sàng bảo vệ ngôi vương quán quân tại SEA Games 32
+                                </p>
+                                <div class="item-info d-none d-md-flex">
+                                    <span class="item-info__created-at">
+                                        23/01/2022 18:24
+                                    </span>
+                                    <ul class="item-info__category m-0">
+                                        <li>Liên Quân Huyền Thoại</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-info d-flex d-md-none">
+                            <span class="item-info__created-at">
+                                23/01/2022 18:24
+                            </span>
+                            <ul class="item-info__category m-0">
+                                <li>Liên Quân Huyền Thoại</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__content-box">
+                            <img src="https://s3-alpha-sig.figma.com/img/4434/ccfe/5e87e21b02506a1a7e0b18bb35c91bdd?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vcevpm9dNdBq8eNbWkhZqF11YRwe5lfDup4K16XgDbmsQQOayQYsu7HNVTLKMTECZ6jnbIRjxsmQ6n6YstwuTyPv2i0GNTF7kOkRs3oLWj~rv7qkzk7B9Nh30aRr72t~u5X8~QBl-cEVikpfdSU3ZWAlhZShIRExLXujt~aS~FHhcqeOOKGOnWdN2QoiFAw~ZZOPG1M0A1INefldYTlwjAMTK2HBOOliG6D6kqFtVrlmg4ByMX4kVFdxt7m~uxjDc2WAyW1wV8kBPNXHJLtahlG9SXYkLP65uUy2GbEWU8cA2WJjhbXnW8LplNgrzWCK4O6iEf6eIzNxQd3qNljTXQ__" alt="" class="item__image">
+                            <div class="item__content">
+                                <p class="item__title">
+                                    Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                </p>
+                                <div class="item-info d-none d-md-flex">
+                                    <span class="item-info__created-at">
+                                        23/01/2022 18:24
+                                    </span>
+                                    <ul class="item-info__category m-0">
+                                        <li>Liên Quân Huyền Thoại</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-info d-flex d-md-none">
+                            <span class="item-info__created-at">
+                                23/01/2022 18:24
+                            </span>
+                            <ul class="item-info__category m-0">
+                                <li>Liên Quân Huyền Thoại</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ads">
+                    <div class="ads__content">ADS</div>
+                </div>
             </div>
         </div>
     </div>
