@@ -7,8 +7,79 @@ body
 p
     margin: 0
 
+.logo
+    text-transform: uppercase
+
+    &__box
+        display: flex
+        align-items: flex-end
+
+    &__text
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 8px
+        font-style: normal
+        font-weight: 500
+        line-height: 12px /* 150% */
+        text-transform: math-auto
+
+    &__icon
+        width: 1336px
+        height: 70px
+        flex-shrink: 0
+
+    &__e
+        color: $orangeColor
+        -webkit-text-stroke-width: 0.4000000059604645
+        -webkit-text-stroke-color: $blueColor2
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px /* 82.353% */
+
+    &__s
+        color: $redColor
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
+    &__p
+        color: $greenColor2
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
+    &__o
+        color: $blueColor3
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
+    &__r
+        color: $purpleColor2
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
+    &__t
+        color: $whiteColor
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
 .header
-    background-color: #0B1D40
+    background-color: $blueColor2
     display: flex
     gap: 0 12px
     padding: 10px 75px
@@ -40,81 +111,271 @@ p
             text-transform: uppercase
             text-align: center
 
-    .logo
+.top-bar-pc
+    padding: 0 75px
+    background: $blackColor2
+    justify-content: space-between
+
+    &__ul
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+        list-style: none
+        display: flex
+        margin: 0
+        padding: 0
+
+    &__li
+        border-right: 1px solid $grayColor2
+        padding-right: 15px
+        margin: 5px 15px 5px 0
+
+    &__li:last-child
+        border-right: unset
+        padding-right: 0
+        margin: 5px 0
+
+    &__widget
+        display: flex
+        gap: 0 20px
+
+    &__date
+        color: $whiteColor
+        text-align: right
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+
+    &__login-register
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+
+.top-bar-mobile
+
+    .vertical-division
+        height: 16px
+
+    &__menu
+        padding: 8px 12px
+        display: flex
+        border-bottom: 1px solid $grayColor5
+
+    &__widget
+        display: flex
+        align-items: center
+        padding: 5px 12px
+
+    &__ul
+        margin: 0
+        display: flex
+        list-style: none
+        color: $grayColor1
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 600
+        line-height: 28px
+        width: 100%
+        justify-content: space-between
+        padding-left: 12px
+        align-items: center
+
+.menu-mobile
+    height: 100vh
+    position: fixed
+    width: 100vw
+    top: 0
+    left: 0
+    color: $whiteColor
+    overflow: scroll
+    background-color: $blueColor2
+    transition: left .5s
+
+    &.--hide
+        left: -100%
+
+    &__icon-arrow
+        rotate: 0deg
+        transition: rotate .5s
+
+        &.--down
+            rotate: 180deg
+
+    &__close-box
+        height: 68px
+        padding: 0 12px
+        display: flex
+        align-items: center
+        justify-content: right
+
+    &__colors-line
+        display: flex
+        .line-1
+            width: 25%
+            border: 1px solid $orangeColor
+        .line-2
+            width: 25%
+            border: 1px solid $redColor
+        .line-3
+            width: 25%
+            border: 1px solid $greenColor2
+        .line-4
+            width: 25%
+            border: 1px solid $blueColor3
+
+    &__content
+        padding: 20px 12px
+
+    &__search-box
+        position: relative
+
+    &__input-search,
+    &__button-search
+        border-radius: 200px !important
+
+    &__input-search
+        width: 100%
+        height: 40px
+        padding: 0 80px 0 13px
+
+    &__button-search
+        width: 78px
+        height: 36px
+        flex-shrink: 0
+        position: absolute
+        right: 0
+        top: 50%
+        transform: translateY(-50%)
+        border: 1px solid $whiteColor
+        background-color: $orangeColor
+        color: $whiteColor
+
+    &__text-btn-search
+        color: $whiteColor
+        text-align: center
+        font-family: Mulish
+        font-size: 16px
+        font-style: normal
+        font-weight: 700
+        line-height: 24px
+
+    &__menu
+        list-style: none
+        padding: 0
+        flex-wrap: wrap
+        display: flex
+
+    &__menu-item
+        color: $orangeColor
+        font-family: Mulish
+        font-size: 15px
+        font-style: normal
+        font-weight: 700
+        line-height: 24px
+        width: 50%
+        // height: 25px
+
+        &.--extend
+            // height: 100%
+
+    &__child-menu
+        list-style: none
+        height: 100%
+        visibility: visible
+        overflow: hidden
+
+        &.--hide
+            height: 0
+            visibility: hidden
+
+    &__child-menu-item
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 15px
+        font-style: normal
+        font-weight: 400
+        line-height: 24px
+
+    &__slogan
+        margin: 0
+        color: $whiteColor
+        text-align: center
+        font-family: "SF Pro Display"
+        font-size: 12px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
         text-transform: uppercase
+        padding: 9px 0 6px 0
+        border-top: .8px solid $blueColor4
+        border-bottom: .8px solid $blueColor4
 
-        &__box
-            display: flex
-            align-items: flex-end
+    &__contact-box
+        display: flex
+        gap: 0 18px
 
-        &__text
-            color: $whiteColor
-            font-family: Mulish
-            font-size: 8px
-            font-style: normal
-            font-weight: 500
-            line-height: 12px /* 150% */
-            text-transform: math-auto
+    &__email-box,
+    &__phone-box
+        width: 50%
+        display: flex
+        gap: 0 6px
+        justify-content: center
 
-        &__icon
-            width: 1336px
-            height: 70px
-            flex-shrink: 0
+    &__emails,
+    &__phones
+        display: flex
+        flex-flow: column
 
-        &__e
-            color: $orangeColor
-            -webkit-text-stroke-width: 0.4000000059604645
+    &__email,
+    &__phone
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 700
+        line-height: normal
+
+    &__copy-right
+        color: $whiteColor
+        text-align: center
+        font-family: "SF Pro Display"
+        font-size: 10px
+        font-style: normal
+        font-weight: 500
+        line-height: 12px
+        padding: 16px 0 4px 0
+        width: 100%
+        display: flex
+        justify-content: center
+
+    &__copy-right-text
+        width: 280px
+        margin: 0
+
+    .logo
+        padding: 13px 0
+        display: flex
+        flex-flow: column
+        align-items: center
+
+        &__character
+            -webkit-text-stroke-width: 0.4618357717990875
             -webkit-text-stroke-color: #0B1D40
-            font-family: "Nico Moji"
-            font-size: 34px
-            font-style: normal
+            font-size: 39.256px
             font-weight: 400
-            line-height: 28px /* 82.353% */
-
-        &__s
-            color: $redColor
-            font-family: "Nico Moji"
-            font-size: 34px
-            font-style: normal
-            font-weight: 400
-            line-height: 28px
-
-        &__p
-            color: $greenColor2
-            font-family: "Nico Moji"
-            font-size: 34px
-            font-style: normal
-            font-weight: 400
-            line-height: 28px
-
-        &__o
-            color: $blueColor3
-            font-family: "Nico Moji"
-            font-size: 34px
-            font-style: normal
-            font-weight: 400
-            line-height: 28px
-
-        &__r
-            color: $purpleColor2
-            font-family: "Nico Moji"
-            font-size: 34px
-            font-style: normal
-            font-weight: 400
-            line-height: 28px
-
-        &__t
-            color: $whiteColor
-            font-family: "Nico Moji"
-            font-size: 34px
-            font-style: normal
-            font-weight: 400
-            line-height: 28px
+            line-height: 32.329px
 
 .homepage
-    padding-top: 16px
     .container
-        // background-color: gray
     // ---- START BLOCK 1
 
     .item-info

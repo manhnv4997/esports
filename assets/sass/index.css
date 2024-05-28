@@ -2,12 +2,88 @@
   border: 0.8px solid #DBDCDF;
 }
 
+.vertical-division {
+  border: 0.5px solid #DADADA;
+}
+
 body {
   margin: 0;
 }
 
 p {
   margin: 0;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+.logo__box {
+  display: flex;
+  align-items: flex-end;
+}
+.logo__text {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  text-transform: math-auto;
+}
+.logo__icon {
+  width: 1336px;
+  height: 70px;
+  flex-shrink: 0;
+}
+.logo__e {
+  color: #F2994A;
+  -webkit-text-stroke-width: 0.400000006;
+  -webkit-text-stroke-color: #0B1D40;
+  font-family: "Nico Moji";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.logo__s {
+  color: #FC151D;
+  font-family: "Nico Moji";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.logo__p {
+  color: #27AE60;
+  font-family: "Nico Moji";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.logo__o {
+  color: #56CCF2;
+  font-family: "Nico Moji";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.logo__r {
+  color: #BB6BD9;
+  font-family: "Nico Moji";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.logo__t {
+  color: #FFF;
+  font-family: "Nico Moji";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 .header {
@@ -45,81 +121,267 @@ p {
   text-transform: uppercase;
   text-align: center;
 }
-.header .logo {
-  text-transform: uppercase;
+
+.top-bar-pc {
+  padding: 0 75px;
+  background: #010B1E;
+  justify-content: space-between;
 }
-.header .logo__box {
-  display: flex;
-  align-items: flex-end;
-}
-.header .logo__text {
+.top-bar-pc__ul {
   color: #FFF;
   font-family: Mulish;
-  font-size: 8px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.top-bar-pc__li {
+  border-right: 1px solid #89888B;
+  padding-right: 15px;
+  margin: 5px 15px 5px 0;
+}
+.top-bar-pc__li:last-child {
+  border-right: unset;
+  padding-right: 0;
+  margin: 5px 0;
+}
+.top-bar-pc__widget {
+  display: flex;
+  gap: 0 20px;
+}
+.top-bar-pc__date {
+  color: #FFF;
+  text-align: right;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.top-bar-pc__login-register {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.top-bar-mobile .vertical-division {
+  height: 16px;
+}
+.top-bar-mobile__menu {
+  padding: 8px 12px;
+  display: flex;
+  border-bottom: 1px solid rgba(133, 133, 133, 0.5411764706);
+}
+.top-bar-mobile__widget {
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+}
+.top-bar-mobile__ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  color: #3A393E;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 12px;
+  align-items: center;
+}
+
+.menu-mobile {
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  color: #FFF;
+  overflow: scroll;
+  background-color: #0B1D40;
+  transition: left 0.5s;
+}
+.menu-mobile.--hide {
+  left: -100%;
+}
+.menu-mobile__icon-arrow {
+  rotate: 0deg;
+  transition: rotate 0.5s;
+}
+.menu-mobile__icon-arrow.--down {
+  rotate: 180deg;
+}
+.menu-mobile__close-box {
+  height: 68px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.menu-mobile__colors-line {
+  display: flex;
+}
+.menu-mobile__colors-line .line-1 {
+  width: 25%;
+  border: 1px solid #F2994A;
+}
+.menu-mobile__colors-line .line-2 {
+  width: 25%;
+  border: 1px solid #FC151D;
+}
+.menu-mobile__colors-line .line-3 {
+  width: 25%;
+  border: 1px solid #27AE60;
+}
+.menu-mobile__colors-line .line-4 {
+  width: 25%;
+  border: 1px solid #56CCF2;
+}
+.menu-mobile__content {
+  padding: 20px 12px;
+}
+.menu-mobile__search-box {
+  position: relative;
+}
+.menu-mobile__input-search, .menu-mobile__button-search {
+  border-radius: 200px !important;
+}
+.menu-mobile__input-search {
+  width: 100%;
+  height: 40px;
+  padding: 0 80px 0 13px;
+}
+.menu-mobile__button-search {
+  width: 78px;
+  height: 36px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #FFF;
+  background-color: #F2994A;
+  color: #FFF;
+}
+.menu-mobile__text-btn-search {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.menu-mobile__menu {
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+}
+.menu-mobile__menu-item {
+  color: #F2994A;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 50%;
+}
+.menu-mobile__child-menu {
+  list-style: none;
+  height: 100%;
+  visibility: visible;
+  overflow: hidden;
+}
+.menu-mobile__child-menu.--hide {
+  height: 0;
+  visibility: hidden;
+}
+.menu-mobile__child-menu-item {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.menu-mobile__slogan {
+  margin: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 9px 0 6px 0;
+  border-top: 0.8px solid #3D5D9A;
+  border-bottom: 0.8px solid #3D5D9A;
+}
+.menu-mobile__contact-box {
+  display: flex;
+  gap: 0 18px;
+}
+.menu-mobile__email-box, .menu-mobile__phone-box {
+  width: 50%;
+  display: flex;
+  gap: 0 6px;
+  justify-content: center;
+}
+.menu-mobile__emails, .menu-mobile__phones {
+  display: flex;
+  flex-flow: column;
+}
+.menu-mobile__email, .menu-mobile__phone {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.menu-mobile__copy-right {
+  color: #FFF;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 10px;
   font-style: normal;
   font-weight: 500;
   line-height: 12px;
-  text-transform: math-auto;
+  padding: 16px 0 4px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.header .logo__icon {
-  width: 1336px;
-  height: 70px;
-  flex-shrink: 0;
+.menu-mobile__copy-right-text {
+  width: 280px;
+  margin: 0;
 }
-.header .logo__e {
-  color: #F2994A;
-  -webkit-text-stroke-width: 0.400000006;
+.menu-mobile .logo {
+  padding: 13px 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.menu-mobile .logo__character {
+  -webkit-text-stroke-width: 0.4618357718;
   -webkit-text-stroke-color: #0B1D40;
-  font-family: "Nico Moji";
-  font-size: 34px;
-  font-style: normal;
+  font-size: 39.256px;
   font-weight: 400;
-  line-height: 28px;
-}
-.header .logo__s {
-  color: #FC151D;
-  font-family: "Nico Moji";
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-}
-.header .logo__p {
-  color: #27AE60;
-  font-family: "Nico Moji";
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-}
-.header .logo__o {
-  color: #56CCF2;
-  font-family: "Nico Moji";
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-}
-.header .logo__r {
-  color: #BB6BD9;
-  font-family: "Nico Moji";
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-}
-.header .logo__t {
-  color: #FFF;
-  font-family: "Nico Moji";
-  font-size: 34px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
+  line-height: 32.329px;
 }
 
-.homepage {
-  padding-top: 16px;
-}
 .homepage .item-info {
   display: flex;
 }
