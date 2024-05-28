@@ -374,54 +374,78 @@ p
             font-weight: 400
             line-height: 32.329px
 
-.homepage
-    .container
-    // ---- START BLOCK 1
+.item-info,
+.item-info-mb
+    display: flex
+    align-items: center
 
-    .item-info
+    ul
+        margin: 0
+
+    &__created-at,
+    &__created-at-hour
+        color: $grayColor2
+        font-family: Mulish
+        font-size: 10px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+        text-transform: uppercase
+
+    &__category
+        color: $redColor1
+        font-family: Mulish
+        font-size: 10px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+        text-transform: uppercase
+
+.list-post
+    .item
         display: flex
+        gap: 5px 0
+        @media (max-width: 992px)
+            flex-flow: column
 
-        &__created-at,
-        &__created-at-hour
-            color: $grayColor2
+        &__content
+            display: flex
+            gap: 0 16px
+            justify-content: space-between
+
+        &__text-content
+            display: flex
+            flex-flow: column
+            justify-content: space-between
+
+        &__title
+            color: $blackColor
             font-family: Mulish
-            font-size: 10px
+            font-size: 17px
             font-style: normal
-            font-weight: 500
-            line-height: 16px
-            text-transform: uppercase
+            font-weight: 700
+            line-height: 24px
 
-        &__category
-            color: $redColor1
-            font-family: Mulish
-            font-size: 10px
-            font-style: normal
-            font-weight: 500
-            line-height: 16px
-            text-transform: uppercase
+        &__image
+            width: 161px
+            height: 111px
+            border-radius: 4px
 
+.homepage
+    // ---- START BLOCK 1
     .block-1
+        .break-line
+            margin-bottom: 10px
+
         .list-post
-            color: $redColor
-            padding: 15px 12px 15px 25px
-
-            @media (max-width: 992px)
-                margin-bottom: 0
-
-            span
-                color: $textColor
-                font-family: Mulish
-                font-size: 16px
-                font-style: normal
-                font-weight: 600
-                line-height: 20px
+            padding: 15px 12px 15px 15px
 
         &.box-border
             @media (max-width: 992px)
                 border: unset
 
         .left-content
-            padding: 15px
+            padding: 15px 15px 8px 15px
             flex-shrink: 0
             border-right: 0.5px solid $borderColor
             @media (max-width: 992px)
@@ -444,6 +468,7 @@ p
 
                 & ul
                     padding: 0
+                    margin: 0
 
             .main-post
                 &__content
@@ -622,7 +647,7 @@ p
     .block-2
         display: flex
         gap: 0 16px
-        padding: 23px 12px 12px 12px
+        padding: 23px 12px 48px 12px
         margin-right: calc(-.5* 1.5rem)
         margin-left: calc(-.5* 1.5rem)
 
@@ -630,70 +655,25 @@ p
             flex-flow: column
             padding: 8px 12px 12px 12px
 
+        .break-line
+            margin: 14px 0
+
         .main-content
             width: calc(100% - 300px)
             @media (max-width: 992px)
                 order: 2
                 width: 100%
 
-            .item
-                display: flex
-                gap: 0 16px
-                border-bottom: 0.8px solid $borderColor
-                padding-bottom: 14px
-                margin-bottom: 14px
-
+        .item
+            &__text-content
+                order: 2
                 @media (max-width: 992px)
-                    padding-bottom: 12px
-                    margin-bottom: 12px
-                    flex-flow: column
-
-                &:last-child
-                    border-bottom: unset
-                    padding-bottom: 0
-                    margin-bottom: 0
-
-                & .item-info
-                    @media (max-width: 992px)
-                        margin-top: 5px
-
-                &__content-box
-                    display: flex
-                    flex-flow: row
-                    @media (max-width: 992px)
-                        justify-content: space-between
-
-                &__title
-                    color: $blackColor
-                    font-family: Mulish
-                    font-size: 18px
-                    font-style: normal
-                    font-weight: 800
-                    line-height: 24px
-                    @media (max-width: 992px)
-                        color: $blackColor
-                        font-family: Mulish
-                        font-size: 17px
-                        font-style: normal
-                        font-weight: 700
-                        line-height: 24px
-
-                &__content
                     order: 1
-                    display: flex
-                    flex-flow: column
-                    justify-content: space-between
 
-                &__image
+            &__image
+                order: 1
+                @media (max-width: 992px)
                     order: 2
-                    width: 161px
-                    height: 111px
-                    flex-shrink: 0
-                    border-radius: 4px
-                    @media (max-width: 992px)
-                        width: 134px
-                        height: 93px
-                        flex-shrink: 0
 
         .ads
             width: 316px
@@ -718,3 +698,270 @@ p
                 height: 600px
                 background: $grayColor3
     // ---- END BLOCK 2
+
+    // ---- START BLOCK 3
+    .block-3
+        &__title-box
+            position: relative
+
+        &__title-line
+            border: 2px solid $redColor1
+            width: 100%
+            height: 2px
+            display: block
+
+        &__title
+            min-width: 140px
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            background: $whiteColor
+            left: 50px
+            padding: 0 8px
+
+        .tags-box
+            display: flex
+            margin-top: 10px
+            gap: 0 10px
+
+        .tags
+            overflow: scroll
+            &__ul
+                padding: 0
+                list-style: none
+                display: flex
+                gap: 0 15px
+                overflow: hidden
+                width: max-content
+                align-items: center
+
+            &__li
+                width: max-content
+
+                &.--active
+                    border-radius: 200px
+                    border: 1px solid $borderColor
+                    background: $whiteColor
+                    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10)
+                    padding: 2px 6px
+                    color: $redColor1
+
+        &__main-content
+            gap: 16px
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            @media (max-width: 992px)
+                grid-template-columns: auto
+                gap: 12px 0
+
+            .left-content
+                grid-column: 1 / 3
+                border: 0.8px solid $borderColor
+                background: $whiteColor
+                padding: 15px
+                @media (max-width: 992px)
+                    grid-column: unset
+                    border: unset
+                    padding: 0
+
+                &__banner
+                    height: 208px
+                    position: relative
+                    border-radius: 6px
+                    overflow: hidden
+                    @media (max-width: 992px)
+                        display: flex
+                        flex-flow: column
+                        height: auto
+
+                &__content-box
+                    height: 100%
+                    position: absolute
+                    z-index: 3
+                    width: 600px
+                    background: linear-gradient(90deg, $blueColor 63.76%, rgba(17, 20, 53, 0) 101.86%)
+                    @media (max-width: 992px)
+                        width: auto
+                        position: unset
+                        order: 2
+                        background: $blueColor
+
+                &__content
+                    height: 100%
+                    width: 350px
+                    padding: 18px 28px
+                    display: flex
+                    flex-flow: column
+                    justify-content: space-between
+                    @media (max-width: 992px)
+                        width: auto
+                        padding: 20px
+                        gap: 20px 0
+
+                &__title
+                    color: $whiteColor
+                    font-family: Mulish
+                    font-size: 22px
+                    font-style: normal
+                    font-weight: 800
+                    line-height: 28px
+
+                &__image
+                    width: 449px
+                    height: 208px
+                    position: absolute
+                    flex-shrink: 0
+                    right: 0
+                    top: 0
+                    z-index: 1
+                    @media (max-width: 992px)
+                        order: 1
+                        width: auto
+                        position: unset
+
+                &__info
+                    display: flex
+                    justify-content: space-between
+
+                &__category
+                    color: $redColor1
+                    font-family: Mulish
+                    font-size: 11px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 28px
+                    text-transform: uppercase
+
+                &__created-hour
+                    color: $whiteColor
+                    text-align: right
+                    font-family: Mulish
+                    font-size: 11px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 28px
+
+                &__comment
+                    color: $whiteColor
+                    font-family: Mulish
+                    font-size: 11px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 28px
+
+                &__grid
+                    padding-top: 18px
+                    display: flex
+                    flex-wrap: wrap
+                    gap: 10px 26px
+
+                .grid
+                    &__item
+                        width: calc(50% - 13px)
+
+                        @media (max-width: 992px)
+                            width: 100%
+
+                    &__item-content
+                        display: flex
+                        gap: 0 12px
+                        justify-content: space-between
+
+                    &__item-title
+                        @media (max-width: 992px)
+                            order: 1
+
+                    &__item-image
+                        border-radius: 4px
+                        width: 157px
+                        height: 111px
+                        @media (max-width: 992px)
+                            order: 2
+
+            .right-content
+                position: relative
+                overflow: hidden
+                padding: 15px 16px 15px 11px
+                border: 1px solid $borderColor
+                background: $whiteColor
+                box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10)
+                @media (max-width: 992px)
+                    border: unset
+                    box-shadow: unset
+                    padding: 0 15px
+
+                &__list
+                    padding: 0
+                    display: flex
+                    flex-flow: column
+                    gap: 12px 0
+                    color: $redColor1
+
+                &__list-item
+                    span
+                        color: $textColor
+
+                &__block-hide
+                    position: absolute
+                    height: 70px
+                    width: 100%
+                    bottom: 0
+                    background: linear-gradient(0deg, #fff 63.76%, rgba(17, 20, 53, 0) 120%)
+
+                &__tab
+                    display: flex
+                    justify-content: center
+
+                    .tab
+                        width: 244px
+                        height: 40px
+                        list-style: none
+                        display: flex
+                        border-radius: 200px
+                        border: 1px solid $borderColor
+                        background: $whiteColor
+                        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10)
+                        padding: 0
+                        align-items: center
+                        overflow: hidden
+                        justify-content: center
+
+                        &__item
+                            padding: 5px 10px
+                            width: 119px
+                            height: 34px
+                            flex-shrink: 0
+                            &.--active
+                                border-radius: 200px
+                                background-color: $redColor1
+
+                &__tab-item-content
+                    &.--hide
+                        display: none
+
+                .tab-list
+                    list-style: none
+                    padding: 0
+
+                    &__item
+                        display: flex
+                        gap: 0 9px
+                        padding: 8px 0 0 0
+
+                    &__index
+                        color: $redColor
+                        font-family: Mulish
+                        font-size: 26px
+                        font-style: normal
+                        font-weight: 800
+                        line-height: 36px
+
+                    &__title
+                        color: $textColor
+                        font-family: Mulish
+                        font-size: 14px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 20px
+
+    // ---- END BLOCK 3
