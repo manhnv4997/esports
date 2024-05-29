@@ -382,6 +382,14 @@ p
     ul
         margin: 0
 
+    ul.time-hour
+        padding: 0
+        list-style: none
+
+    &.time-hour
+        display: flex
+        justify-content: space-between
+
     &__created-at,
     &__created-at-hour
         color: $grayColor2
@@ -400,6 +408,27 @@ p
         font-weight: 500
         line-height: 16px
         text-transform: uppercase
+
+    &__time-comments
+        gap: 0 13px
+        display: flex
+
+    &__created-hour
+        color: $whiteColor
+        text-align: right
+        font-family: Mulish
+        font-size: 11px
+        font-style: normal
+        font-weight: 600
+        line-height: 28px
+
+    &__comment
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 11px
+        font-style: normal
+        font-weight: 600
+        line-height: 28px
 
 .list-post
     .item
@@ -430,6 +459,95 @@ p
             width: 161px
             height: 111px
             border-radius: 4px
+
+.list-grid-post
+    position: relative
+    &__header
+        height: 208px
+        position: relative
+        border-radius: 6px
+        overflow: hidden
+        @media (max-width: 992px)
+            display: flex
+            flex-flow: column
+            height: auto
+
+    .list-grid-header
+        &__content-box
+            height: 100%
+            position: absolute
+            z-index: 3
+            width: 600px
+            background: linear-gradient(90deg, $blueColor 63.76%, rgba(17, 20, 53, 0) 101.86%)
+            @media (max-width: 992px)
+                width: auto
+                position: unset
+                order: 2
+                background: $blueColor
+
+        &__content
+            height: 100%
+            width: 350px
+            padding: 18px 28px
+            display: flex
+            flex-flow: column
+            justify-content: space-between
+            @media (max-width: 992px)
+                width: auto
+                padding: 20px
+                gap: 20px 0
+
+        &__title
+            color: $whiteColor
+            font-family: Mulish
+            font-size: 22px
+            font-style: normal
+            font-weight: 800
+            line-height: 28px
+
+        &__image
+            width: 449px
+            height: 208px
+            position: absolute
+            flex-shrink: 0
+            right: 0
+            top: 0
+            z-index: 1
+            @media (max-width: 992px)
+                object-fit: cover
+                order: 1
+                width: auto
+                position: unset
+
+    &__body
+        padding-top: 18px
+        display: flex
+        flex-wrap: wrap
+        gap: 10px 26px
+
+        .list-grid-body
+
+            &__item
+                width: calc(50% - 13px)
+
+                @media (max-width: 992px)
+                    width: 100%
+
+            &__item-content
+                display: flex
+                gap: 0 12px
+                justify-content: space-between
+
+            &__item-title
+                @media (max-width: 992px)
+                    order: 1
+
+            &__item-image
+                border-radius: 4px
+                width: 157px
+                height: 111px
+                @media (max-width: 992px)
+                    order: 2
 
 .homepage
     // ---- START BLOCK 1
@@ -718,6 +836,14 @@ p
             background: $whiteColor
             left: 50px
             padding: 0 8px
+            color: $blackColor
+            font-family: Mulish
+            font-size: 24px
+            font-style: normal
+            font-weight: 800
+            line-height: 28px
+            @media (max-width: 992px)
+                left: 0
 
         .tags-box
             display: flex
@@ -747,6 +873,7 @@ p
                     color: $redColor1
 
         &__main-content
+            padding-top: 26px
             gap: 16px
             display: grid
             grid-template-columns: repeat(3, 1fr)
@@ -763,120 +890,6 @@ p
                     grid-column: unset
                     border: unset
                     padding: 0
-
-                &__banner
-                    height: 208px
-                    position: relative
-                    border-radius: 6px
-                    overflow: hidden
-                    @media (max-width: 992px)
-                        display: flex
-                        flex-flow: column
-                        height: auto
-
-                &__content-box
-                    height: 100%
-                    position: absolute
-                    z-index: 3
-                    width: 600px
-                    background: linear-gradient(90deg, $blueColor 63.76%, rgba(17, 20, 53, 0) 101.86%)
-                    @media (max-width: 992px)
-                        width: auto
-                        position: unset
-                        order: 2
-                        background: $blueColor
-
-                &__content
-                    height: 100%
-                    width: 350px
-                    padding: 18px 28px
-                    display: flex
-                    flex-flow: column
-                    justify-content: space-between
-                    @media (max-width: 992px)
-                        width: auto
-                        padding: 20px
-                        gap: 20px 0
-
-                &__title
-                    color: $whiteColor
-                    font-family: Mulish
-                    font-size: 22px
-                    font-style: normal
-                    font-weight: 800
-                    line-height: 28px
-
-                &__image
-                    width: 449px
-                    height: 208px
-                    position: absolute
-                    flex-shrink: 0
-                    right: 0
-                    top: 0
-                    z-index: 1
-                    @media (max-width: 992px)
-                        order: 1
-                        width: auto
-                        position: unset
-
-                &__info
-                    display: flex
-                    justify-content: space-between
-
-                &__category
-                    color: $redColor1
-                    font-family: Mulish
-                    font-size: 11px
-                    font-style: normal
-                    font-weight: 600
-                    line-height: 28px
-                    text-transform: uppercase
-
-                &__created-hour
-                    color: $whiteColor
-                    text-align: right
-                    font-family: Mulish
-                    font-size: 11px
-                    font-style: normal
-                    font-weight: 600
-                    line-height: 28px
-
-                &__comment
-                    color: $whiteColor
-                    font-family: Mulish
-                    font-size: 11px
-                    font-style: normal
-                    font-weight: 600
-                    line-height: 28px
-
-                &__grid
-                    padding-top: 18px
-                    display: flex
-                    flex-wrap: wrap
-                    gap: 10px 26px
-
-                .grid
-                    &__item
-                        width: calc(50% - 13px)
-
-                        @media (max-width: 992px)
-                            width: 100%
-
-                    &__item-content
-                        display: flex
-                        gap: 0 12px
-                        justify-content: space-between
-
-                    &__item-title
-                        @media (max-width: 992px)
-                            order: 1
-
-                    &__item-image
-                        border-radius: 4px
-                        width: 157px
-                        height: 111px
-                        @media (max-width: 992px)
-                            order: 2
 
             .right-content
                 position: relative
