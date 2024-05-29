@@ -11,4 +11,10 @@
   border: 0.5px solid #DADADA;
   display: block;
   margin-top: 10px;
+}
+
+.break-dashed-line {
+  border: 0.5px dashed #DBDCDF;
+  width: 100%;
+  display: block;
 }/*# sourceMappingURL=border.css.map */

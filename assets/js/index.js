@@ -17,8 +17,9 @@ $(document).ready(function () {
     $(this).toggleClass("--extend");
   });
 
-  $(".tab__item").on("click", function () {
-    for (const item of $(".tab__item")) {
+  $(".tab-list__list-tab--li").on("click", function () {
+    const parent = $(this).parent();
+    for (const item of $(parent).find("li")) {
       const classString = $(item).attr("class");
       if (classString.includes("--active")) {
         const currentTargetData = $(item).attr("target-data");

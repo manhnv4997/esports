@@ -78,7 +78,7 @@ p
         font-weight: 400
         line-height: 28px
 
-.header
+.head
     background-color: $blueColor2
     display: flex
     gap: 0 12px
@@ -381,6 +381,7 @@ p
 
     ul
         margin: 0
+        list-style: disc
 
     ul.time-hour
         padding: 0
@@ -441,7 +442,7 @@ p
         display: block
 
     &__title
-        min-width: 140px
+        min-width: fit-content
         position: absolute
         top: 50%
         transform: translateY(-50%)
@@ -500,7 +501,7 @@ p
 .list-grid-post
     position: relative
 
-    &__header
+    &__head
         height: 208px
         position: relative
         border-radius: 6px
@@ -510,7 +511,7 @@ p
             flex-flow: column
             height: auto
 
-    .list-grid-header
+    .list-grid-head
         &__content-box
             height: 100%
             position: absolute
@@ -608,9 +609,115 @@ p
     &__li span
         color: $textColor
 
+.list-scroll
+    overflow-y: scroll
+    &__ul
+        padding: 0
+        display: flex
+        list-style: none
+        gap: 0 10px
+
+    .video-item
+        width: 290px
+        height: 294px
+        border-radius: 6px 6px 0px 0px
+        border: 1px solid $borderColor
+        background: $whiteColor
+        overflow: hidden
+        display: flex
+        flex-flow: column
+
+        &__text-content
+            padding: 12px
+            display: flex
+            flex-flow: column
+            justify-content: space-between
+            height: 100%
+
+        &__image-preview
+            width: 290px
+            height: 169px
+
+        &__title
+            color: $textColor
+            font-family: Mulish
+            font-size: 16px
+            font-style: normal
+            font-weight: 800
+            line-height: 20px
+
+.tab-list
+    &__list-tab
+        display: flex
+        justify-content: center
+
+        &--ul
+            width: 244px
+            height: 40px
+            list-style: none
+            display: flex
+            border-radius: 200px
+            border: 1px solid $borderColor
+            background: $whiteColor
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10)
+            padding: 0
+            align-items: center
+            overflow: hidden
+            justify-content: center
+
+        &--li
+            padding: 5px 10px
+            width: 119px
+            height: 34px
+            text-align: center
+            &.--active
+                border-radius: 200px
+                background-color: $redColor1
+                color: $whiteColor
+
+    &__tab
+        &--item-content
+            &.--hide
+                display: none
+
+    &__list
+        list-style: none
+        padding: 0
+
+        &--item
+            display: flex
+            gap: 0 9px
+            padding: 8px 0 0 0
+
+        &--index
+            color: $redColor
+            font-family: Mulish
+            font-size: 26px
+            font-style: normal
+            font-weight: 800
+            line-height: 36px
+
+        &--title
+            color: $textColor
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+
 .homepage
     // ---- START BLOCK 1
     .block-1
+        margin-top: 16px
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+
+        @media (max-width: 992px)
+            margin-top: 0
+            grid-template-columns: repeat(1,1fr)
+            margin-right: calc(-.5* 1.5rem)
+            margin-left: calc(-.5* 1.5rem)
+
         .break-line
             margin-bottom: 10px
 
@@ -627,6 +734,7 @@ p
             border-right: 0.5px solid $borderColor
             @media (max-width: 992px)
                 padding: 0
+                border: unset
 
             &__main-post
                 border-radius: 6px
@@ -688,6 +796,12 @@ p
                         order: 1
 
                 &__description
+                    color: $blackColor
+                    font-family: Mulish
+                    font-size: 14px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 22px
                     @media (max-width: 992px)
                         order: 2
 
@@ -744,6 +858,7 @@ p
                         color: $blackColor1
                         width: 100%
                         order: 1
+                        height: auto
 
                 &__comment
                     color: $whiteColor
@@ -824,13 +939,11 @@ p
     .block-2
         display: flex
         gap: 0 16px
-        padding: 23px 12px 48px 12px
-        margin-right: calc(-.5* 1.5rem)
-        margin-left: calc(-.5* 1.5rem)
+        padding: 23px 0 48px 0
 
         @media (max-width: 992px)
             flex-flow: column
-            padding: 8px 12px 12px 12px
+            padding: 8px 0 12px 0
 
         .break-line
             margin: 14px 0
@@ -875,6 +988,11 @@ p
                 height: 600px
                 background: $grayColor3
     // ---- END BLOCK 2
+
+    .block-video-mb
+        margin: 20px 0 28px 0
+        .list-scroll__ul
+            gap: 0 16px
 
     // ---- START BLOCK 3
     .block-3
@@ -1009,7 +1127,6 @@ p
                         font-style: normal
                         font-weight: 700
                         line-height: 20px
-
     // ---- END BLOCK 3
 
     // ---- START BLOCK 4
@@ -1027,6 +1144,7 @@ p
             gap: 0 16px
             @media (max-width: 992px)
                 flex-flow: column
+                margin-top: 22px
 
         &__left-content
             width: calc(100% - 314px)
@@ -1035,10 +1153,12 @@ p
 
             @media (max-width: 992px)
                 width: 100%
+                border: unset
+                padding: 15px 0
 
-        .list-extend__ul
-            gap: 12px 0
-            padding-left: 12px
+            .list-extend__ul
+                gap: 12px 0
+                padding-left: 12px
 
         &__right-content
             width: 314px
@@ -1071,7 +1191,7 @@ p
             background: $yellowColor1
             padding: 18px 12px
 
-            &__header
+            &__head
                 display: flex
                 align-items: center
                 gap: 0 8px
@@ -1112,3 +1232,156 @@ p
                     border-radius: 50%
                     background-color: $yellowColor3
     // ---- END BLOCK 4
+    .block-5
+        margin-top: 49px
+
+        .title-and-line__line
+            width: 60px
+
+        &__bottom-head
+            border: 0.8px solid $borderColor
+            background: $grayColor6
+            padding: 22px 16px
+
+            &--icon
+                color: $redColor
+                font-family: Mulish
+                font-size: 24px
+                font-style: normal
+                font-weight: 800
+                line-height: 20px
+
+            &--title
+                color: $blackColor
+                font-family: Mulish
+                font-size: 24px
+                font-style: normal
+                font-weight: 800
+                line-height: 20px
+
+            &--ul
+                padding-left: 12px
+                list-style: none
+                display: grid
+                grid-template-columns: repeat(3, 1fr)
+                margin: 20px 0 0 0
+                gap: 0 28px
+
+                @media (max-width: 992px)
+                    grid-template-columns: repeat(1, 1fr)
+
+                .break-dashed-line
+                    margin: 6px 0 8px 0
+
+            &--li
+                color: $blackColor
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 700
+                line-height: 20px
+
+                &.--active
+                    color: $redColor1
+
+            .item
+                display: flex
+                flex-flow: column
+                gap: 4px 0
+
+                &__time
+                    color: $grayColor1
+                    font-family: Mulish
+                    font-size: 11px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 16px
+                    text-transform: uppercase
+                    display: flex
+
+                    ul
+                        list-style: disc
+
+        &__body
+            margin-top: 40px
+            display: flex
+            gap: 0 15px
+
+            .break-line
+                margin: 14px 0
+
+            &--left-content
+                width: calc(100% - 329px)
+
+                .list-post
+                    .item__text-content
+                        order: 2
+                    .item__image
+                        order: 1
+
+            &--right-content
+                width: 314px
+                background: $whiteColor
+
+                .table-ranking
+                    width: 314px
+                    height: 604px
+                    overflow-y: scroll
+                    padding: 19px 16px 0 13px
+                    border: 0.8px solid $borderColor
+
+                    &__table
+                        margin-top: 19px
+
+                    th
+                        color: $grayColor7
+                        font-family: Mulish
+                        font-size: 11px
+                        font-style: normal
+                        font-weight: 400
+                        line-height: 26px
+                        text-transform: uppercase
+
+                    thead
+                        th
+                            border: unset
+                            background: #F5F5F6
+                            padding-top: 0
+                            padding-bottom: 0
+
+                    tbody
+                        tr:first-child
+                            th,
+                            td
+                                border-top: unset
+
+                        tr:last-child
+                            th,
+                            tr
+                                border-bottom: unset
+
+                    &__title
+                        display: flex
+                        gap: 0 8px
+                        align-items: center
+
+                    .table
+                        margin: 0
+                        .big-col
+                            width: 120px
+
+                        .small-cal
+                            width: 40px
+
+                .comments
+                    padding: 15px 11px
+                    margin-top: 32px
+                    width: 314px
+                    height: 467px
+                    border: 0.8px solid $borderColor
+                    background: $whiteColor
+
+                    .break-line
+                        margin: 16px 0 0 0
+
+    // ---- START BLOCK 4
