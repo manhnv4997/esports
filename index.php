@@ -369,7 +369,7 @@
                     </div>
                 </div>
 
-                <ul class="list-post d-block d-md-none">
+                <ul class="list-post have-dot d-block d-md-none">
                     <li class="list-post__item">
                         <span>
                             Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
@@ -514,9 +514,9 @@
             </div>
 
             <div class="block-3">
-                <div class="block-3__title-box">
-                    <span class="block-3__title-line"></span>
-                    <p class="block-3__title">
+                <div class="title-and-line">
+                    <span class="title-and-line__line"></span>
+                    <p class="title-and-line__title">
                         Liên Quân Mobile
                     </p>
                 </div>

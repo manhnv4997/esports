@@ -430,7 +430,44 @@ p
         font-weight: 600
         line-height: 28px
 
+.title-and-line
+    position: relative
+    margin-bottom: 20px
+
+    &__line
+        border: 2px solid $redColor1
+        width: 100%
+        height: 2px
+        display: block
+
+    &__title
+        min-width: 140px
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        background: $whiteColor
+        left: 50px
+        padding: 0 8px
+        color: $blackColor
+        font-family: Mulish
+        font-size: 24px
+        font-style: normal
+        font-weight: 800
+        line-height: 28px
+        @media (max-width: 992px)
+            left: 0
+
+            padding: 0 8px 0 0
+
 .list-post
+    color: $redColor
+
+    span
+        color: $textColor
+
+    &.have-dot
+        padding: 15px 12px 15px 25px !important
+
     .item
         display: flex
         gap: 5px 0
@@ -819,31 +856,7 @@ p
 
     // ---- START BLOCK 3
     .block-3
-        &__title-box
-            position: relative
-
-        &__title-line
-            border: 2px solid $redColor1
-            width: 100%
-            height: 2px
-            display: block
-
-        &__title
-            min-width: 140px
-            position: absolute
-            top: 50%
-            transform: translateY(-50%)
-            background: $whiteColor
-            left: 50px
-            padding: 0 8px
-            color: $blackColor
-            font-family: Mulish
-            font-size: 24px
-            font-style: normal
-            font-weight: 800
-            line-height: 28px
-            @media (max-width: 992px)
-                left: 0
+        // &__title-box
 
         .tags-box
             display: flex
@@ -873,13 +886,13 @@ p
                     color: $redColor1
 
         &__main-content
-            padding-top: 26px
             gap: 16px
             display: grid
             grid-template-columns: repeat(3, 1fr)
             @media (max-width: 992px)
                 grid-template-columns: auto
                 gap: 12px 0
+                padding-top: 10px
 
             .left-content
                 grid-column: 1 / 3
