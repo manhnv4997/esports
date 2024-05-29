@@ -499,6 +499,7 @@ p
 
 .list-grid-post
     position: relative
+
     &__header
         height: 208px
         position: relative
@@ -558,14 +559,19 @@ p
 
     &__body
         padding-top: 18px
-        display: flex
-        flex-wrap: wrap
+        // display: flex
+        // flex-wrap: wrap
+        // gap: 10px 26px
+
+        display: grid
         gap: 10px 26px
+        grid-template-columns: repeat(2, 1fr)
+        @media (max-width: 992px)
+            grid-template-columns: repeat(1, 1fr)
 
         .list-grid-body
-
             &__item
-                width: calc(50% - 13px)
+                // width: calc(50% - 13px)
 
                 @media (max-width: 992px)
                     width: 100%
@@ -585,6 +591,22 @@ p
                 height: 111px
                 @media (max-width: 992px)
                     order: 2
+
+.list-extend
+    color: $textColor
+    font-family: Mulish
+    font-size: 16px
+    font-style: normal
+    font-weight: 600
+    line-height: 20px
+    color: $redColor1
+
+    &__ul
+        display: flex
+        flex-flow: column
+
+    &__li span
+        color: $textColor
 
 .homepage
     // ---- START BLOCK 1
@@ -856,8 +878,6 @@ p
 
     // ---- START BLOCK 3
     .block-3
-        // &__title-box
-
         .tags-box
             display: flex
             margin-top: 10px
@@ -991,3 +1011,104 @@ p
                         line-height: 20px
 
     // ---- END BLOCK 3
+
+    // ---- START BLOCK 4
+    .block-4
+        margin-top: 54px
+        @media (max-width: 992px)
+            margin-top: 30px
+
+        .break-line.block
+            margin: 15px 0
+
+        &__main-content
+            margin-top: 32px
+            display: flex
+            gap: 0 16px
+            @media (max-width: 992px)
+                flex-flow: column
+
+        &__left-content
+            width: calc(100% - 314px)
+            padding: 15px
+            border: 0.8px solid $borderColor
+
+            @media (max-width: 992px)
+                width: 100%
+
+        .list-extend__ul
+            gap: 12px 0
+            padding-left: 12px
+
+        &__right-content
+            width: 314px
+            display: flex
+            flex-flow: column
+            gap: 12px 0
+
+            @media (max-width: 992px)
+                width: 100%
+
+        .ads
+            width: 314px
+            height: 262px
+            padding: 6px 7px
+            border: 0.8px solid $borderColor
+            background: $whiteColor
+            @media (max-width: 992px)
+                width: 100%
+                border: unset
+                display: flex
+                justify-content: center
+
+            &__content
+                width: 300px
+                height: 250px
+                background-color: $grayColor3
+
+        .list-best-of-day
+            border: 1px solid $yellowColor2
+            background: $yellowColor1
+            padding: 18px 12px
+
+            &__header
+                display: flex
+                align-items: center
+                gap: 0 8px
+
+            &__title-image
+                width: 29px
+                height: 29px
+
+            &__title
+                margin: 0
+                color: $blackColor
+                font-family: Mulish
+                font-size: 20px
+                font-style: normal
+                font-weight: 700
+                line-height: 24px
+
+            &__body
+                margin-top: 8px
+
+                .break-line
+                    border: .5px dashed $yellowColor2
+                    margin: 16px 0 8px 0
+
+                .list-extend ul
+                    color: $yellowColor2
+                    list-style: circle
+
+                .carousel-indicators
+                    bottom: -20px
+
+                .carousel-indicators .active
+                    background-color: $yellowColor2
+
+                .carousel-indicators li
+                    width: 10px
+                    height: 10px
+                    border-radius: 50%
+                    background-color: $yellowColor3
+    // ---- END BLOCK 4

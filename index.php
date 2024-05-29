@@ -7,9 +7,13 @@
     <title>Esports</title>
     <!doctype html>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/sass/index.css">
 
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
@@ -751,6 +755,280 @@
                 </div>
 
 
+            </div>
+
+            <div class="block-4">
+                <div class="title-and-line">
+                    <span class="title-and-line__line"></span>
+                    <p class="title-and-line__title">
+                        PUBG Mobile
+                    </p>
+                </div>
+
+                <div class="block-4__main-content">
+                    <div class="block-4__left-content">
+                        <div class="list-grid-post">
+                            <div class="list-grid-post__header list-grid-header">
+                                <div class="list-grid-header__content-box">
+                                    <div class="list-grid-header__content">
+                                        <p class="list-grid-header__title">
+                                            HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
+                                        </p>
+
+                                        <div class="item-info-mb time-hour">
+                                            <ul class="time-hour">
+                                                <li class="item-info-mb__category">Liên Quân Mobile</li>
+                                            </ul>
+                                            <div class="item-info-mb__time-comments">
+                                                <span class="item-info-mb__created-hour">1 giờ trước</span>
+                                                <span class="item-info-mb__comment">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 1.3335H2.66663C1.93329 1.3335 1.33329 1.9335 1.33329 2.66683V10.6668C1.33329 11.4002 1.93329 12.0002 2.66663 12.0002H12L14.6666 14.6668V2.66683C14.6666 1.9335 14.0666 1.3335 13.3333 1.3335ZM11.3333 7.3335H9.99996V6.00016H11.3333V7.3335ZM7.33329 7.3335H8.66663V6.00016H7.33329V7.3335ZM5.99996 7.3335H4.66663V6.00016H5.99996V7.3335Z" fill="white" />
+                                                    </svg>
+                                                    134
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="https://s3-alpha-sig.figma.com/img/ee5c/0e28/21a1cf08b8c1400ffbb22193cb4d3ebe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hlzBhvXRfalfZSjCsX5ub0Dr1CUMSsCso-Qwhb60LpeDZoVWDXsZy0aQme0zzzKQ4ARe-ipBgwwSB0YphYSvL8zUwoLgT0-OROJU98jmmCz0barAKeecbHFg3MJBq0QBHNVdRoKKeDgSpzRP7XyE~0~fmIRuuNNNn-G9poK5pa~MFk2TpOktkKKzklmzja2EzFZglaSURHlCAfON-KQ6EETt9bTlbuETjQuSvIzEWeolbyV2Ipg9F3z2T86pAoauSnBceY~ky-vKzjUy2ZIq2bNXhbBW9znE2r9bGoalfpCTULHVxLJDqCpTh46UkkMv5qh3HuhRuXvzooE1CcN0Fg__" alt="" class="list-grid-header__image">
+                            </div>
+                            <div class="list-grid-post__body list-grid-body">
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="list-grid-body__item d-block d-lg-none">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <span class="break-line block"></span>
+                        <div class="list-extend">
+                            <ul class="list-extend__ul">
+                                <li class="list-extend__li">
+                                    <span>
+                                        Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block-4__right-content">
+                        <div class="ads">
+                            <div class="ads__content">
+                            </div>
+                        </div>
+                        <div class="list-best-of-day">
+                            <div class="list-best-of-day__header">
+                                <img src="https://s3-alpha-sig.figma.com/img/c6ae/a908/45caeb0610ec6ef07bfbf65061f81828?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m396iJwTyGoVajj7eDATbEMOcYodqYq8YcsrZhW12fZp~0DWGmXihzi4oj9xgkiCR4fmmV9ghLmqZy9A7p80kpR1DMmSUO5Y~NXBdL7r0lgs8sl2TN1XIDsjYXISVXdNU3~9sjGrb9KoL5Jd5Ey7z8QAb-~DxnhV71BGWJSySUZmo8qIG-iXIuQxjB~Ef5QB0MVBAoiFF58SDIsmGisAtvjHFbdlNpSMGN2wmrBdK1K21ZJwTIhyHG0OVOj4mhkUl9VKNaGeBWwy3yfQbTAgNEDWMsRucLuqUuLuEQQ9tuDPBK82Jbj3n6wLs~ZTfkhjp860-i0tOLne5IqeTy-1Jw__" alt="" class="list-best-of-day__title-image">
+                                <p class="list-best-of-day__title">
+                                    Best of the day
+                                </p>
+                            </div>
+
+                            <div class="list-best-of-day__body">
+                                <!-- Slider -->
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="list-extend">
+                                                <ul class="list-extend__ul">
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="list-extend">
+                                                <ul class="list-extend__ul">
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="list-extend">
+                                                <ul class="list-extend__ul">
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                                        </span>
+                                                    </li>
+                                                    <span class="break-line"></span>
+                                                    <li class="list-extend__li">
+                                                        <span>
+                                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End slider -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
