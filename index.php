@@ -912,7 +912,7 @@
                 </div>
 
                 <div class="block-4__main-content">
-                    <div class="block-4__left-content d-none d-lg-flex">
+                    <div class="block-4__left-content d-none d-lg-block">
                         <div class="list-grid-post">
                             <div class="list-grid-post__head list-grid-head">
                                 <div class="list-grid-head__content-box">
@@ -1888,6 +1888,375 @@
                 </div>
             </div>
 
+            <div class="block-6">
+                <div class="block-6__head">
+                    <div class="title-and-line">
+                        <span class="title-and-line__line"></span>
+                        <p class="title-and-line__title">
+                            Tốc chiến
+                        </p>
+                    </div>
+
+                    <div class="list-scroll">
+                        <ul class="list-scroll__ul">
+                            <li class="list-scroll__li">
+                                <span>
+                                    Tin tức
+                                </span>
+                            </li>
+                            <li class="list-scroll__li">
+                                <span>
+                                    Chuyển nhượng
+                                </span>
+                            </li>
+                            <li class="list-scroll__li">
+                                <span>
+                                    Drama
+                                </span>
+                            </li>
+                            <li class="list-scroll__li">
+                                <span>
+                                    Phân tích
+                                </span>
+                            </li>
+                            <li class="list-scroll__li">
+                                <span>
+                                    Phỏng vấn
+                                </span>
+                            </li>
+                            <li class="list-scroll__li">
+                                <span>
+                                    Bản cập nhật
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="block-6__body">
+                    <div class="block-6__body--left">
+                        <div class="list-grid-post">
+                            <div class="list-grid-post__head list-grid-head">
+                                <div class="list-grid-head__content-box">
+                                    <div class="list-grid-head__content">
+                                        <p class="list-grid-head__title">
+                                            HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
+                                        </p>
+
+                                        <div class="item-info-mb time-hour">
+                                            <ul class="time-hour">
+                                                <li class="item-info-mb__category">Liên Quân Mobile</li>
+                                            </ul>
+                                            <div class="item-info-mb__time-comments">
+                                                <span class="item-info-mb__created-hour">1 giờ trước</span>
+                                                <span class="item-info-mb__comment">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 1.3335H2.66663C1.93329 1.3335 1.33329 1.9335 1.33329 2.66683V10.6668C1.33329 11.4002 1.93329 12.0002 2.66663 12.0002H12L14.6666 14.6668V2.66683C14.6666 1.9335 14.0666 1.3335 13.3333 1.3335ZM11.3333 7.3335H9.99996V6.00016H11.3333V7.3335ZM7.33329 7.3335H8.66663V6.00016H7.33329V7.3335ZM5.99996 7.3335H4.66663V6.00016H5.99996V7.3335Z" fill="white" />
+                                                    </svg>
+                                                    134
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-head__image">
+                            </div>
+                            <div class="list-grid-post__body list-grid-body">
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="list-grid-body__item d-block d-lg-none">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-6__body--right d-none d-lg-block">
+                        <div class="results-schedule">
+                            <div class="results-schedule__head">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.41665 0.833374C7.41665 0.41916 7.08086 0.083374 6.66665 0.083374C6.25244 0.083374 5.91665 0.41916 5.91665 0.833374V1.15039C5.82137 1.17414 5.72828 1.2003 5.63689 1.22912C3.53653 1.89136 1.8913 3.53659 1.22906 5.63694C0.916287 6.62893 0.916417 7.8214 0.916637 9.83616L0.916649 10L0.916637 10.1639C0.916417 12.1787 0.916287 13.3712 1.22906 14.3631C1.8913 16.4635 3.53653 18.1087 5.63689 18.771C6.62887 19.0837 7.82134 19.0836 9.83609 19.0834L9.99998 19.0834L10.1639 19.0834C12.1786 19.0836 13.3711 19.0837 14.3631 18.771C16.4634 18.1087 18.1087 16.4635 18.7709 14.3631C19.0837 13.3712 19.0835 12.1787 19.0833 10.1639L19.0833 10L19.0833 9.83615C19.0835 7.8214 19.0837 6.62893 18.7709 5.63694C18.1087 3.53659 16.4634 1.89136 14.3631 1.22912C14.2717 1.2003 14.1786 1.17414 14.0833 1.15039V0.833374C14.0833 0.41916 13.7475 0.083374 13.3333 0.083374C12.9191 0.083374 12.5833 0.41916 12.5833 0.833374V0.951981C12.0604 0.923904 11.461 0.918101 10.75 0.916954V0.833374C10.75 0.41916 10.4142 0.083374 9.99998 0.083374C9.58577 0.083374 9.24998 0.41916 9.24998 0.833374V0.916954C8.53896 0.918101 7.93952 0.923904 7.41665 0.951981V0.833374ZM12.5833 2.4542C12.1103 2.4272 11.5223 2.41956 10.75 2.41746V3.33337C10.75 3.74759 10.4142 4.08337 9.99998 4.08337C9.58577 4.08337 9.24998 3.74759 9.24998 3.33337V2.41746C8.4777 2.41956 7.88968 2.4272 7.41665 2.4542V3.33337C7.41665 3.74759 7.08086 4.08337 6.66665 4.08337C6.25244 4.08337 5.91665 3.74759 5.91665 3.33337V2.71695C4.36513 3.26536 3.15657 4.51193 2.65964 6.088C2.4254 6.8309 2.41665 7.77215 2.41665 10C2.41665 12.2279 2.4254 13.1692 2.65964 13.9121C3.17471 15.5457 4.45433 16.8253 6.08794 17.3404C6.83085 17.5746 7.77209 17.5834 9.99998 17.5834C12.2279 17.5834 13.1691 17.5746 13.912 17.3404C15.5456 16.8253 16.8253 15.5457 17.3403 13.9121C17.5746 13.1692 17.5833 12.2279 17.5833 10C17.5833 7.77215 17.5746 6.8309 17.3403 6.088C16.8434 4.51193 15.6348 3.26536 14.0833 2.71695V3.33337C14.0833 3.74759 13.7475 4.08337 13.3333 4.08337C12.9191 4.08337 12.5833 3.74759 12.5833 3.33337V2.4542ZM5.08332 7.50004C5.08332 7.08583 5.4191 6.75004 5.83332 6.75004H14.1666C14.5809 6.75004 14.9166 7.08583 14.9166 7.50004C14.9166 7.91425 14.5809 8.25004 14.1666 8.25004H5.83332C5.4191 8.25004 5.08332 7.91425 5.08332 7.50004ZM5.83332 10.0834C5.4191 10.0834 5.08332 10.4192 5.08332 10.8334C5.08332 11.2476 5.4191 11.5834 5.83332 11.5834H10.8333C11.2475 11.5834 11.5833 11.2476 11.5833 10.8334C11.5833 10.4192 11.2475 10.0834 10.8333 10.0834H5.83332ZM5.08332 14.1667C5.08332 13.7525 5.4191 13.4167 5.83332 13.4167H7.49998C7.9142 13.4167 8.24998 13.7525 8.24998 14.1667C8.24998 14.5809 7.9142 14.9167 7.49998 14.9167H5.83332C5.4191 14.9167 5.08332 14.5809 5.08332 14.1667Z" fill="#22272F" />
+                                </svg>
+                                Lịch thi đấu - Kết quả
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.46967 6.96967C4.76256 6.67678 5.23744 6.67678 5.53033 6.96967L8.26759 9.70693C8.67236 10.1117 8.94445 10.383 9.17076 10.5751C9.39038 10.7615 9.51706 10.829 9.61373 10.8604C9.86478 10.942 10.1352 10.942 10.3863 10.8604C10.4829 10.829 10.6096 10.7615 10.8292 10.5751C11.0556 10.383 11.3276 10.1117 11.7324 9.70693L14.4697 6.96967C14.7626 6.67678 15.2374 6.67678 15.5303 6.96967C15.8232 7.26256 15.8232 7.73744 15.5303 8.03033L12.7931 10.7676L12.7715 10.7891C12.3938 11.1668 12.0786 11.4821 11.8 11.7186C11.5094 11.9653 11.2098 12.17 10.8498 12.287C10.2975 12.4664 9.70252 12.4664 9.1502 12.287C8.79021 12.17 8.49056 11.9653 8.2 11.7186C7.9214 11.4821 7.60615 11.1668 7.22845 10.7891L7.20693 10.7676L4.46967 8.03033C4.17678 7.73744 4.17678 7.26256 4.46967 6.96967Z" fill="#22272F" />
+                                </svg>
+                            </div>
+                            <div class="results-schedule__body">
+                                <ul class="results-schedule__body--ul">
+                                    <li class="results-schedule__body--li">
+                                        Ngoại hạng anh
+                                    </li>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date"></div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <span class="break-dashed-line"></span>
+                                    <li class="results-schedule__body--li">
+                                        <div class="results-schedule__content">
+                                            <div class="date">25/05</div>
+                                            <div class="schedule">
+                                                Brighton
+                                                <span class="time">02:00</span>
+                                                Man city
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

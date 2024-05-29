@@ -617,6 +617,11 @@ p
         list-style: none
         gap: 0 10px
 
+    &__li
+        span
+            width: max-content
+            display: block
+
     .video-item
         width: 290px
         height: 294px
@@ -1232,6 +1237,8 @@ p
                     border-radius: 50%
                     background-color: $yellowColor3
     // ---- END BLOCK 4
+
+    // ---- START BLOCK 5
     .block-5
         margin-top: 49px
 
@@ -1383,5 +1390,122 @@ p
 
                     .break-line
                         margin: 16px 0 0 0
+    // ---- END BLOCK 5
 
-    // ---- START BLOCK 4
+    // ---- START BLOCK 6
+    .block-6
+        margin-top: 42px
+
+        .list-scroll
+            &__ul
+                display: flex
+                gap: 0 30px
+                color: $redColor
+                padding-left: 15px
+                list-style-type: disc
+
+            &__li
+                span
+                    color: $textColor
+
+        &__body
+            display: flex
+            gap: 0 15px
+            @media (max-width: 992px)
+                flex-flow: column
+
+            .list-grid-post__body
+                @media (max-width: 992px)
+                    gap: 12px 26px
+
+            .break-line
+                @media (max-width: 992px)
+                    margin-top: 12px
+
+            &--left
+                padding: 15px
+                border: 0.8px solid $borderColor
+                background: $whiteColor
+                width: calc(100% - 329px)
+
+                @media (max-width: 992px)
+                    width: 100%
+                    padding: 0
+                    border: unset
+
+            &--right
+                width: 314px
+                height: 508px
+                padding: 19px 18px 0 18px
+                border: 0.8px solid $borderColor
+                overflow-y: scroll
+
+                .results-schedule
+                    &__head
+                        display: flex
+                        gap: 0 8px
+                        color: $blackColor
+                        font-family: Mulish
+                        font-size: 16px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 20px
+
+                    &__body
+
+                        .break-dashed-line
+                            margin: 4px 0 8px 0
+
+                        .date
+                            min-width: 25px
+                            color: $grayColor2
+                            font-family: Mulish
+                            font-size: 11px
+                            font-style: normal
+                            font-weight: 600
+                            line-height: 20px
+                            text-transform: uppercase
+
+                        .time
+                            color: $redColor1
+                            text-align: center
+                            font-family: Mulish
+                            font-size: 11px
+                            font-style: normal
+                            font-weight: 700
+                            line-height: 20px
+                            text-transform: uppercase
+
+                        .schedule
+                            width: 100%
+                            display: flex
+                            justify-content: center
+                            gap: 0 5px
+
+                        &--ul
+                            padding: 0 7px
+
+                        &--li
+                            color: $blackColor
+                            font-family: Mulish
+                            font-size: 11px
+                            font-style: normal
+                            font-weight: 700
+                            line-height: 20px
+                            text-transform: uppercase
+                            list-style-type: none
+
+                        &--li:first-child
+                            list-style-type: disc
+                            color: $redColor1
+                            font-family: Mulish
+                            font-size: 16px
+                            font-style: normal
+                            font-weight: 600
+                            margin: 13px 0 12px 0
+                            margin-left: .5rem
+
+                    &__content
+                        display: flex
+
+// ---- END BLOCK 6
