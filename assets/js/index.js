@@ -17,7 +17,8 @@ $(document).ready(function () {
     $(this).toggleClass("--extend");
   });
 
-  $(".tab-list__list-tab--li").on("click", function () {
+  $(".tab-list__list-tab--li, .tab-scroll__head--li").on("click", function () {
+    console.log(3333);
     const parent = $(this).parent();
     for (const item of $(parent).find("li")) {
       const classString = $(item).attr("class");

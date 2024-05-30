@@ -2375,7 +2375,7 @@
                             </div>
                         </div>
 
-                        <div class="block-7__left--body-bottom d-none d-lg-block">
+                        <div class="block-7__left--body-middle d-none d-lg-block">
                             <div class="list-post">
                                 <div class="item">
                                     <div class="item__content">
@@ -2562,6 +2562,163 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="block-7__left--body-bottom box-border">
+                            <div class="tab-scroll">
+                                <div class="tab-scroll__head">
+                                    <p class="tab-scroll__head--title">
+                                        esport
+                                    </p>
+
+                                    <ul class="tab-scroll__head--ul">
+                                        <li class="tab-scroll__head--li --active" target-data="highlight">Hightlight</li>
+                                        <li class="tab-scroll__head--li" target-data="battle">Giải đấu</li>
+                                        <li class="tab-scroll__head--li" target-data="star">Ngôi sao</li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-scroll__body">
+                                    <div id="highlight" class="tab-scroll__body--item-content">
+                                        <div class="list-scroll">
+                                            <ul class="list-scroll__ul">
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div id="battle" class="tab-scroll__body--item-content --hide">
+                                        <div class="list-scroll">
+                                            <ul class="list-scroll__ul">
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div id="star" class="tab-scroll__body--item-content --hide">
+                                        <div class="list-scroll">
+                                            <ul class="list-scroll__ul">
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                                <li class="list-scroll__li">
+                                                    <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                    <p class="list-scroll__title">
+                                                        Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="block-7__right">
@@ -2623,7 +2780,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="block-7__right--body-middle focus-football d-none d-lg-flex">
+                        <div class="block-7__right--body-middle-1 focus-football d-none d-lg-flex">
                             <div class="focus-football__title-box">
                                 <p class="focus-football__title">tiêu điểm bóng đá</p>
                                 <p class="focus-football__see-more">Xem thêm +</p>
@@ -2673,7 +2830,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="block-7__right--body-bottom comments d-none d-lg-flex">
+                        <div class="block-7__right--body-middle-2 comments d-none d-lg-flex">
                             <div class="comments__title-box">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5562 2.4823C12.7601 2.41726 11.7458 2.41667 10.3333 2.41667H9.16663C7.99151 2.41667 7.14773 2.41708 6.4819 2.46251C5.8228 2.50748 5.39303 2.59405 5.04022 2.74018C3.99885 3.17153 3.17149 3.9989 2.74014 5.04027C2.594 5.39308 2.50743 5.82285 2.46246 6.48195C2.41703 7.14778 2.41663 7.99156 2.41663 9.16667C2.41663 10.3418 2.41703 11.1856 2.46246 11.8514C2.50743 12.5105 2.594 12.9403 2.74014 13.2931C3.17149 14.3344 3.99885 15.1618 5.04022 15.5932C5.39303 15.7393 5.8228 15.8259 6.4819 15.8708C7.14773 15.9163 7.99151 15.9167 9.16663 15.9167H12.4985H12.521C12.7806 15.9167 12.9404 15.9167 13.0992 15.9254C13.9252 15.9711 14.7315 16.1945 15.4633 16.5802C15.604 16.6544 15.741 16.7367 15.9636 16.8702L15.9829 16.8818C16.428 17.1488 16.5383 17.2095 16.5941 17.2282C17.0172 17.3706 17.4703 17.1141 17.5659 16.678C17.5785 16.6205 17.5833 16.4947 17.5833 15.9757V9.66667C17.5833 8.25416 17.5827 7.23989 17.5177 6.44376C17.4533 5.65638 17.3297 5.14864 17.1201 4.73721C16.7126 3.93752 16.0624 3.28736 15.2628 2.87989C14.8513 2.67026 14.3436 2.54663 13.5562 2.4823ZM0.916626 9.16667V9.19451C0.916623 10.3358 0.91662 11.2306 0.965941 11.9535C1.01612 12.689 1.11985 13.3011 1.35432 13.8671C1.93791 15.276 3.05728 16.3954 4.4662 16.979C5.03224 17.2134 5.64432 17.3172 6.37979 17.3674C7.10262 17.4167 7.99739 17.4167 9.13859 17.4167H9.13862H9.13878H9.16663H12.4985C12.7874 17.4167 12.9039 17.4169 13.0164 17.4232C13.6269 17.4569 14.2229 17.622 14.7637 17.9071C14.8634 17.9597 14.9634 18.0194 15.2111 18.168L15.2889 18.2147C15.6137 18.41 15.8819 18.5712 16.1158 18.6499C17.3851 19.077 18.7442 18.3075 19.0311 16.9993C19.0839 16.7583 19.0837 16.4453 19.0833 16.0664L19.0833 15.9757V9.66667V9.63309V9.63304V9.633C19.0833 8.26133 19.0833 7.18593 19.0127 6.32161C18.9408 5.44147 18.7919 4.71436 18.4566 4.05623C17.9053 2.97429 17.0257 2.09466 15.9437 1.54338C15.2856 1.20805 14.5585 1.05919 13.6784 0.987284C12.814 0.916664 11.7386 0.916667 10.3668 0.916672L10.3333 0.916672H9.16663H9.13879C7.9975 0.916669 7.10266 0.916666 6.37979 0.965987C5.64432 1.01617 5.03224 1.1199 4.4662 1.35436C3.05728 1.93795 1.93791 3.05733 1.35432 4.46624C1.11985 5.03229 1.01612 5.64437 0.965941 6.37984C0.91662 7.10271 0.916623 7.99754 0.916626 9.13883V9.16667ZM5.08329 6.66667C5.08329 6.25246 5.41908 5.91667 5.83329 5.91667H12.5C12.9142 5.91667 13.25 6.25246 13.25 6.66667C13.25 7.08089 12.9142 7.41667 12.5 7.41667H5.83329C5.41908 7.41667 5.08329 7.08089 5.08329 6.66667ZM5.83329 9.25C5.41908 9.25 5.08329 9.58579 5.08329 10C5.08329 10.4142 5.41908 10.75 5.83329 10.75H9.16663C9.58084 10.75 9.91663 10.4142 9.91663 10C9.91663 9.58579 9.58084 9.25 9.16663 9.25H5.83329Z" fill="#22272F" />
@@ -2767,11 +2924,97 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="block-7__right--body-bottom box-border d-none d-lg-block">
+                            <div class="tab-list">
+                                <div class="tab-list__list-tab d-none d-lg-flex">
+                                    <ul class="tab-list__list-tab--ul">
+                                        <li class="tab-list__list-tab--li --active" target-data="newest-1">
+                                            Mới nhất
+                                        </li>
+                                        <li class="tab-list__list-tab--li" target-data="read-a-lot-1">
+                                            Đọc nhiều
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-list__tab--content d-none d-lg-block">
+                                    <div id="newest-1" class="tab-list__tab--item-content">
+                                        <ul class="tab-list__list">
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">1</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">2</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">3</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">4</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">5</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">6</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="read-a-lot-1" class="tab-list__tab--item-content --hide">
+                                        Đọc nhiều
+                                    </div>
+
+                                </div>
+                                <div class="right-content__block-hide tab-list__block-hide d-none d-lg-block"></div>
+
+                                <ul class="right-content__list d-block d-lg-none">
+                                    <li class="right-content__list-item">
+                                        <span>
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </span>
+                                    </li>
+                                    <li class="right-content__list-item">
+                                        <span>
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </span>
+                                    </li>
+                                    <li class="right-content__list-item">
+                                        <span>
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="results-schedule-mb">
+            <div class="results-schedule-mb d-flex d-lg-none">
                 <div class="results-schedule">
                     <div class="results-schedule__head">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -2990,6 +3233,164 @@
                     <div class="block-hide"></div>
                 </div>
             </div>
+
+            <div class="esport-scroll-mb">
+                <div class="tab-scroll">
+                    <div class="tab-scroll__head">
+                        <p class="tab-scroll__head--title">
+                            esport
+                        </p>
+
+                        <ul class="tab-scroll__head--ul d-none">
+                            <li class="tab-scroll__head--li --active" target-data="highlight">Hightlight</li>
+                            <li class="tab-scroll__head--li" target-data="battle">Giải đấu</li>
+                            <li class="tab-scroll__head--li" target-data="star">Ngôi sao</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-scroll__body">
+                        <div id="highlight" class="tab-scroll__body--item-content">
+                            <div class="list-scroll">
+                                <ul class="list-scroll__ul">
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="battle" class="tab-scroll__body--item-content --hide">
+                            <div class="list-scroll">
+                                <ul class="list-scroll__ul">
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="star" class="tab-scroll__body--item-content --hide">
+                            <div class="list-scroll">
+                                <ul class="list-scroll__ul">
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                        <p class="list-scroll__title">
+                                            Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 

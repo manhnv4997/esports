@@ -622,6 +622,25 @@ p
             width: max-content
             display: block
 
+    &__title
+        border-radius: 10px
+        background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 100%)
+        position: absolute
+        bottom: 0
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 20px
+        font-style: normal
+        font-weight: 800
+        line-height: 24px
+        padding: 0 19px 24px
+
+    &__image
+        width: 237px
+        height: 376px
+        object-fit: cover
+        border-radius: 10px
+
     .video-item
         width: 290px
         height: 294px
@@ -709,6 +728,52 @@ p
             font-style: normal
             font-weight: 700
             line-height: 20px
+
+.tab-scroll
+    &__head
+        display: flex
+
+        &--title
+            color: $redColor1
+            font-family: Mulish
+            font-size: 28px
+            font-style: normal
+            font-weight: 800
+            line-height: 28px
+            text-transform: uppercase
+
+        &--ul
+            list-style: none
+            display: flex
+            gap: 0 25px
+
+        &--li
+            color: $grayColor8
+            font-family: Mulish
+            font-size: 12px
+            font-style: normal
+            font-weight: 800
+            line-height: 24px
+            text-transform: uppercase
+
+            &.--active
+                color: $grayColor1
+
+    &__body
+        .--hide
+            display: none
+
+        .list-scroll
+            &__ul
+                gap: 0 16px
+                margin: 0
+
+            &__li
+                border-radius: 10px
+                width: 237px
+                height: 376px
+                position: relative
+                overflow: hide
 
 .post-and-list-extend
     padding: 15px 16px 26px 15px
@@ -1578,7 +1643,7 @@ p
                     padding: 0
                     border: unset
 
-            &--body-bottom
+            &--body-middle
                 margin-block: 24px
 
             .break-line
@@ -1591,6 +1656,10 @@ p
                     order: 2
                 .item__image
                     order: 1
+
+            &--body-bottom
+                height: 476px
+                padding: 19px 0 29px 15px
 
         &__right
             width: 314px
@@ -1620,7 +1689,7 @@ p
                         color: $textColor
 
             &--body-top,
-            &--body-bottom
+            &--body-middle-2
                 width: 100%
                 height: 508px
                 @media (max-width: 992px)
@@ -1628,11 +1697,22 @@ p
                     border: unset
                     padding: 0
 
-            &--body-middle
+            &--body-middle-1
                 width: 100%
                 height: 560px
                 @media (max-width: 992px)
                     height: auto
+
+            &--body-bottom
+                height: 476px
+                margin-top: 32px
+                padding: 15px 11px 37px
+
+                .tab-list__list
+                    margin: 0
+
+                .break-line
+                    margin-top: 16px
 
         .focus-football
             margin-top: 29px
@@ -1720,6 +1800,7 @@ p
                 font-style: normal
                 font-weight: 700
                 line-height: 20px
+    // ---- END BLOCK 7
 
     .results-schedule-mb
         margin-top: 32px
@@ -1745,8 +1826,14 @@ p
                 position: absolute
                 height: 27px
                 width: 299px
-                bottom: 0
+                bottom: 1px
                 left: 50%
                 background: linear-gradient(0deg, #fff 63.76%, rgba(17, 20, 53, 0) 120%)
                 transform: translateX(-50%)
-    // ---- END BLOCK 7
+
+    .esport-scroll-mb
+        margin-top: 50px
+        .tab-scroll
+            display: flex
+            flex-flow: column
+            gap: 13px 0
