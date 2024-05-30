@@ -7,6 +7,26 @@ body
 p
     margin: 0
 
+.block
+    display: flex
+    gap: 0 15px
+    @media(max-width: 992px)
+        flex-flow: column
+
+    &.three-col
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+
+    &__left
+        width: calc(100% - 329px)
+        @media(max-width: 992px)
+            width: 100%
+
+    &__right
+        width: 314px
+        @media(max-width: 992px)
+            width: 100%
+
 .logo
     text-transform: uppercase
 
@@ -583,6 +603,16 @@ p
                 justify-content: space-between
 
             &__item-title
+                display: block
+                display: -webkit-box
+                max-width: 100%
+                height: 100px
+                margin: 0 auto
+                -webkit-line-clamp: 4
+                -webkit-box-orient: vertical
+                overflow: hidden
+                text-overflow: ellipsis
+
                 @media (max-width: 992px)
                     order: 1
 
@@ -773,7 +803,9 @@ p
                 width: 237px
                 height: 376px
                 position: relative
-                overflow: hide
+
+            &__title
+                top: 262px
 
 .post-and-list-extend
     padding: 15px 16px 26px 15px
@@ -786,6 +818,9 @@ p
     .list-extend
         height: 110px
         overflow-y: scroll
+        @media (max-width: 992px)
+            height: auto
+            overflow-y: unset
 
     .post
         display: flex
@@ -796,6 +831,9 @@ p
             width: 283px
             height: 208px
             object-fit: cover
+            @media (max-width: 992px)
+                width: 100%
+                height: 208px
 
         &__title-box
             display: flex
@@ -1132,10 +1170,30 @@ p
             margin: 14px 0
 
         .main-content
-            width: calc(100% - 300px)
+            width: calc(100% - 330px)
             @media (max-width: 992px)
                 order: 2
                 width: 100%
+        .block
+            &__left
+                @media (max-width: 992px)
+                    order: 2
+
+            &__right
+                height: 616px
+                padding: 8px
+                border: 0.8px solid $borderColor
+                background: $whiteColor
+                @media (max-width: 992px)
+                    order: 1
+                    width: 100%
+                    height: 600px
+
+                    display: flex
+                    justify-content: center
+                    margin-bottom: 24px
+                    border: unset
+                    padding: 0
 
         .item
             &__text-content
@@ -1147,29 +1205,10 @@ p
                 order: 1
                 @media (max-width: 992px)
                     order: 2
-
         .ads
-            width: 316px
-            height: 616px
-            padding: 8px
-            border: 0.8px solid $borderColor
-            background: $whiteColor
-
-            @media (max-width: 992px)
-                order: 1
-                width: 100%
-                height: 600px
-
-                display: flex
-                justify-content: center
-                margin-bottom: 24px
-                border: unset
-                padding: 0
-
-            &__content
-                width: 300px
-                height: 600px
-                background: $grayColor3
+            width: 300px
+            height: 600px
+            background: $grayColor3
     // ---- END BLOCK 2
 
     .block-video-mb
@@ -1206,17 +1245,12 @@ p
                     padding: 2px 6px
                     color: $redColor1
 
-        &__main-content
+        .block
             gap: 16px
-            display: grid
-            grid-template-columns: repeat(3, 1fr)
             @media (max-width: 992px)
                 gap: 12px 0
-                display: flex
-                padding-top: 10px
-                flex-flow: column
 
-            .left-content
+            &__left
                 grid-column: 1 / 3
                 border: 0.8px solid $borderColor
                 background: $whiteColor
@@ -1226,7 +1260,7 @@ p
                     border: unset
                     padding: 0
 
-            .right-content
+            &__right
                 position: relative
                 overflow: hidden
                 padding: 15px 16px 15px 11px
@@ -1488,16 +1522,14 @@ p
                     ul
                         list-style: disc
 
-        &__body
+        // &__body,
+        .block
             margin-top: 40px
-            display: flex
-            gap: 0 15px
 
             .break-line
                 margin: 14px 0
 
-            &--left-content
-                width: calc(100% - 329px)
+            &__left
 
                 .list-post
                     .item__text-content
@@ -1505,8 +1537,7 @@ p
                     .item__image
                         order: 1
 
-            &--right-content
-                width: 314px
+            &__right
                 background: $whiteColor
 
                 .table-ranking
@@ -1587,12 +1618,7 @@ p
                 span
                     color: $textColor
 
-        &__body
-            display: flex
-            gap: 0 15px
-            @media (max-width: 992px)
-                flex-flow: column
-
+        .block
             .list-grid-post__body
                 @media (max-width: 992px)
                     gap: 12px 26px
@@ -1601,19 +1627,16 @@ p
                 @media (max-width: 992px)
                     margin-top: 12px
 
-            &--left
+            &__left
                 padding: 15px
                 border: 0.8px solid $borderColor
                 background: $whiteColor
-                width: calc(100% - 329px)
 
                 @media (max-width: 992px)
-                    width: 100%
                     padding: 0
                     border: unset
 
-            &--right
-                width: 314px
+            &__right
                 height: 508px
                 padding: 19px 18px 0 18px
                 border: 0.8px solid $borderColor
@@ -1643,13 +1666,19 @@ p
                     padding: 0
                     border: unset
 
+                .list-grid-post__body
+                    gap: 0 20px
+
+                .break-line
+                    margin: 13px 0
+
             &--body-middle
                 margin-block: 24px
 
-            .break-line
-                margin: 14px 0
-                @media (max-width: 992px)
-                    margin: 12px 0
+                .break-line
+                    margin: 14px 0
+                    @media (max-width: 992px)
+                        margin: 12px 0
 
             .list-post
                 .item__text-content
@@ -1660,6 +1689,21 @@ p
             &--body-bottom
                 height: 476px
                 padding: 19px 0 29px 15px
+                @media (max-width: 992px)
+                    border: unset
+                    margin-top: 33px
+                    padding: 0
+
+                .tab-scroll
+                    @media (max-width: 992px)
+                        display: flex
+                        flex-flow: column
+                        gap: 13px 0
+
+                .list-scroll__image,
+                .tab-scroll__body .list-scroll__li
+                    width: 266.348px
+                    height: 422.561px
 
         &__right
             width: 314px
@@ -1671,10 +1715,6 @@ p
                 left: 0
 
             .post-and-list-extend
-                .post__image
-                    @media (max-width: 992px)
-                        width: 100%
-                        height: 208px
 
                 .list-extend
                     @media (max-width: 992px)
@@ -1833,7 +1873,36 @@ p
 
     .esport-scroll-mb
         margin-top: 50px
+        overflow-y: scroll
         .tab-scroll
             display: flex
             flex-flow: column
             gap: 13px 0
+
+    // ---- START BLOCK 8
+    .block-8
+        margin-top: 47px
+
+        .block
+            &__right
+                @media(max-width: 992px)
+                    margin-top: 42px
+
+        &__right-head
+            .title-and-line__title
+                left: 0
+
+        &__right-body
+            .post-and-list-extend
+                @media(max-width: 992px)
+                    border: unset
+                    padding: 0
+
+            .list-extend__ul
+                @media(max-width: 992px)
+                    color: $redColor1
+
+            .list-extend__li span
+                color: $textColor
+
+    // ---- END BLOCK 8

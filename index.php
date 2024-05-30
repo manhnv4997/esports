@@ -394,8 +394,8 @@
                 </ul>
             </div>
 
-            <div class="block-2">
-                <div class="main-content list-post">
+            <div class="block-2 block">
+                <div class=" block__left list-post">
                     <div class="item">
                         <div class="item__content">
                             <div class="item__text-content">
@@ -512,8 +512,8 @@
                     </div>
 
                 </div>
-                <div class="ads">
-                    <div class="ads__content">ADS</div>
+                <div class="block__right">
+                    <div class="ads">ADS</div>
                 </div>
             </div>
 
@@ -703,8 +703,8 @@
                     </div>
                 </div>
 
-                <div class="block-3__main-content">
-                    <div class="left-content list-grid-post">
+                <div class="block">
+                    <div class="block__left list-grid-post">
                         <div class="list-grid-post__head list-grid-head">
                             <div class="list-grid-head__content-box">
                                 <div class="list-grid-head__content">
@@ -806,7 +806,7 @@
                         </div>
                     </div>
 
-                    <div class="right-content">
+                    <div class="block__right">
                         <div class="tab-list">
                             <div class="tab-list__list-tab d-none d-lg-flex">
                                 <ul class="tab-list__list-tab--ul">
@@ -1476,8 +1476,8 @@
                     </div>
                 </div>
 
-                <div class="block-5__body  d-none d-lg-flex">
-                    <div class="block-5__body--left-content">
+                <div class="block-5__body block d-none d-lg-flex">
+                    <div class="block-5__body--left-content block__left">
                         <div class="list-post">
                             <div class="item">
                                 <div class="item__content">
@@ -1664,7 +1664,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="block-5__body--right-content">
+                    <div class="block-5__body--right-content block__right">
                         <div class="table-ranking">
                             <div class="table-ranking__title">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -1933,8 +1933,8 @@
                     </div>
                 </div>
 
-                <div class="block-6__body">
-                    <div class="block-6__body--left">
+                <div class="block">
+                    <div class=" block__left">
                         <div class="list-grid-post">
                             <div class="list-grid-post__head list-grid-head">
                                 <div class="list-grid-head__content-box">
@@ -2037,7 +2037,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="block-6__body--right d-none d-lg-block">
+                    <div class="block__right d-none d-lg-block">
                         <div class="results-schedule">
                             <div class="results-schedule__head">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -2563,14 +2563,14 @@
                             </div>
                         </div>
 
-                        <div class="block-7__left--body-bottom box-border">
+                        <div class="block-7__left--body-bottom box-border d-none d-lg-block">
                             <div class="tab-scroll">
                                 <div class="tab-scroll__head">
                                     <p class="tab-scroll__head--title">
                                         esport
                                     </p>
 
-                                    <ul class="tab-scroll__head--ul">
+                                    <ul class="tab-scroll__head--ul d-none d-lg-flex">
                                         <li class="tab-scroll__head--li --active" target-data="highlight">Hightlight</li>
                                         <li class="tab-scroll__head--li" target-data="battle">Giải đấu</li>
                                         <li class="tab-scroll__head--li" target-data="star">Ngôi sao</li>
@@ -2741,7 +2741,7 @@
                                         Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
                                     </p>
 
-                                    <div class="item-info d-none d-lg-flex">
+                                    <div class="item-info">
                                         <span class="item-info__created-at">23/01/2022 18:24 </span>
                                         <ul>
                                             <li class="item-info__category">Ngôi sao</li>
@@ -3234,7 +3234,7 @@
                 </div>
             </div>
 
-            <div class="esport-scroll-mb">
+            <div class="esport-scroll-mb d-flex d-lg-none">
                 <div class="tab-scroll">
                     <div class="tab-scroll__head">
                         <p class="tab-scroll__head--title">
@@ -3390,6 +3390,186 @@
                     </div>
                 </div>
             </div>
+
+            <div class="block-8 block">
+                <div class="block__left block-8__left">
+                    <div class="block-8__left--head">
+                        <div class="title-and-line">
+                            <span class="title-and-line__line"></span>
+                            <p class="title-and-line__title">
+                                Game mobile
+                            </p>
+                        </div>
+                    </div>
+                    <div class="block-8__left-body">
+                        <div class="list-grid-post">
+                            <div class="list-grid-post__head list-grid-head">
+                                <div class="list-grid-head__content-box">
+                                    <div class="list-grid-head__content">
+                                        <p class="list-grid-head__title">
+                                            HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
+                                        </p>
+
+                                        <div class="item-info-mb time-hour">
+                                            <ul class="time-hour">
+                                                <li class="item-info-mb__category">Liên Quân Mobile</li>
+                                            </ul>
+                                            <div class="item-info-mb__time-comments">
+                                                <span class="item-info-mb__created-hour">1 giờ trước</span>
+                                                <span class="item-info-mb__comment">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 1.3335H2.66663C1.93329 1.3335 1.33329 1.9335 1.33329 2.66683V10.6668C1.33329 11.4002 1.93329 12.0002 2.66663 12.0002H12L14.6666 14.6668V2.66683C14.6666 1.9335 14.0666 1.3335 13.3333 1.3335ZM11.3333 7.3335H9.99996V6.00016H11.3333V7.3335ZM7.33329 7.3335H8.66663V6.00016H7.33329V7.3335ZM5.99996 7.3335H4.66663V6.00016H5.99996V7.3335Z" fill="white"></path>
+                                                    </svg>
+                                                    134
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-head__image">
+                            </div>
+                            <div class="list-grid-post__body list-grid-body">
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line d-block d-lg-none"></span>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line d-block d-lg-none"></span>
+                                </div>
+                                <div class="list-grid-body__item d-block d-lg-none">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block__right">
+                    <div class="block-8__right-head">
+                        <div class="title-and-line">
+                            <span class="title-and-line__line"></span>
+                            <p class="title-and-line__title">
+                                Valorant
+                            </p>
+                        </div>
+                    </div>
+                    <div class="block-8__right-body">
+                        <div class="post-and-list-extend">
+                            <div class="post-and-list-extend__post post">
+                                <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="post__image">
+
+                                <div class="post__title-box">
+                                    <p class="post__title">
+                                        Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                    </p>
+
+                                    <div class="item-info">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul>
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="post-and-list-extend__list-extend list-extend">
+                                <ul class="list-extend__ul">
+                                    <li class="list-extend__li">
+                                        <span>
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </span>
+                                    </li>
+                                    <li class="list-extend__li">
+                                        <span>
+                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                        </span>
+                                    </li>
+                                    <li class="list-extend__li">
+                                        <span>
+                                            Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                        </span>
+                                    </li>
+                                    <li class="list-extend__li">
+                                        <span>
+                                            Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                        </span>
+                                    </li>
+                                    <li class="list-extend__li">
+                                        <span>
+                                            Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
         </div>
     </div>
