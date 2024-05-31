@@ -1370,8 +1370,18 @@ p {
 .page-content {
   margin-top: 16px;
 }
+@media (max-width: 992px) {
+  .page-content {
+    margin-top: 0;
+  }
+}
 .page-content.--pushed {
   margin-top: 86px;
+}
+@media (max-width: 992px) {
+  .page-content.--pushed {
+    margin-top: 70px;
+  }
 }
 .page-content .block-1 {
   display: grid;

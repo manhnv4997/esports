@@ -51,8 +51,10 @@ $(document).ready(function () {
 function toggleMenuHeader() {
   const heightElementTopBarPc = $("#top-bar-pc").height() ?? 0;
   const heightElementHead = $("#head-pc").height() ?? 0;
+  const screenWidth = window.screen.width;
 
   const pointCurrentScroll = window.pageYOffset;
+  console.log(pointCurrentScroll > heightElementTopBarPc, window.screen.width);
   if (pointCurrentScroll > heightElementTopBarPc) {
     $("#head-pc").addClass("--fixed");
     $(".page-content").addClass("--pushed");

@@ -1265,8 +1265,13 @@ p
 
 .page-content
     margin-top: 16px
+    @media (max-width: 992px)
+        margin-top: 0
+
     &.--pushed
         margin-top: 86px
+        @media (max-width: 992px)
+            margin-top: 70px
 
     // ---- START BLOCK 1
     .block-1
