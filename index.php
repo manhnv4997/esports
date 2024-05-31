@@ -158,9 +158,6 @@
         </ul>
     </div>
 
-
-
-
     <div class="page-content">
         <div class="top-bar-mobile d-block d-md-none">
             <div class="top-bar-mobile__menu">
