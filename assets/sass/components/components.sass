@@ -1,0 +1,1220 @@
+@import '../variables/colors'
+
+.logo
+    text-transform: uppercase
+
+    &__box
+        display: flex
+        align-items: flex-end
+
+    &__text
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 8px
+        font-style: normal
+        font-weight: 500
+        line-height: 12px /* 150% */
+        text-transform: math-auto
+
+    &__icon
+        width: 1336px
+        height: 70px
+        flex-shrink: 0
+
+    &__e
+        color: $orangeColor
+        -webkit-text-stroke-width: 0.4000000059604645
+        -webkit-text-stroke-color: $blueColor2
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px /* 82.353% */
+
+    &__s
+        color: $redColor
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
+    &__p
+        color: $greenColor2
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
+    &__o
+        color: $blueColor3
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
+    &__r
+        color: $purpleColor2
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
+    &__t
+        color: $whiteColor
+        font-family: "Nico Moji"
+        font-size: 34px
+        font-style: normal
+        font-weight: 400
+        line-height: 28px
+
+.head
+    background-color: $blueColor2
+    display: flex
+    gap: 0 12px
+    padding: 10px 75px
+
+    &.--fixed
+        position: fixed
+        width: 100%
+        top: 0
+        z-index: 9999
+
+    @media (max-width: 992px)
+        justify-content: center
+        padding: 10px 20px
+
+    .menu
+        margin: 0
+        padding: 0
+        /* width: 888px */
+        /* display: flex */
+        align-items: center
+        width: 100%
+        text-transform: uppercase
+        width: 100%
+        justify-content: space-between
+
+        &__item
+            display: flex
+            align-items: center
+            color: $whiteColor
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 700
+            line-height: 28px /* 200% */
+            text-transform: uppercase
+            text-align: center
+
+.footer
+    .break-line.important
+
+        border: 1px solid $redColor1
+        margin: 0 0 16px
+
+    &__top
+        display: flex
+        gap: 0 32px
+        align-items: center
+
+        &--logo-1
+            width: 161px
+            height: 43.636px
+
+        .logo
+            &__t
+                color: $blueColor5
+            &__box
+
+                svg
+                    width: 25.814px
+                    height: 33.462px
+
+                span
+                    -webkit-text-stroke-width: 0.3536232113838196
+                    -webkit-text-stroke-color: $whiteColor
+                    font-size: 30.058px
+                    font-weight: 400
+                    line-height: 24.754px
+
+    &__center
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+
+        @media(max-width:992px)
+            grid-template-columns: repeat(1,1fr)
+            gap: 12px 0
+
+        ul,
+        p
+            list-style: none
+            color: $grayColor7
+            font-family: "Google Sans"
+            font-size: 14px
+            font-style: normal
+            font-weight: 400
+            line-height: 28px
+            margin: 0
+
+        ul
+            height: 140px
+
+        .info-follow
+            display: flex
+            flex-flow: column
+            justify-content: flex-end
+            @media(max-width:992px)
+                gap: 3px 0
+
+        &--left,
+        &--right
+            display: grid
+            grid-template-columns: auto auto auto
+        // grid-template-columns: repeat(6, 1fr)
+        &--left
+            .info
+                display: flex
+                flex-flow: column
+                justify-content: space-between
+                @media(max-width:992px)
+                    gap: 3px
+
+                & p:first-child
+                    font-size: 12px
+                p
+                    line-height: 20px
+
+                &__box-p
+                    @media(max-width:992px)
+                        display: flex
+                        gap: 12px 0
+                        flex-flow: column
+
+                .tag-p-1
+                    color: $grayColor7
+                    font-family: "Google Sans"
+                    font-size: 12px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 28px
+
+                .tag-p-2
+                    color: $grayColor7
+                    font-family: "Google Sans"
+                    font-size: 14px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 20px
+
+                    display: flex
+                    flex-flow: column
+                    @media(max-width:992px)
+                        flex-flow: row
+
+                .tag-p-3
+                    color: $grayColor7
+                    font-family: "Google Sans"
+                    font-size: 15px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 20px
+
+    &__bottom
+        color: #797979
+        font-family: "Google Sans"
+        font-style: normal
+        line-height: 12px
+
+        .break-line
+            margin: 25px 0 0 0
+
+        &--content
+            display: flex
+            justify-content: space-between
+            padding: 6px 0
+            @media(max-width:992px)
+                flex-flow: column
+                padding: 0
+
+        .vertical-division
+            @media(max-width:992px)
+                border: 0.5px solid $grayColor5
+                height: 12px
+
+        &--left
+            display: flex
+            gap: 0 15px
+            font-size: 12px
+            font-weight: 500
+            @media(max-width:992px)
+                order: 2
+                background: var(--Gray-03, #EAEAEA)
+                height: 26px
+                align-items: center
+                justify-content: center
+
+        &--right
+            text-align: right
+            font-size: 10px
+            font-weight: 400
+            @media(max-width:992px)
+                order: 1
+                text-align: unset
+                padding: 8px 12px 7px
+
+.top-bar-pc
+    padding: 0 75px
+    background: $blackColor2
+    justify-content: space-between
+
+    &__ul
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+        list-style: none
+        display: flex
+        margin: 0
+        padding: 0
+
+    &__li
+        border-right: 1px solid $grayColor2
+        padding-right: 15px
+        margin: 5px 15px 5px 0
+
+    &__li:last-child
+        border-right: unset
+        padding-right: 0
+        margin: 5px 0
+
+    &__widget
+        display: flex
+        gap: 0 20px
+
+    &__date
+        color: $whiteColor
+        text-align: right
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+
+    &__login-register
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+
+.top-bar-mobile
+
+    .vertical-division
+        height: 16px
+
+    &__menu
+        padding: 8px 12px
+        display: flex
+        border-bottom: 1px solid $grayColor5
+
+    &__widget
+        display: flex
+        align-items: center
+        padding: 5px 12px
+        gap: 0 8px
+
+        .list-scroll__ul
+            gap: 0 20px
+
+    &__ul
+        margin: 0
+        display: flex
+        list-style: none
+        color: $grayColor1
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 600
+        line-height: 28px
+        width: 100%
+        justify-content: space-between
+        padding-left: 12px
+        align-items: center
+
+.menu-mobile
+    height: 100vh
+    position: fixed
+    width: 100vw
+    top: 0
+    left: 0
+    color: $whiteColor
+    overflow: scroll
+    background-color: $blueColor2
+    transition: left .5s
+
+    &.--hide
+        left: -100%
+
+    &__icon-arrow
+        rotate: 0deg
+        transition: rotate .5s
+
+        &.--down
+            rotate: 180deg
+
+    &__close-box
+        height: 68px
+        padding: 0 12px
+        display: flex
+        align-items: center
+        justify-content: right
+
+    &__colors-line
+        display: flex
+        .line-1
+            width: 25%
+            border: 1px solid $orangeColor
+        .line-2
+            width: 25%
+            border: 1px solid $redColor
+        .line-3
+            width: 25%
+            border: 1px solid $greenColor2
+        .line-4
+            width: 25%
+            border: 1px solid $blueColor3
+
+    &__content
+        padding: 20px 12px
+
+    &__search-box
+        position: relative
+
+    &__input-search,
+    &__button-search
+        border-radius: 200px !important
+
+    &__input-search
+        width: 100%
+        height: 40px
+        padding: 0 80px 0 13px
+
+    &__button-search
+        width: 78px
+        height: 36px
+        flex-shrink: 0
+        position: absolute
+        right: 0
+        top: 50%
+        transform: translateY(-50%)
+        border: 1px solid $whiteColor
+        background-color: $orangeColor
+        color: $whiteColor
+
+    &__text-btn-search
+        color: $whiteColor
+        text-align: center
+        font-family: Mulish
+        font-size: 16px
+        font-style: normal
+        font-weight: 700
+        line-height: 24px
+
+    &__menu
+        list-style: none
+        padding: 0
+        flex-wrap: wrap
+        display: flex
+
+    &__menu-item
+        color: $orangeColor
+        font-family: Mulish
+        font-size: 15px
+        font-style: normal
+        font-weight: 700
+        line-height: 24px
+        width: 50%
+        // height: 25px
+
+        &.--extend
+            // height: 100%
+
+    &__child-menu
+        list-style: none
+        height: 100%
+        visibility: visible
+        overflow: hidden
+
+        &.--hide
+            height: 0
+            visibility: hidden
+
+    &__child-menu-item
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 15px
+        font-style: normal
+        font-weight: 400
+        line-height: 24px
+
+    &__slogan
+        margin: 0
+        color: $whiteColor
+        text-align: center
+        font-family: "SF Pro Display"
+        font-size: 12px
+        font-style: normal
+        font-weight: 400
+        line-height: normal
+        text-transform: uppercase
+        padding: 9px 0 6px 0
+        border-top: .8px solid $blueColor4
+        border-bottom: .8px solid $blueColor4
+
+    &__contact-box
+        display: flex
+        gap: 0 18px
+
+    &__email-box,
+    &__phone-box
+        width: 50%
+        display: flex
+        gap: 0 6px
+        justify-content: center
+
+    &__emails,
+    &__phones
+        display: flex
+        flex-flow: column
+
+    &__email,
+    &__phone
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 700
+        line-height: normal
+
+    &__copy-right
+        color: $whiteColor
+        text-align: center
+        font-family: "SF Pro Display"
+        font-size: 10px
+        font-style: normal
+        font-weight: 500
+        line-height: 12px
+        padding: 16px 0 4px 0
+        width: 100%
+        display: flex
+        justify-content: center
+
+    &__copy-right-text
+        width: 280px
+        margin: 0
+
+    .logo
+        padding: 13px 0
+        display: flex
+        flex-flow: column
+        align-items: center
+
+        &__character
+            -webkit-text-stroke-width: 0.4618357717990875
+            -webkit-text-stroke-color: #0B1D40
+            font-size: 39.256px
+            font-weight: 400
+            line-height: 32.329px
+
+.item-info,
+.item-info-mb
+    display: flex
+    align-items: center
+
+    ul
+        margin: 0
+        list-style: disc
+
+    ul.time-hour
+        padding: 0
+        list-style: none
+
+    &.time-hour
+        display: flex
+        justify-content: space-between
+
+    &__created-at,
+    &__created-at-hour
+        color: $grayColor2
+        font-family: Mulish
+        font-size: 10px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+        text-transform: uppercase
+
+    &__category
+        color: $redColor1
+        font-family: Mulish
+        font-size: 10px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+        text-transform: uppercase
+
+    &__time-comments
+        gap: 0 13px
+        display: flex
+
+    &__created-hour
+        color: $whiteColor
+        text-align: right
+        font-family: Mulish
+        font-size: 11px
+        font-style: normal
+        font-weight: 600
+        line-height: 28px
+
+    &__comment
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 11px
+        font-style: normal
+        font-weight: 600
+        line-height: 28px
+
+.title-and-line
+    position: relative
+    margin-bottom: 20px
+
+    &__line
+        border: 2px solid $redColor1
+        width: 100%
+        height: 2px
+        display: block
+
+    &__title
+        min-width: fit-content
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        background: $whiteColor
+        left: 50px
+        padding: 0 8px
+        color: $blackColor
+        font-family: Mulish
+        font-size: 24px
+        font-style: normal
+        font-weight: 800
+        line-height: 28px
+        @media (max-width: 992px)
+            left: 0
+
+            padding: 0 8px 0 0
+
+.list-post
+    color: $redColor
+
+    span
+        color: $textColor
+
+    &.have-dot
+        padding: 15px 12px 15px 25px !important
+
+    .item
+        display: flex
+        gap: 5px 0
+        @media (max-width: 992px)
+            flex-flow: column
+
+        &__content
+            display: flex
+            gap: 0 16px
+            justify-content: space-between
+
+        &__text-content
+            display: flex
+            flex-flow: column
+            justify-content: space-between
+
+        &__title
+            color: $blackColor
+            font-family: Mulish
+            font-size: 17px
+            font-style: normal
+            font-weight: 700
+            line-height: 24px
+
+        &__image
+            width: 161px
+            height: 111px
+            border-radius: 4px
+
+.list-grid-post
+    position: relative
+
+    &__head
+        height: 208px
+        position: relative
+        border-radius: 6px
+        overflow: hidden
+        @media (max-width: 992px)
+            display: flex
+            flex-flow: column
+            height: auto
+
+    .list-grid-head
+        &__content-box
+            height: 100%
+            position: absolute
+            z-index: 3
+            width: 600px
+            background: linear-gradient(90deg, $blueColor 63.76%, rgba(17, 20, 53, 0) 101.86%)
+            @media (max-width: 992px)
+                width: auto
+                position: unset
+                order: 2
+                background: $blueColor
+
+        &__content
+            height: 100%
+            width: 350px
+            padding: 18px 28px
+            display: flex
+            flex-flow: column
+            justify-content: space-between
+            @media (max-width: 992px)
+                width: auto
+                padding: 20px
+                gap: 20px 0
+
+        &__title
+            color: $whiteColor
+            font-family: Mulish
+            font-size: 22px
+            font-style: normal
+            font-weight: 800
+            line-height: 28px
+
+        &__image
+            width: 449px
+            height: 208px
+            position: absolute
+            flex-shrink: 0
+            right: 0
+            top: 0
+            z-index: 1
+            @media (max-width: 992px)
+                object-fit: cover
+                order: 1
+                width: auto
+                position: unset
+
+    &__body
+        padding-top: 18px
+        // display: flex
+        // flex-wrap: wrap
+        // gap: 10px 26px
+
+        display: grid
+        gap: 10px 26px
+        grid-template-columns: repeat(2, 1fr)
+        @media (max-width: 992px)
+            grid-template-columns: repeat(1, 1fr)
+
+        .list-grid-body
+            &__item
+                // width: calc(50% - 13px)
+
+                @media (max-width: 992px)
+                    width: 100%
+
+            &__item-content
+                display: flex
+                gap: 0 12px
+                justify-content: space-between
+
+            &__item-title
+                display: block
+                display: -webkit-box
+                max-width: 100%
+                height: 100px
+                margin: 0 auto
+                -webkit-line-clamp: 4
+                -webkit-box-orient: vertical
+                overflow: hidden
+                text-overflow: ellipsis
+
+                @media (max-width: 992px)
+                    order: 1
+
+            &__item-image
+                border-radius: 4px
+                width: 157px
+                height: 111px
+                @media (max-width: 992px)
+                    order: 2
+
+.list-extend
+    color: $textColor
+    font-family: Mulish
+    font-size: 16px
+    font-style: normal
+    font-weight: 600
+    line-height: 20px
+    color: $redColor1
+
+    &__ul
+        display: flex
+        flex-flow: column
+
+    &__li span
+        color: $textColor
+
+.list-scroll
+    overflow-y: scroll
+    &__ul
+        padding: 0
+        display: flex
+        list-style: none
+        gap: 0 10px
+
+    &__li
+        span
+            width: max-content
+            display: block
+
+    &__title
+        border-radius: 10px
+        background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 100%)
+        position: absolute
+        bottom: 0
+        color: $whiteColor
+        font-family: Mulish
+        font-size: 20px
+        font-style: normal
+        font-weight: 800
+        line-height: 24px
+        padding: 0 19px 24px
+
+    &__image
+        width: 237px
+        height: 376px
+        object-fit: cover
+        border-radius: 10px
+
+    .video-item
+        width: 290px
+        height: 294px
+        border-radius: 6px 6px 0px 0px
+        border: 1px solid $borderColor
+        background: $whiteColor
+        overflow: hidden
+        display: flex
+        flex-flow: column
+
+        &__text-content
+            padding: 12px
+            display: flex
+            flex-flow: column
+            justify-content: space-between
+            height: 100%
+
+        &__image-preview
+            width: 290px
+            height: 169px
+
+        &__title
+            color: $textColor
+            font-family: Mulish
+            font-size: 16px
+            font-style: normal
+            font-weight: 800
+            line-height: 20px
+
+.tab-list
+    &__list-tab
+        display: flex
+        justify-content: center
+
+        &--ul
+            width: 244px
+            height: 40px
+            list-style: none
+            display: flex
+            border-radius: 200px
+            border: 1px solid $borderColor
+            background: $whiteColor
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10)
+            padding: 0
+            align-items: center
+            overflow: hidden
+            justify-content: center
+
+        &--li
+            padding: 5px 10px
+            width: 119px
+            height: 34px
+            text-align: center
+            &.--active
+                border-radius: 200px
+                background-color: $redColor1
+                color: $whiteColor
+
+    &__tab
+        &--item-content
+            &.--hide
+                display: none
+
+    &__list
+        list-style: none
+        padding: 0
+
+        &--item
+            display: flex
+            gap: 0 9px
+            padding: 8px 0 0 0
+
+        &--index
+            color: $redColor
+            font-family: Mulish
+            font-size: 26px
+            font-style: normal
+            font-weight: 800
+            line-height: 36px
+
+        &--title
+            color: $textColor
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+
+.tab-scroll
+    &__head
+        display: flex
+
+        &--title
+            color: $redColor1
+            font-family: Mulish
+            font-size: 28px
+            font-style: normal
+            font-weight: 800
+            line-height: 28px
+            text-transform: uppercase
+
+        &--ul
+            list-style: none
+            display: flex
+            gap: 0 25px
+
+        &--li
+            color: $grayColor8
+            font-family: Mulish
+            font-size: 12px
+            font-style: normal
+            font-weight: 800
+            line-height: 24px
+            text-transform: uppercase
+
+            &.--active
+                color: $grayColor1
+
+    &__body
+        .--hide
+            display: none
+
+        .list-scroll
+            &__ul
+                gap: 0 16px
+                margin: 0
+
+            &__li
+                border-radius: 10px
+                width: 237px
+                height: 376px
+                position: relative
+
+            &__title
+                top: 262px
+
+.post-and-list-extend
+    padding: 15px 16px 26px 15px
+    border: 0.8px solid $borderColor
+    background: $whiteColor
+
+    .break-line
+        margin: 15px 0 21px 0
+
+    .list-extend
+        height: 110px
+        overflow-y: scroll
+        @media (max-width: 992px)
+            height: auto
+            overflow-y: unset
+
+    .post
+        display: flex
+        flex-flow: column
+        gap: 13px 0
+
+        &__image
+            width: 283px
+            height: 208px
+            object-fit: cover
+            @media (max-width: 992px)
+                width: 100%
+                height: 208px
+
+        &__title-box
+            display: flex
+            flex-flow: column
+            gap: 18px 0
+
+        &__title
+            color: $blackColor
+            font-family: Mulish
+            font-size: 18px
+            font-style: normal
+            font-weight: 800
+            line-height: 24px
+
+    .list-extend__ul
+        color: $grayColor2
+        padding-left: 15px
+        gap: 12px 0
+        margin: 0
+
+    .list-extend__li
+        span
+            color: $textColor
+
+.results-schedule
+    &__head
+        display: flex
+        gap: 0 8px
+        color: $blackColor
+        font-family: Mulish
+        font-size: 16px
+        font-style: normal
+        font-weight: 700
+        line-height: 20px
+
+    &__body
+
+        .break-dashed-line
+            margin: 4px 0 8px 0
+
+        .date
+            min-width: 25px
+            color: $grayColor2
+            font-family: Mulish
+            font-size: 11px
+            font-style: normal
+            font-weight: 600
+            line-height: 20px
+            text-transform: uppercase
+
+        .time
+            color: $redColor1
+            text-align: center
+            font-family: Mulish
+            font-size: 11px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+            text-transform: uppercase
+
+        .schedule
+            width: 100%
+            display: flex
+            justify-content: center
+            gap: 0 5px
+
+        &--ul
+            padding: 0 7px
+
+        &--li
+            color: $blackColor
+            font-family: Mulish
+            font-size: 11px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+            text-transform: uppercase
+            list-style-type: none
+
+        &--li:first-child
+            list-style-type: disc
+            color: $redColor1
+            font-family: Mulish
+            font-size: 16px
+            font-style: normal
+            font-weight: 600
+            margin: 13px 0 12px 0
+            margin-left: .5rem
+
+    &__content
+        display: flex
+
+.focus-football
+    margin-top: 29px
+    border: 0.8px solid $borderColor
+    background: $whiteColor
+    padding: 22px 16px 18px
+    display: flex
+    flex-flow: column
+    gap: 16px 0
+
+    &__title-box
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+    &__list-extend
+        overflow-y: scroll
+        height: 482px
+        @media (max-width: 992px)
+            height: auto
+
+    .list-extend__ul
+        padding-left: 15px
+        gap: 12px 0
+        margin: 0
+
+    &__title
+        color: $redColor1
+        font-family: Mulish
+        font-size: 16px
+        font-style: normal
+        font-weight: 700
+        line-height: 20px
+        text-transform: uppercase
+
+    &__see-more
+        color: $grayColor1
+        text-align: right
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 500
+        line-height: 20px
+
+.tags-hot-trend
+    padding: 17px 19px 23px
+    width: 314px
+    height: 468px
+    overflow-y: scroll
+    @media(max-width: 992px)
+        width: 100%
+        height: 100%
+        border: unset
+        padding: 0
+
+    &__head
+        display: flex
+        gap: 0 11px
+        align-items: center
+
+        &--icon-box
+            padding: 4px 6px 4px 5px
+            border-radius: 6px
+            background: $whiteColor1
+            width: 28px
+            height: 28px
+
+        &--icon
+            color: $blackColor
+            text-align: center
+            font-family: Mulish
+            font-size: 16px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+            display: block
+
+        &--title
+            color: $blackColor
+            font-family: Mulish
+            font-size: 16px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+
+    &__body
+        display: flex
+        flex-wrap: wrap
+        gap: 12px
+        margin-top: 16px
+
+        &--tag
+            border-radius: 200px
+            background: $whiteColor1
+            width: 112px
+            height: 32px
+
+            color: $blackColor
+            text-align: center
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 500
+            line-height: 20px
+
+            display: flex
+            align-items: center
+            justify-content: center
+            width: max-content
+            padding: 0 13px
+
+.comments
+    margin-top: 24px
+    border: 0.8px solid $borderColor
+    background: $whiteColor
+    padding: 16px 16px 25px
+    display: flex
+    flex-flow: column
+    gap: 16px 0
+
+    &__body
+        height: 430px
+        overflow-y: scroll
+        @media (max-width: 992px)
+            height: auto
+
+    .list-post
+        display: flex
+        flex-flow: column
+        gap: 11px 0
+
+        .item__image
+            width: 120px
+            height: 67px
+
+        .item__title
+            color: $textColor
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+
+    &__title-box
+        display: flex
+        gap: 0 9px
+
+    &__title
+        color: $blackColor
+        font-family: Mulish
+        font-size: 16px
+        font-style: normal
+        font-weight: 700
+        line-height: 20px

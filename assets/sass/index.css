@@ -433,6 +433,10 @@ p {
   display: flex;
   align-items: center;
   padding: 5px 12px;
+  grid-area: 0 8px;
+}
+.top-bar-mobile__widget .list-scroll__ul {
+  gap: 0 20px;
 }
 .top-bar-mobile__ul {
   margin: 0;
