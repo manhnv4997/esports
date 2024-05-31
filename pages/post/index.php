@@ -8,7 +8,7 @@
     <!doctype html>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/sass/pages/category/index.css">
+    <link rel="stylesheet" href="/assets/sass/pages/post/index.css">
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -238,7 +238,633 @@
             </div>
         </div>
         <div class="container-xl">
+            <div class="block-head d-none d-lg-flex">
+                <div class="block-head__left breadcrumb">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <g clip-path="url(#clip0_1586_2305)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.84799 2.5761C8.68051 2.01239 7.31958 2.01239 6.1521 2.5761C5.73857 2.77577 5.32209 3.10303 4.30393 3.91755L4.16769 4.02655C3.67539 4.42039 3.47714 4.58052 3.30973 4.75001C2.64415 5.42383 2.22273 6.30066 2.11234 7.24132C2.08458 7.47793 2.08338 7.73277 2.08338 8.36322V11.3335C2.08338 12.7603 3.23998 13.9169 4.66671 13.9169C4.98888 13.9169 5.25004 13.6557 5.25004 13.3335V10.6668C5.25004 9.14804 6.48126 7.91682 8.00004 7.91682C9.51883 7.91682 10.75 9.14804 10.75 10.6668V13.3335C10.75 13.6557 11.0112 13.9169 11.3334 13.9169C12.7601 13.9169 13.9167 12.7603 13.9167 11.3335V8.36322C13.9167 7.73277 13.9155 7.47793 13.8877 7.24132C13.7774 6.30066 13.3559 5.42383 12.6904 4.75001C12.5229 4.58052 12.3247 4.42039 11.8324 4.02655L11.6962 3.91756C10.678 3.10303 10.2615 2.77577 9.84799 2.5761ZM11.3334 15.4169C10.1828 15.4169 9.25004 14.4841 9.25004 13.3335V10.6668C9.25004 9.97647 8.6904 9.41682 8.00004 9.41682C7.30969 9.41682 6.75004 9.97647 6.75004 10.6668V13.3335C6.75004 14.4841 5.8173 15.4169 4.66671 15.4169C2.41155 15.4169 0.583378 13.5887 0.583378 11.3335V8.36322L0.583376 8.31324C0.583343 7.74817 0.583323 7.4009 0.622564 7.0665C0.771908 5.79384 1.34208 4.60754 2.24256 3.6959C2.47917 3.45636 2.75035 3.23944 3.19162 2.88646C3.20448 2.87617 3.21749 2.86577 3.23065 2.85525L3.36689 2.74625C3.39515 2.72364 3.42308 2.7013 3.45068 2.67921C4.3586 1.9527 4.91423 1.5081 5.49989 1.22532C7.07942 0.462655 8.92067 0.462655 10.5002 1.22532C11.0859 1.5081 11.6415 1.95271 12.5494 2.67922C12.577 2.7013 12.6049 2.72365 12.6332 2.74625L12.7694 2.85525L12.8085 2.88647C13.2497 3.23944 13.5209 3.45636 13.7575 3.6959C14.658 4.60754 15.2282 5.79384 15.3775 7.0665C15.4168 7.4009 15.4167 7.74818 15.4167 8.31327L15.4167 8.36322V11.3335C15.4167 13.5887 13.5885 15.4169 11.3334 15.4169Z" fill="#89888B" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1586_2305">
+                                <rect width="16" height="16" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.1363 3.46967C6.42919 3.17678 6.90406 3.17678 7.19696 3.46967L8.93422 5.20693L8.95574 5.22845C9.33345 5.60615 9.64872 5.9214 9.88522 6.2C10.1319 6.49056 10.3366 6.79021 10.4536 7.1502C10.6331 7.70252 10.6331 8.29748 10.4536 8.8498C10.3366 9.20979 10.1319 9.50944 9.88522 9.8C9.64872 10.0786 9.33345 10.3938 8.95575 10.7715L8.93421 10.7931L7.19696 12.5303C6.90406 12.8232 6.42919 12.8232 6.1363 12.5303C5.8434 12.2374 5.8434 11.7626 6.1363 11.4697L7.87355 9.73241C8.27832 9.32764 8.54959 9.05555 8.74171 8.82924C8.92815 8.60962 8.99561 8.48294 9.02702 8.38627C9.10859 8.13522 9.10859 7.86478 9.02702 7.61373C8.99561 7.51706 8.92815 7.39038 8.74171 7.17076C8.54959 6.94445 8.27832 6.67236 7.87356 6.26759L6.1363 4.53033C5.8434 4.23744 5.8434 3.76256 6.1363 3.46967Z" fill="#89888B" />
+                    </svg>
+                    <ul class="breadcrumb__ul">
+                        <li class="breadcrumb__li">ESPORTS</li>
+                        <li class="breadcrumb__li">LIÊN MINH HUYỀN THOẠI</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="line-color">
+                <span class="line-color__item"></span>
+                <span class="line-color__item"></span>
+                <span class="line-color__item"></span>
+                <span class="line-color__item"></span>
+            </div>
 
+            <div class="block">
+                <div class="block__left">
+                    <div class="post">
+                        <div class="post__head">
+                            <p class="post__title">Đội bóng vĩ đại nhất Đông Nam Á tỏa sáng tại ngày hội bóng đá ASEAN</p>
+                            <p class="post__description">Trong 13 kỳ tổ chức của Giải vô địch bóng đá Đông Nam Á, chúng ta đã chứng kiến ​​một số đội bóng vĩ đại nhất Đông Nam Á tỏa sáng tại ngày hội bóng đá ASEAN và chúng tôi đã yêu cầu bạn cho chúng tôi biết đội nào xuất sắc nhất góp mặt tại giải đấu.</p>
+                        </div>
+                        <span class="break-line"></span>
+
+                        <div class="post__info">
+                            <div class="post__info--box-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.6464 2.68672C12.2894 2.32969 11.7106 2.32969 11.3536 2.6867L11.149 2.89131C11.1328 3.60874 11.7243 4.20037 12.4417 4.18427L12.6464 3.97956C13.0034 3.62255 13.0034 3.04373 12.6464 2.68672ZM13.028 5.01217L13.3535 4.68667C14.1011 3.93914 14.1011 2.72717 13.3536 1.97963C12.606 1.23207 11.394 1.23205 10.6465 1.97959L6.23323 6.39277L6.20088 6.42512C5.765 6.86095 5.50486 7.12105 5.29126 7.41819C5.10181 7.68173 4.94142 7.965 4.81291 8.26304C4.66801 8.59907 4.57881 8.95596 4.42935 9.55394L4.42935 9.55394L4.42935 9.55395L4.41825 9.59834L4.18153 10.5452C4.13894 10.7156 4.18886 10.8959 4.31305 11.02C4.43724 11.1442 4.61749 11.1942 4.78787 11.1516L5.73477 10.9148L5.77914 10.9037L5.77917 10.9037C6.37715 10.7543 6.73403 10.6651 7.07006 10.5202C7.3681 10.3917 7.65136 10.2313 7.9149 10.0418C8.21203 9.82825 8.47213 9.56812 8.90794 9.13226L8.90795 9.13225L8.94031 9.09989L13.0119 5.02831C13.0174 5.02305 13.0228 5.01767 13.028 5.01217ZM11.5945 5.03152C11.0043 4.80107 10.5321 4.32884 10.3017 3.73861L6.94033 7.09988C6.46266 7.57756 6.26376 7.77857 6.10323 8.00189C5.95588 8.20686 5.83114 8.42718 5.73118 8.65899C5.62228 8.91154 5.55224 9.18552 5.3884 9.84088L5.35379 9.9793L5.49223 9.94469C6.14759 9.78085 6.42156 9.71081 6.67411 9.60191C6.90592 9.50196 7.12623 9.37722 7.33121 9.22987C7.55452 9.06934 7.75554 8.87045 8.23321 8.39278L11.5945 5.03152ZM2.16675 13.9998C2.16675 13.7237 2.39061 13.4998 2.66675 13.4998H13.3334C13.6096 13.4998 13.8334 13.7237 13.8334 13.9998C13.8334 14.276 13.6096 14.4998 13.3334 14.4998H2.66675C2.39061 14.4998 2.16675 14.276 2.16675 13.9998Z" fill="#3A393E" />
+                                </svg>
+                                <span>Hải Đăng</span>
+                                <ul class="post__category">
+                                    <li><span>Theo</span>Bóng đá plus</li>
+                                </ul>
+                            </div>
+                            <span class="post__time-created">23/01/2022 18:24 </span>
+                        </div>
+
+                        <div class="post__content">
+                            <img src="https://s3-alpha-sig.figma.com/img/128c/5d5c/ad83d3634a6e19b5db40abe164b78b2d?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Q89IqWLmvO87C8g56H9AbzsAGqRLGSzoUN6~Du3w00FArx1xrdzF3x9oCcmyH5Rgc1nmNlSxskeS5mCfeBrYhUcmu~q17UniyvlLZRegY-YPpcKL7eR-YYqjUnoU2-rEg2u9lxTwVQqpDUGXCkyx1lg7Bh-R9nFsYxnE5Gx~XOU9js3nMldHQaoS7RRW10coFnq0Jo1W9vqlM9Cu7jSQ~u9-6fWJ1Y8pJ2yuozFm8A0VVsnXQgcDqbaHKFMWkkQd7nlqm1nKbOVXUudmoBVpgNm5Bj5~jG8vbxJycCTGfLoSl9nxc99cuqayHZZaG19haAsOTOZ8ehf6Rm3-Xf3e7g__" alt="" class="post__image">
+
+                            Theo góc nhìn của cây viết Pete Jenson trên tờ Daily Mail, Messi đã gợi lại hình ảnh của cố huyền thoại Diego Maradona trong ngày Argentina vượt qua đối thủ được mệnh danh là Cơn lốc màu da cam. Giống như Maradona sẵn sàng cháy hết mình, thậm chí không ngần ngại ăn thua đủ với đối phương vì màu cờ sắc áo ĐTQG, Messi đã hóa thân thành chiến binh trong trận cầu vô cùng căng thẳng và kịch tính.
+                            </br>
+
+                            Trong hành trình chinh phục chức vô địch thế giới, ĐT Argentina rất cần những đầu tầu tài năng và có tinh thần chiến đấu máu lửa như Maradona trước đây và Messi bây giờ. Nên biết, trong trận đấu với Hà Lan, Messi chẳng những ghi dấu giày vào cả 2 bàn thắng mà anh còn làm tất cả những gì có thể, kể cả "chơi bẩn" để giúp Argentina không bị tổn thương.
+                            </br>
+
+                            Bằng chứng là tiền đạo thuộc biên chế CLB Barcelona đã thường xuyên phạm lỗi, lại dùng tay chơi bóng tới 2 lần theo cách rất thô thiển. Theo quan điểm của rất nhiều CĐV trung lập, Messi xứng đáng phải nhận thẻ đỏ vì những hành vi phi thể thao nói trên.
+
+                            <img src="https://s3-alpha-sig.figma.com/img/f866/67d7/14ad2430075a7c8b45e2586f6aa414ce?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ELGrLkNn7rVXiiqHGsDh5bjAl45jNiL08ZXX4HOo6NbQ58cZZnSZYocVDA7frwm4CyEz38f7CZiZ356u~3F~ZSLNdrkFwBPq8x-3R0dCHbYO7RRKef2bpWLEoxY11~jRO0tB0NmqioLmPm42cM1gx2a41PWDkfCIvEdRPV70EyqDmdSwl01EEn5~sGhf1wDcb6QldrGG-48MumPBxTe86ULYw-StAntLOWf0ZfuKEd5DGvcUv8ItPZ-lqtOXYL9-gmtVHaYrwtJhRGZpwVC4cg~b6xAOur0ZYsOsGNoygKm~yyOhtxLVjDiltON-VHWSAurk-KXgQyrzAR0V7iPMgg__" alt="" class="post__image">
+                            <p style="color: #8D8D8D;font-family: Mulish;font-size: 13px;font-style: normal;font-weight: 600;line-height: 16px; margin-bottom: 21px">Đội bóng vĩ đại nhất Đông Nam Á tỏa sáng tại ngày hội bóng đá ASEAN. Video: Ngọc Phước</p>
+
+                            <p>Theo góc nhìn của cây viết Pete Jenson trên tờ Daily Mail, Messi đã gợi lại hình ảnh của cố huyền thoại Diego Maradona trong ngày Argentina vượt qua đối thủ được mệnh danh là Cơn lốc màu da cam. Giống như Maradona sẵn sàng cháy hết mình, thậm chí không ngần ngại ăn thua đủ với đối phương vì màu cờ sắc áo ĐTQG, Messi đã hóa thân thành chiến binh trong trận cầu vô cùng căng thẳng và kịch tính. </br></br>
+
+                                Trong hành trình chinh phục chức vô địch thế giới, ĐT Argentina rất cần những đầu tầu tài năng và có tinh thần chiến đấu máu lửa như Maradona trước đây và Messi bây giờ. Nên biết, trong trận đấu với Hà Lan, Messi chẳng những ghi dấu giày vào cả 2 bàn thắng mà anh còn làm tất cả những gì có thể, kể cả "chơi bẩn" để giúp Argentina không bị tổn thương. </br></br>
+
+                                Bằng chứng là tiền đạo thuộc biên chế CLB Barcelona đã thường xuyên phạm lỗi, lại dùng tay chơi bóng tới 2 lần theo cách rất thô thiển. Theo quan điểm của rất nhiều CĐV trung lập, Messi xứng đáng phải nhận thẻ đỏ vì những hành vi phi thể thao nói trên. </br></br>
+
+                                Theo góc nhìn của cây viết Pete Jenson trên tờ Daily Mail, Messi đã gợi lại hình ảnh của cố huyền thoại Diego Maradona trong ngày Argentina vượt qua đối thủ được mệnh danh là Cơn lốc màu da cam. Giống như Maradona sẵn sàng cháy hết mình, thậm chí không ngần ngại ăn thua đủ với đối phương vì màu cờ sắc áo ĐTQG, Messi đã hóa thân thành chiến binh trong trận cầu vô cùng căng thẳng và kịch tính. </br></br>
+
+                                Trong hành trình chinh phục chức vô địch thế giới, ĐT Argentina rất cần những đầu tầu tài năng và có tinh thần chiến đấu máu lửa như Maradona trước đây và Messi bây giờ. Nên biết, trong trận đấu với Hà Lan, Messi chẳng những ghi dấu giày vào cả 2 bàn thắng mà anh còn làm tất cả những gì có thể, kể cả "chơi bẩn" để giúp Argentina không bị tổn thương. </br></br>
+
+                                Bằng chứng là tiền đạo thuộc biên chế CLB Barcelona đã thường xuyên phạm lỗi, lại dùng tay chơi bóng tới 2 lần theo cách rất thô thiển. Theo quan điểm của rất nhiều CĐV trung lập, Messi xứng đáng phải nhận thẻ đỏ vì những hành vi phi thể thao nói trên.
+                            </p>
+                        </div>
+
+                        <p class="post__author">
+                            Nguồn: BONGDAPLUS
+                        </p>
+
+                        <span class="break-line"></span>
+
+                        <div class="post__actions">
+                            <div class="post__actions--item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.41659 2.75H15.5833C16.5916 2.75 17.4166 3.575 17.4166 4.58333V19.25L10.9999 16.5L4.58325 19.25L4.59242 4.58333C4.59242 3.575 5.40825 2.75 6.41659 2.75ZM10.9999 14.5017L15.5833 16.5V5.5C15.5833 4.99583 15.1708 4.58333 14.6666 4.58333H7.33325C6.82909 4.58333 6.41659 4.99583 6.41659 5.5V16.5L10.9999 14.5017Z" fill="#747474" />
+                                </svg>
+                                lưu
+                            </div>
+                            <div class="post__actions--item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                    <path d="M16.5 14.7768C15.8033 14.7768 15.18 15.0518 14.7033 15.4826L8.1675 11.6784C8.21333 11.4676 8.25 11.2568 8.25 11.0368C8.25 10.8168 8.21333 10.6059 8.1675 10.3951L14.63 6.62762C15.125 7.08595 15.7758 7.37012 16.5 7.37012C18.0217 7.37012 19.25 6.14178 19.25 4.62012C19.25 3.09845 18.0217 1.87012 16.5 1.87012C14.9783 1.87012 13.75 3.09845 13.75 4.62012C13.75 4.84012 13.7867 5.05095 13.8325 5.26178L7.37 9.02928C6.875 8.57095 6.22417 8.28678 5.5 8.28678C3.97833 8.28678 2.75 9.51512 2.75 11.0368C2.75 12.5584 3.97833 13.7868 5.5 13.7868C6.22417 13.7868 6.875 13.5026 7.37 13.0443L13.8967 16.8576C13.8508 17.0501 13.8233 17.2518 13.8233 17.4534C13.8233 18.9293 15.0242 20.1301 16.5 20.1301C17.9758 20.1301 19.1767 18.9293 19.1767 17.4534C19.1767 15.9776 17.9758 14.7768 16.5 14.7768Z" fill="#747474" />
+                                </svg>
+                                chia sẻ
+                            </div>
+                            <div class="post__actions--item ps-2 pe-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.41658 2.75H15.5833C16.0874 2.75 16.4999 3.1625 16.4999 3.66667V5.5C16.4999 6.00417 16.0874 6.41667 15.5833 6.41667H6.41658C5.91242 6.41667 5.49992 6.00417 5.49992 5.5V3.66667C5.49992 3.1625 5.91242 2.75 6.41658 2.75ZM4.58325 7.33333H17.4166C18.9383 7.33333 20.1666 8.56167 20.1666 10.0833V13.75C20.1666 14.7583 19.3416 15.5833 18.3333 15.5833H16.4999V17.4167C16.4999 18.425 15.6749 19.25 14.6666 19.25H7.33325C6.32492 19.25 5.49992 18.425 5.49992 17.4167V15.5833H3.66659C2.65825 15.5833 1.83325 14.7583 1.83325 13.75V10.0833C1.83325 8.56167 3.06159 7.33333 4.58325 7.33333ZM8.24992 17.4167H13.7499C14.2541 17.4167 14.6666 17.0042 14.6666 16.5V12.8333H7.33325V16.5C7.33325 17.0042 7.74575 17.4167 8.24992 17.4167ZM17.4166 11C16.9124 11 16.4999 10.5875 16.4999 10.0833C16.4999 9.57917 16.9124 9.16667 17.4166 9.16667C17.9208 9.16667 18.3333 9.57917 18.3333 10.0833C18.3333 10.5875 17.9208 11 17.4166 11Z" fill="#747474" />
+                                </svg>
+                            </div>
+                            <div class="post__actions--item ps-2 pe-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2084 0.916748H4.12508C3.11675 0.916748 2.29175 1.74175 2.29175 2.75008V14.6667C2.29175 15.1709 2.70425 15.5834 3.20841 15.5834C3.71258 15.5834 4.12508 15.1709 4.12508 14.6667V3.66675C4.12508 3.16258 4.53758 2.75008 5.04175 2.75008H14.2084C14.7126 2.75008 15.1251 2.33758 15.1251 1.83341C15.1251 1.32925 14.7126 0.916748 14.2084 0.916748ZM17.8751 4.58341H7.79175C6.78341 4.58341 5.95842 5.40841 5.95842 6.41675V19.2501C5.95842 20.2584 6.78341 21.0834 7.79175 21.0834H17.8751C18.8834 21.0834 19.7084 20.2584 19.7084 19.2501V6.41675C19.7084 5.40841 18.8834 4.58341 17.8751 4.58341ZM8.70842 19.2501H16.9584C17.4626 19.2501 17.8751 18.8376 17.8751 18.3334V7.33341C17.8751 6.82925 17.4626 6.41675 16.9584 6.41675H8.70842C8.20425 6.41675 7.79175 6.82925 7.79175 7.33341V18.3334C7.79175 18.8376 8.20425 19.2501 8.70842 19.2501Z" fill="#747474" />
+                                </svg>
+                            </div>
+                            <div class="post__actions--item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M18.3334 3.33341C18.3334 2.41675 17.5834 1.66675 16.6667 1.66675H3.33341C2.41675 1.66675 1.66675 2.41675 1.66675 3.33341V13.3334C1.66675 14.2501 2.41675 15.0001 3.33341 15.0001H15.0001L18.3334 18.3334V3.33341Z" fill="#747474" />
+                                </svg>
+                                bình luận (118)
+                            </div>
+                        </div>
+
+                        <span class="break-line"></span>
+
+                        <div class="post__tags list-scroll">
+                            <ul class="list-scroll__ul m-0">
+                                <li class="list-scroll__li">
+                                    <span>
+                                        MSI 2023
+                                    </span>
+                                </li>
+                                <li class="list-scroll__li">
+                                    <span>
+                                        MODERN WARFARE
+                                    </span>
+                                </li>
+                                <li class="list-scroll__li">
+                                    <span>
+                                        MSI 2023
+                                    </span>
+                                </li>
+                                <li class="list-scroll__li">
+                                    <span>
+                                        MODERN WARFARE
+                                    </span>
+                                </li>
+                                <li class="list-scroll__li">
+                                    <span>
+                                        MSI 2023
+                                    </span>
+                                </li>
+                                <li class="list-scroll__li">
+                                    <span>
+                                        MODERN WARFARE
+                                    </span>
+                                </li>
+                                <li class="list-scroll__li">
+                                    <span>
+                                        HONKAI STAR RA
+                                    </span>
+                                </li>
+                                <li class="list-scroll__li">
+                                    <span>
+                                        MSI 2023
+                                    </span>
+                                </li>
+                                <li class="list-scroll__li">
+                                    <span>
+                                        MODERN WARFARE
+                                    </span>
+                                </li>
+                                <li class="list-scroll__li">
+                                    <span>
+                                        HONKAI STAR RA
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="post__comment">
+                            <div class="post__comment--head">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 11C9 11.5523 8.55228 12 8 12C7.44772 12 7 11.5523 7 11C7 10.4477 7.44772 10 8 10C8.55228 10 9 10.4477 9 11ZM13 11C13 11.5523 12.5523 12 12 12C11.4477 12 11 11.5523 11 11C11 10.4477 11.4477 10 12 10C12.5523 10 13 10.4477 13 11ZM16 12C16.5523 12 17 11.5523 17 11C17 10.4477 16.5523 10 16 10C15.4477 10 15 10.4477 15 11C15 11.5523 15.4477 12 16 12Z" fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.96644 1.25L10 1.25H14L14.0336 1.25C15.4053 1.25 16.4807 1.24999 17.3451 1.32061C18.2252 1.39252 18.9523 1.54138 19.6104 1.87671C20.6924 2.42798 21.572 3.30762 22.1233 4.38955C22.4586 5.04769 22.6075 5.77479 22.6794 6.65494C22.75 7.51928 22.75 8.59471 22.75 9.96642V10V19.1708V19.1978C22.75 19.6879 22.75 20.0941 22.7279 20.4165C22.7057 20.74 22.6574 21.0718 22.5059 21.37C22.0963 22.1761 21.2439 22.6586 20.342 22.5952C20.0084 22.5717 19.699 22.4424 19.4102 22.295C19.1224 22.1481 18.774 21.9391 18.3538 21.6869L18.3306 21.673C17.7908 21.3491 17.5727 21.2197 17.3484 21.1195C16.9599 20.946 16.5476 20.8318 16.1253 20.7807C15.8814 20.7512 15.6277 20.75 14.9983 20.75H10H9.96642C8.59471 20.75 7.51928 20.75 6.65494 20.6794C5.77479 20.6075 5.04769 20.4586 4.38955 20.1233C3.30762 19.572 2.42798 18.6924 1.87671 17.6104C1.54138 16.9523 1.39252 16.2252 1.32061 15.3451C1.24999 14.4807 1.25 13.4053 1.25 12.0336L1.25 12V10L1.25 9.96644C1.25 8.59472 1.24999 7.51929 1.32061 6.65494C1.39252 5.77479 1.54138 5.04769 1.87671 4.38955C2.42798 3.30762 3.30762 2.42798 4.38955 1.87671C5.04769 1.54138 5.77479 1.39252 6.65494 1.32061C7.51929 1.24999 8.59472 1.25 9.96644 1.25ZM6.77708 2.81563C5.9897 2.87996 5.48197 3.00359 5.07054 3.21322C4.27085 3.62068 3.62068 4.27085 3.21322 5.07054C3.00359 5.48197 2.87996 5.9897 2.81563 6.77708C2.75058 7.57322 2.75 8.58749 2.75 10V12C2.75 13.4125 2.75058 14.4268 2.81563 15.2229C2.87996 16.0103 3.00359 16.518 3.21322 16.9295C3.62068 17.7291 4.27085 18.3793 5.07054 18.7868C5.48197 18.9964 5.9897 19.12 6.77708 19.1844C7.57322 19.2494 8.58749 19.25 10 19.25H14.9983L15.0473 19.25C15.6128 19.25 15.961 19.2499 16.3054 19.2916C16.8768 19.3607 17.4346 19.5152 17.9601 19.7499C18.2768 19.8914 18.5754 20.0706 19.0603 20.3615L19.1023 20.3868C19.5516 20.6563 19.8557 20.8383 20.0921 20.9589C20.3328 21.0818 20.4226 21.0971 20.4473 21.0989C20.748 21.12 21.0321 20.9592 21.1686 20.6905C21.1799 20.6684 21.2129 20.5835 21.2314 20.3139C21.2496 20.0491 21.25 19.6948 21.25 19.1708V10C21.25 8.58749 21.2494 7.57322 21.1844 6.77708C21.12 5.9897 20.9964 5.48197 20.7868 5.07054C20.3793 4.27085 19.7291 3.62068 18.9295 3.21322C18.518 3.00359 18.0103 2.87996 17.2229 2.81563C16.4268 2.75058 15.4125 2.75 14 2.75H10C8.58749 2.75 7.57322 2.75058 6.77708 2.81563Z" fill="white" />
+                                </svg>
+                                bình luận
+                            </div>
+
+                            <div class="post__comment--body">
+                                <div class="post__comment--warning">Nhập nội dung bình luận bằng tiếng Việt có dấu. Các bình luận thô tục, xúc phạm danh dự người khác, vi phạm thuần phong mỹ tục của người Việt Nam sẽ không được duyệt.</div>
+                                <input type="text" name="" id="" class="post__comment--input">
+                                <p class="post__comment--remaining-characters">Ký tự còn lại <span class="--warning">500</span> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="related-news">
+                        <div class="title-and-line">
+                            <span class="title-and-line__line"></span>
+                            <p class="title-and-line__title">
+                                Tin liên quan
+                            </p>
+                        </div>
+                        <div class="list-grid-post">
+                            <div class="list-grid-post__body list-grid-body">
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="list-grid-body__item">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="list-grid-body__item d-block d-lg-none">
+                                    <div class="list-grid-body__item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                        <p class="list-grid-body__item-title">
+                                            Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                        </p>
+                                    </div>
+                                    <div class=" d-flex d-lg-none align-items-center">
+                                        <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                        <ul class="m-0">
+                                            <li class="item-info__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-border esport">
+                        <div class="tab-scroll">
+                            <div class="tab-scroll__head">
+                                <p class="tab-scroll__head--title">
+                                    esport
+                                </p>
+                                <div class="tab-scroll__head--right">
+                                    <ul class=" tab-scroll__head--ul d-none d-lg-flex">
+                                        <li class="tab-scroll__head--li --active" target-data="highlight">Hightlight</li>
+                                        <li class="tab-scroll__head--li" target-data="battle">Giải đấu</li>
+                                        <li class="tab-scroll__head--li" target-data="star">Ngôi sao</li>
+                                    </ul>
+                                    <span class="break-line"></span>
+                                </div>
+                            </div>
+
+                            <div class="tab-scroll__body">
+                                <div id="highlight" class="tab-scroll__body--item-content">
+                                    <div class="list-scroll">
+                                        <ul class="list-scroll__ul">
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="battle" class="tab-scroll__body--item-content --hide">
+                                    <div class="list-scroll">
+                                        <ul class="list-scroll__ul">
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="star" class="tab-scroll__body--item-content --hide">
+                                    <div class="list-scroll">
+                                        <ul class="list-scroll__ul">
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                            <li class="list-scroll__li">
+                                                <img src="https://s3-alpha-sig.figma.com/img/2635/90ea/11b788525eb197088365698439f881f4?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=FUX~tMQXBrASvGDNaHBdBq7RiMPLgMY9~bfuG~HRJOa9JFzTrWcSjuCwDsG0Hh5~saKUP3Qnj1Ndf61bYZCNOlR3AC3rieitLTWAlUpvo9ypX~MIf2vU6Y3B0crldL57FGu207or38IA~P2aUIujCPqlfGcjxauWuqcmiugP4TnoRWW65iZ8be9-ey6g0X957MELBostRKV0j-a6AeXmHkoe0REkFieokMXpW0crpyI4YFVaVfjVPPCOMzTqju4WhcJJqRQdbmVZhPZ8vZ3PVnsC-jVnkvoJQNB5YOLw6J6rdRYSkdczNjl91XQaItC1LJHuVEibEwU9YFEGIpPVrQ__" alt="" class="list-scroll__image">
+                                                <p class="list-scroll__title">
+                                                    Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="break-line"></span>
+
+                    <div>
+                        <div class="list-post">
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block__right"></div>
+
+
+            </div>
         </div>
     </div>
 

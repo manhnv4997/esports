@@ -984,6 +984,13 @@
 
 .tab-scroll__head {
   display: flex;
+  gap: 0 5px;
+}
+.tab-scroll__head--right {
+  width: 100%;
+}
+.tab-scroll__head .break-line {
+  margin: 0;
 }
 .tab-scroll__head--title {
   color: #F00;
@@ -998,6 +1005,7 @@
   list-style: none;
   display: flex;
   gap: 0 25px;
+  margin: 0;
 }
 .tab-scroll__head--li {
   color: #ACACAC;
@@ -1010,6 +1018,9 @@
 }
 .tab-scroll__head--li.--active {
   color: #3A393E;
+}
+.tab-scroll__body {
+  margin-top: 25px;
 }
 .tab-scroll__body .--hide {
   display: none;

@@ -1,0 +1,234 @@
+@import "../../variables/colors"
+@import '../../utils/border'
+@import '../../common/base'
+@import '../../components/components'
+
+.page-content
+    .block-head
+        display: flex
+        justify-content: space-between
+        padding: 17px 0 15px
+
+    .line-color
+        display: flex
+        &__item
+            width: 25%
+
+        &__item:first-child
+            border: 1px solid $orangeColor
+        &__item:nth-child(2)
+            border: 1px solid $redColor1
+        &__item:nth-child(3)
+            border: 1px solid $greenColor2
+        &__item:nth-child(4)
+            border: 1px solid $blueColor3
+
+    .block
+        margin-top: 16px
+        gap: 0 26px
+
+        &__left
+            .break-line
+                margin: 28px 0 14px
+            .post
+                .break-line
+                    margin: 14px 0
+
+                &__title
+                    color: $blackColor
+                    font-family: Mulish
+                    font-size: 32px
+                    font-style: normal
+                    font-weight: 800
+                    line-height: 40px
+
+                &__description
+                    color: $grayColor10
+                    font-family: Merriweather
+                    font-size: 15px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 28px
+
+                &__info
+                    color: $blackColor
+                    font-family: Mulish
+                    font-size: 12px
+                    font-style: normal
+                    font-weight: 500
+                    line-height: 16px
+                    display: flex
+                    gap: 0 16px
+
+                    &--box-1
+                        display: flex
+                        gap: 0 4px
+
+                &__category
+                    display: flex
+                    gap: 0 4px
+                    margin: 0
+                    padding-left: 15px
+
+                &__time-created
+                    color: $grayColor2
+
+                &__content
+                    margin-top: 22px
+
+                &__image
+                    height: 393px
+                    width: 100%
+                    object-fit: cover
+
+                &__author
+                    margin-top: 54px
+                    color: $blackColor
+                    font-family: Mulish
+                    font-size: 12px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 26px
+
+                &__actions
+                    display: flex
+                    gap: 0 13px
+                    align-items: center
+                    margin-bottom: 25px
+
+                    &--item
+                        color: $grayColor11
+                        font-family: Mulish
+                        font-size: 12px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 26px
+                        text-transform: uppercase
+                        display: flex
+                        gap: 0 6px
+
+                &__tags
+                    margin-bottom: 23px
+
+                    .list-scroll__ul
+                        gap: 0 40px
+                        color: $grayColor7
+                        font-family: Mulish
+                        font-size: 12px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 26px
+
+                &__comment
+                    height: 196px
+                    border-radius: 6px
+                    border: 1px solid $redColor1
+                    overflow: hidden
+
+                    &--head
+                        padding: 10px 14px
+                        color: $whiteColor
+                        font-family: Mulish
+                        font-size: 14px
+                        font-style: normal
+                        font-weight: 900
+                        line-height: 28px
+                        text-transform: uppercase
+                        display: flex
+                        gap: 0 12px
+                        height: 43px
+                        background: $redColor1
+
+                    &--warning
+                        color: $grayColor12
+                        font-family: Mulish
+                        font-size: 14px
+                        font-style: normal
+                        font-weight: 400
+                        line-height: 24px
+
+                    &--body
+                        padding: 25px 22px 0
+
+                    &--input
+                        outline-width: 0
+                        width: 100%
+                        border-top: unset
+                        border-left: unset
+                        border-radius: unset
+                        border-right: unset
+                        border-bottom: .5px solid rgba(143, 143, 143, 0.20)
+
+                    &--remaining-characters
+                        color: #000
+                        text-align: right
+                        font-family: Mulish
+                        font-size: 14px
+                        font-style: normal
+                        font-weight: 400
+                        line-height: 24px
+                        margin-top: 10px
+
+                    .--warning
+                        color: $redColor1
+                        font-weight: 500
+
+            .related-news
+                margin-top: 42px
+
+                .break-line
+                    margin-top: 13px
+
+                .title-and-line__title
+                    left: 0
+                    padding-left: 0
+                    font-size: 24px
+                    font-weight: 800
+                    line-height: 28px
+
+                .list-grid-post__body
+                    padding-top: 18px
+                    display: grid
+                    gap: 13px 21px
+
+            .esport
+                margin-top: 41px
+                padding: 19px 0 29px 15px
+                .list-scroll
+                    &__li,
+                    &__image
+                        width: 237px
+                        height: 376px
+
+            .list-post
+                .item__text-content
+                    order: 2
+
+                .item__image
+                    order: 1
+
+                .hidden-box
+                    position: absolute
+                    width: 100%
+                    bottom: -30px
+                    height: 345px
+                    background: linear-gradient(0deg, #FFF 17.71%, rgba(255, 255, 255, 0) 100%)
+
+                .hidden-block
+                    position: relative
+                    height: 100%
+                    .btn-see-more
+                        position: absolute
+                        bottom: 44px
+                        left: 50%
+                        transform: translateX(-50%)
+                        border-radius: 200px
+                        border: 1px solid #F00
+                        background: #FFF
+                        color: #F00
+                        text-align: center
+                        font-family: Mulish
+                        font-size: 16px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 20px

@@ -775,12 +775,14 @@
                                 <p class="tab-scroll__head--title">
                                     esport
                                 </p>
-
-                                <ul class="tab-scroll__head--ul d-none d-lg-flex">
-                                    <li class="tab-scroll__head--li --active" target-data="highlight">Hightlight</li>
-                                    <li class="tab-scroll__head--li" target-data="battle">Giải đấu</li>
-                                    <li class="tab-scroll__head--li" target-data="star">Ngôi sao</li>
-                                </ul>
+                                <div class="tab-scroll__head--right">
+                                    <ul class=" tab-scroll__head--ul d-none d-lg-flex">
+                                        <li class="tab-scroll__head--li --active" target-data="highlight">Hightlight</li>
+                                        <li class="tab-scroll__head--li" target-data="battle">Giải đấu</li>
+                                        <li class="tab-scroll__head--li" target-data="star">Ngôi sao</li>
+                                    </ul>
+                                    <span class="break-line"></span>
+                                </div>
                             </div>
 
                             <div class="tab-scroll__body">
