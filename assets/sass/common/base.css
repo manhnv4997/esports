@@ -8,7 +8,7 @@ p {
 
 @media (max-width: 992px) {
   .--only-hidden-mobile {
-    display: none;
+    display: none !important;
   }
 }
 

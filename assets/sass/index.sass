@@ -100,6 +100,7 @@
                     gap: 0 6px
                     @media (max-width: 992px)
                         order: 1
+                        align-items: center
 
                 &__description
                     color: $blackColor
@@ -489,51 +490,6 @@
                 height: 250px
                 background-color: $grayColor3
 
-        .list-best-of-day
-            border: 1px solid $yellowColor2
-            background: $yellowColor1
-            padding: 18px 12px
-
-            &__head
-                display: flex
-                align-items: center
-                gap: 0 8px
-
-            &__title-image
-                width: 29px
-                height: 29px
-
-            &__title
-                margin: 0
-                color: $blackColor
-                font-family: Mulish
-                font-size: 20px
-                font-style: normal
-                font-weight: 700
-                line-height: 24px
-
-            &__body
-                margin-top: 8px
-
-                .break-line
-                    border: .5px dashed $yellowColor2
-                    margin: 16px 0 8px 0
-
-                .list-extend ul
-                    color: $yellowColor2
-                    list-style: circle
-
-                .carousel-indicators
-                    bottom: -20px
-
-                .carousel-indicators .active
-                    background-color: $yellowColor2
-
-                .carousel-indicators li
-                    width: 10px
-                    height: 10px
-                    border-radius: 50%
-                    background-color: $yellowColor3
     // ---- END BLOCK 4
 
     // ---- START BLOCK 5
@@ -955,6 +911,8 @@
     // ---- START BLOCK 10
     .block-10
         margin-top: 54px
+        @media(max-width:992px)
+            margin-top: 8px
 
         .title-and-line__title
             left: 0
@@ -977,6 +935,7 @@
                     @media (max-width: 992px)
                         border: unset
                         padding: 0
+                        margin-top: 34px
 
                     &--body
                         height: 733px
@@ -1071,8 +1030,6 @@
                         margin-top: 0px
                         max-height: 508px
                         overflow: hidden
-
-                tab-list__list--title
 
                 .tab-list
                     position: relative

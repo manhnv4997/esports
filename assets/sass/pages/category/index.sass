@@ -1,0 +1,343 @@
+@import "../../variables/colors"
+@import '../../utils/border'
+@import '../../common/base'
+@import '../../components/components'
+
+.page-content
+    // ---- START BLOCK 1
+    .block-1
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+
+        @media (max-width: 992px)
+            margin-top: 0
+            grid-template-columns: repeat(1,1fr)
+            margin-right: calc(-.5* 1.5rem)
+            margin-left: calc(-.5* 1.5rem)
+
+        .break-line
+            margin-bottom: 10px
+
+        .list-post
+            padding: 15px 12px 15px 15px
+
+        &.box-border
+            @media (max-width: 992px)
+                border: unset
+
+        .left-content
+            padding: 15px 15px 28px 15px
+            flex-shrink: 0
+            border-right: 0.5px solid $borderColor
+            @media (max-width: 992px)
+                padding: 0
+                border: unset
+
+            &__main-post
+                border-radius: 6px
+                // background: linear-gradient(0deg, $blueColor 0%, $blueColor 100%), url(<path-to-image>) lightgray 50% / cover no-repeat
+                @media (max-width: 992px)
+                    background: unset
+
+            &__list-post
+                color: $textColor
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 600
+                line-height: 20px
+                padding: 0 15px
+
+                & ul
+                    padding: 0
+                    margin: 0
+
+            .main-post
+                &__content
+                    padding: 12px 15px 29px 15px
+                    width: auto
+                    display: flex
+                    flex-flow: column
+
+                    @media (max-width: 992px)
+                        width: 100%
+                        height: auto
+                        display: flex
+                        flex-flow: column
+                        padding: 16px 12px 0 12px
+
+                &__image
+                    width: 100%
+                    height: 332px
+                    border-radius: 6px 6px 0px 0px
+
+                    @media (max-width: 992px)
+                        border-radius: unset
+                        height: 212px
+                        object-fit: cover
+
+                &__info
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    order: 3
+
+                    @media (max-width: 992px)
+                        order: 3
+                        border-bottom: 0.8px solid gray
+                        padding: 14px 0 16px 0
+                        justify-content: flex-start
+
+                &__time-comment
+                    color: $grayColor2
+                    display: flex
+                    gap: 0 6px
+                    @media (max-width: 992px)
+                        order: 1
+
+                &__description
+                    color: $blackColor
+                    font-family: Mulish
+                    font-size: 14px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 22px
+                    order: 2
+                    margin-top: 4px
+                    @media (max-width: 992px)
+                        order: 2
+
+                &__category
+                    color: $redColor
+                    font-family: Mulish
+                    font-size: 10px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 28px
+                    text-transform: uppercase
+                    @media (max-width: 992px)
+                        order: 2
+                        color: $redColor1
+                        font-family: Mulish
+                        font-size: 10px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 16px
+                        text-transform: uppercase
+
+                &__created-at,
+                &__created-at-hour
+                    color: $grayColor2
+                    text-align: right
+                    font-family: Mulish
+                    font-size: 10px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 28px
+
+                    @media (max-width: 992px)
+                        color: $grayColor2
+                        font-family: Mulish
+                        font-size: 10px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 16px
+                        text-transform: uppercase
+
+                &__title
+                    // color: $whiteColor
+                    font-family: Mulish
+                    font-size: 26px
+                    font-style: normal
+                    font-weight: 800
+                    line-height: 36px
+                    margin: 0
+                    order: 1
+
+                    @media (max-width: 992px)
+                        color: $blackColor1
+                        width: 100%
+                        order: 1
+                        height: auto
+
+                &__comment
+                    color: $grayColor2
+                    font-family: Mulish
+                    font-size: 11px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 28px
+
+            &__li
+                margin-bottom: 12px
+
+            &__li:last-child
+                margin-bottom: 0px
+
+        .right-content
+            padding: 15px
+            @media (max-width: 992px)
+                padding: 15px 12px
+
+            &__item
+                display: flex
+                flex-flow: column
+                border-bottom: 0.8px solid $borderColor
+                padding-bottom: 15px
+                margin-bottom: 15px
+
+                @media (max-width: 992px)
+                    padding-bottom: 12px
+                    margin-bottom: 12px
+
+            &__item:last-child
+                border-bottom: unset
+                padding-bottom: 0
+                margin-bottom: 0
+
+            &__item-content
+                display: flex
+                flex-flow: row
+                gap: 0 32px
+                @media (max-width: 992px)
+                    gap: 0 12px
+                    justify-content: space-between
+
+            &__title-box
+                display: flex
+                flex-flow: column
+                justify-content: space-between
+
+            &__title
+                color: $blackColor
+                font-family: Mulish
+                font-size: 17px
+                font-style: normal
+                font-weight: 700
+                line-height: 24px
+
+            &__info
+                align-items: flex-end
+                margin-top: 5px
+
+            & ul
+                margin: 0
+
+            &__image
+                width: 161px
+                height: 111px
+                flex-shrink: 0
+                border-radius: 4px
+                object-fit: cover
+                @media (max-width: 992px)
+                    width: 134px
+                    height: 93px
+                    flex-shrink: 0
+    // ---- END BLOCK 1
+
+    .block-2
+        margin-top: 22px
+
+        .block
+            &__left
+                margin-bottom: 63px
+                @media ( max-width: 992px )
+                    order: 2
+                    margin-top: 40px
+                .break-line
+                    margin: 14px 0
+
+                .list-post
+                    .--only-show-mobile
+                        display: none
+                        @media(max-width: 992px)
+                            display: block
+
+                    .item__text-content
+                        order: 2
+                    .item__image
+                        order: 1
+
+                .esport
+                    padding: 19px 0 29px 15px
+                    margin: 36px 0 28px
+
+                .list-post-first-big-post
+                    position: relative
+                    .break-line
+                        margin: 19px 0 14px
+
+                .hidden-box
+                    position: absolute
+                    width: 100%
+                    bottom: -30px
+                    height: 345px
+                    background: linear-gradient(0deg, #FFF 17.71%, rgba(255, 255, 255, 0.00) 100%)
+                    .hidden-block
+                        position: relative
+                        height: 100%
+
+                        .btn-see-more
+                            position: absolute
+                            bottom: 44px
+                            left: 50%
+                            transform: translateX(-50%)
+                            border-radius: 200px
+                            border: 1px solid $redColor1
+                            background: $whiteColor
+
+                            color: $redColor1
+                            text-align: center
+                            font-family: Mulish
+                            font-size: 16px
+                            font-style: normal
+                            font-weight: 700
+                            line-height: 20px
+
+            &__right
+                @media ( max-width: 992px )
+                    order: 1
+
+                .ads
+                    @media ( max-width: 992px )
+                        height: 100%
+                        border: unset
+                        padding: 0
+                        display: flex
+                        justify-content: center
+
+                .comments
+                    margin-top: 31px
+
+                .tab-news
+                    margin-top: 28px
+                    padding: 15px 11px 29px
+                    .tab-list__list
+                        margin: 0
+
+                .list-best-of-day
+                    margin: 22px 0 26px
+
+        &.block
+            .tab-news-mb
+                order: 3 !important
+                .tab-news
+                    padding: 15px 11px 2px
+
+                .tab-list
+                    position: relative
+
+                    &__list
+                        @media ( max-width: 992px )
+                            margin: 0
+
+                    &__block-hide
+                        background: linear-gradient(0deg, #FFF 45.83%, rgba(255, 255, 255, 0) 100%)
+                        width: 338px
+                        height: 50px
+                        position: absolute
+                        bottom: 0
+
+            .tags-hot-trend-mb
+                order: 4
+                margin: 28px 0 37px
