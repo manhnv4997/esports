@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="top-bar-pc d-none d-md-flex">
+    <div id="top-bar-pc" class="top-bar-pc d-none d-md-flex">
         <ul class="top-bar-pc__ul">
             <li class="top-bar-pc__li">
                 SEA Games
@@ -74,7 +74,7 @@
         </div>
     </div>
 
-    <div class="head">
+    <div id="head-pc" class="head">
         <div class="logo">
             <div class="logo__box">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="38" viewBox="0 0 30 38" fill="none">
@@ -204,7 +204,7 @@
 
 
 
-    <div class="homepage">
+    <div class="page-content">
         <div class="container-xl">
             <div class="block-1 box-border">
                 <div class="left-content">
@@ -3569,8 +3569,1644 @@
                 </div>
             </div>
 
+            <div class="block-9 d-none d-lg-block">
+                <div class="block-9__head">
+                    <div class="title-and-line">
+                        <span class="title-and-line__line"></span>
+                        <p class="title-and-line__title">
+                            Liên quân huyền thoại
+                        </p>
+                    </div>
+                </div>
 
+                <div class="block-9__body block">
+                    <div class="block__left">
+                        <div class="block__left--top">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.46967 18.5303C1.76256 18.8232 2.23744 18.8232 2.53033 18.5303L7.53028 13.5304C8.11837 12.9423 8.28895 12.7857 8.44496 12.7084C8.79467 12.5351 9.20526 12.5351 9.55498 12.7084C9.71099 12.7857 9.88157 12.9423 10.4697 13.5304C10.4987 13.5594 10.5273 13.588 10.5555 13.6163C11.0156 14.0771 11.3718 14.4339 11.779 14.6357C12.5484 15.0169 13.4516 15.0169 14.221 14.6357C14.6282 14.4339 14.9844 14.0771 15.4445 13.6163C15.4727 13.588 15.5013 13.5594 15.5303 13.5304L21.25 7.81072V12C21.25 12.4142 21.5858 12.75 22 12.75C22.4142 12.75 22.75 12.4142 22.75 12V6.00006C22.75 5.58585 22.4142 5.25006 22 5.25006H16C15.5858 5.25006 15.25 5.58585 15.25 6.00006C15.25 6.41427 15.5858 6.75006 16 6.75006H20.1893L14.4697 12.4697C13.8816 13.0578 13.711 13.2144 13.555 13.2917C13.2053 13.465 12.7947 13.465 12.445 13.2917C12.289 13.2144 12.1184 13.0578 11.5303 12.4697C11.5013 12.4407 11.4727 12.412 11.4445 12.3838C10.9844 11.9229 10.6282 11.5662 10.221 11.3644C9.45162 10.9831 8.54832 10.9831 7.77895 11.3644C7.37172 11.5662 7.01555 11.9229 6.55546 12.3838C6.52725 12.412 6.49865 12.4407 6.46962 12.4697L1.46967 17.4697C1.17678 17.7626 1.17678 18.2374 1.46967 18.5303Z" fill="#DD000C" />
+                            </svg>
+                            <div class="list-scroll">
+                                <ul class="list-scroll__ul">
+                                    <li class="list-scroll__li">
+                                        <span>
+                                            Tin tức
+                                        </span>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <span>
+                                            MSI 2023
+                                        </span>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <span>
+                                            MODERN WARFARE 2
+                                        </span>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <span>
+                                            HONKAI STAR RAIL PITY SYSTEM
+                                        </span>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <span>
+                                            GEN.G PEYZ
+                                        </span>
+                                    </li>
+                                    <li class="list-scroll__li">
+                                        <span>
+                                            DEMON SLAYER
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="block__left--center box-border">
+                            <div class="list-grid-post">
+                                <div class="list-grid-post__head list-grid-head">
+                                    <div class="list-grid-head__content-box">
+                                        <div class="list-grid-head__content">
+                                            <p class="list-grid-head__title">
+                                                HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
+                                            </p>
 
+                                            <div class="item-info-mb time-hour">
+                                                <ul class="time-hour">
+                                                    <li class="item-info-mb__category">Liên Quân Mobile</li>
+                                                </ul>
+                                                <div class="item-info-mb__time-comments">
+                                                    <span class="item-info-mb__created-hour">1 giờ trước</span>
+                                                    <span class="item-info-mb__comment">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 1.3335H2.66663C1.93329 1.3335 1.33329 1.9335 1.33329 2.66683V10.6668C1.33329 11.4002 1.93329 12.0002 2.66663 12.0002H12L14.6666 14.6668V2.66683C14.6666 1.9335 14.0666 1.3335 13.3333 1.3335ZM11.3333 7.3335H9.99996V6.00016H11.3333V7.3335ZM7.33329 7.3335H8.66663V6.00016H7.33329V7.3335ZM5.99996 7.3335H4.66663V6.00016H5.99996V7.3335Z" fill="white"></path>
+                                                        </svg>
+                                                        134
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-head__image">
+                                </div>
+                                <div class="list-grid-post__body list-grid-body">
+                                    <div class="list-grid-body__item">
+                                        <div class="list-grid-body__item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                            <p class="list-grid-body__item-title">
+                                                Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                            </p>
+                                        </div>
+                                        <div class=" d-flex d-lg-none align-items-center">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul class="m-0">
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                        <span class="break-line"></span>
+                                    </div>
+                                    <div class="list-grid-body__item">
+                                        <div class="list-grid-body__item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                            <p class="list-grid-body__item-title">
+                                                Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                            </p>
+                                        </div>
+                                        <div class=" d-flex d-lg-none align-items-center">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul class="m-0">
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                        <span class="break-line"></span>
+                                    </div>
+                                    <div class="list-grid-body__item">
+                                        <div class="list-grid-body__item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                            <p class="list-grid-body__item-title">
+                                                Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                            </p>
+                                        </div>
+                                        <div class=" d-flex d-lg-none align-items-center">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul class="m-0">
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="list-grid-body__item">
+                                        <div class="list-grid-body__item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                            <p class="list-grid-body__item-title">
+                                                Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                            </p>
+                                        </div>
+                                        <div class=" d-flex d-lg-none align-items-center">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul class="m-0">
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="list-grid-body__item d-block d-lg-none">
+                                        <div class="list-grid-body__item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
+                                            <p class="list-grid-body__item-title">
+                                                Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
+                                            </p>
+                                        </div>
+                                        <div class=" d-flex d-lg-none align-items-center">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul class="m-0">
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block__left--bottom">
+                            <div class="list-post">
+                                <div class="item">
+                                    <div class="item__content">
+                                        <div class="item__text-content">
+                                            <p class="item__title">
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </p>
+                                            <div class="item-info d-none d-lg-flex">
+                                                <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                                <ul>
+                                                    <li class="item-info__category">Ngôi sao</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                    </div>
+                                    <div class="item-info-mb d-flex d-lg-none">
+                                        <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                        <ul>
+                                            <li class="item-info-mb__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <span class="break-line"></span>
+                                <div class="item">
+                                    <div class="item__content">
+                                        <div class="item__text-content">
+                                            <p class="item__title">
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </p>
+                                            <div class="item-info d-none d-lg-flex">
+                                                <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                                <ul>
+                                                    <li class="item-info__category">Ngôi sao</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                    </div>
+                                    <div class="item-info-mb d-flex d-lg-none">
+                                        <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                        <ul>
+                                            <li class="item-info-mb__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <span class="break-line"></span>
+                                <div class="item">
+                                    <div class="item__content">
+                                        <div class="item__text-content">
+                                            <p class="item__title">
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </p>
+                                            <div class="item-info d-none d-lg-flex">
+                                                <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                                <ul>
+                                                    <li class="item-info__category">Ngôi sao</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                    </div>
+                                    <div class="item-info-mb d-flex d-lg-none">
+                                        <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                        <ul>
+                                            <li class="item-info-mb__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <span class="break-line"></span>
+                                <div class="item">
+                                    <div class="item__content">
+                                        <div class="item__text-content">
+                                            <p class="item__title">
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </p>
+                                            <div class="item-info d-none d-lg-flex">
+                                                <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                                <ul>
+                                                    <li class="item-info__category">Ngôi sao</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                    </div>
+                                    <div class="item-info-mb d-flex d-lg-none">
+                                        <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                        <ul>
+                                            <li class="item-info-mb__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <span class="break-line"></span>
+                                <div class="item">
+                                    <div class="item__content">
+                                        <div class="item__text-content">
+                                            <p class="item__title">
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </p>
+                                            <div class="item-info d-none d-lg-flex">
+                                                <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                                <ul>
+                                                    <li class="item-info__category">Ngôi sao</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                    </div>
+                                    <div class="item-info-mb d-flex d-lg-none">
+                                        <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                        <ul>
+                                            <li class="item-info-mb__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <span class="break-line"></span>
+                                <div class="item">
+                                    <div class="item__content">
+                                        <div class="item__text-content">
+                                            <p class="item__title">
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </p>
+                                            <div class="item-info d-none d-lg-flex">
+                                                <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                                <ul>
+                                                    <li class="item-info__category">Ngôi sao</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                    </div>
+                                    <div class="item-info-mb d-flex d-lg-none">
+                                        <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                        <ul>
+                                            <li class="item-info-mb__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <span class="break-line"></span>
+                                <div class="item">
+                                    <div class="item__content">
+                                        <div class="item__text-content">
+                                            <p class="item__title">
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </p>
+                                            <div class="item-info d-none d-lg-flex">
+                                                <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                                <ul>
+                                                    <li class="item-info__category">Ngôi sao</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                    </div>
+                                    <div class="item-info-mb d-flex d-lg-none">
+                                        <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                        <ul>
+                                            <li class="item-info-mb__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <span class="break-line"></span>
+                                <div class="item">
+                                    <div class="item__content">
+                                        <div class="item__text-content">
+                                            <p class="item__title">
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </p>
+                                            <div class="item-info d-none d-lg-flex">
+                                                <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                                <ul>
+                                                    <li class="item-info__category">Ngôi sao</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                    </div>
+                                    <div class="item-info-mb d-flex d-lg-none">
+                                        <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                        <ul>
+                                            <li class="item-info-mb__category">Ngôi sao</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__right">
+                        <div class="tags-hot-trend box-border">
+                            <div class="tags-hot-trend__head">
+                                <span class="tags-hot-trend__head--icon-box">
+                                    <span class="tags-hot-trend__head--icon">
+                                        #
+                                    </span>
+                                </span>
+                                <span class="tags-hot-trend__head--title">
+                                    Tags hot trend
+                                </span>
+                            </div>
+
+                            <div class="tags-hot-trend__body">
+                                <div class="tags-hot-trend__body--tag">
+                                    G2 Esport
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Team Liquid
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Natus Vincere
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Fnatic
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    T1
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    G2 Esport
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Team Liquid
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Natus Vincere
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Fnatic
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    T1
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    G2 Esport
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Team Liquid
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Natus Vincere
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Fnatic
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    T1
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    G2 Esport
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Team Liquid
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Natus Vincere
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Fnatic
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    T1
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    G2 Esport
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Team Liquid
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Natus Vincere
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    Fnatic
+                                </div>
+                                <div class="tags-hot-trend__body--tag">
+                                    T1
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="comments">
+                            <div class="comments__title-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5562 2.4823C12.7601 2.41726 11.7458 2.41667 10.3333 2.41667H9.16663C7.99151 2.41667 7.14773 2.41708 6.4819 2.46251C5.8228 2.50748 5.39303 2.59405 5.04022 2.74018C3.99885 3.17153 3.17149 3.9989 2.74014 5.04027C2.594 5.39308 2.50743 5.82285 2.46246 6.48195C2.41703 7.14778 2.41663 7.99156 2.41663 9.16667C2.41663 10.3418 2.41703 11.1856 2.46246 11.8514C2.50743 12.5105 2.594 12.9403 2.74014 13.2931C3.17149 14.3344 3.99885 15.1618 5.04022 15.5932C5.39303 15.7393 5.8228 15.8259 6.4819 15.8708C7.14773 15.9163 7.99151 15.9167 9.16663 15.9167H12.4985H12.521C12.7806 15.9167 12.9404 15.9167 13.0992 15.9254C13.9252 15.9711 14.7315 16.1945 15.4633 16.5802C15.604 16.6544 15.741 16.7367 15.9636 16.8702L15.9829 16.8818C16.428 17.1488 16.5383 17.2095 16.5941 17.2282C17.0172 17.3706 17.4703 17.1141 17.5659 16.678C17.5785 16.6205 17.5833 16.4947 17.5833 15.9757V9.66667C17.5833 8.25416 17.5827 7.23989 17.5177 6.44376C17.4533 5.65638 17.3297 5.14864 17.1201 4.73721C16.7126 3.93752 16.0624 3.28736 15.2628 2.87989C14.8513 2.67026 14.3436 2.54663 13.5562 2.4823ZM0.916626 9.16667V9.19451C0.916623 10.3358 0.91662 11.2306 0.965941 11.9535C1.01612 12.689 1.11985 13.3011 1.35432 13.8671C1.93791 15.276 3.05728 16.3954 4.4662 16.979C5.03224 17.2134 5.64432 17.3172 6.37979 17.3674C7.10262 17.4167 7.99739 17.4167 9.13859 17.4167H9.13862H9.13878H9.16663H12.4985C12.7874 17.4167 12.9039 17.4169 13.0164 17.4232C13.6269 17.4569 14.2229 17.622 14.7637 17.9071C14.8634 17.9597 14.9634 18.0194 15.2111 18.168L15.2889 18.2147C15.6137 18.41 15.8819 18.5712 16.1158 18.6499C17.3851 19.077 18.7442 18.3075 19.0311 16.9993C19.0839 16.7583 19.0837 16.4453 19.0833 16.0664L19.0833 15.9757V9.66667V9.63309V9.63304V9.633C19.0833 8.26133 19.0833 7.18593 19.0127 6.32161C18.9408 5.44147 18.7919 4.71436 18.4566 4.05623C17.9053 2.97429 17.0257 2.09466 15.9437 1.54338C15.2856 1.20805 14.5585 1.05919 13.6784 0.987284C12.814 0.916664 11.7386 0.916667 10.3668 0.916672L10.3333 0.916672H9.16663H9.13879C7.9975 0.916669 7.10266 0.916666 6.37979 0.965987C5.64432 1.01617 5.03224 1.1199 4.4662 1.35436C3.05728 1.93795 1.93791 3.05733 1.35432 4.46624C1.11985 5.03229 1.01612 5.64437 0.965941 6.37984C0.91662 7.10271 0.916623 7.99754 0.916626 9.13883V9.16667ZM5.08329 6.66667C5.08329 6.25246 5.41908 5.91667 5.83329 5.91667H12.5C12.9142 5.91667 13.25 6.25246 13.25 6.66667C13.25 7.08089 12.9142 7.41667 12.5 7.41667H5.83329C5.41908 7.41667 5.08329 7.08089 5.08329 6.66667ZM5.83329 9.25C5.41908 9.25 5.08329 9.58579 5.08329 10C5.08329 10.4142 5.41908 10.75 5.83329 10.75H9.16663C9.58084 10.75 9.91663 10.4142 9.91663 10C9.91663 9.58579 9.58084 9.25 9.16663 9.25H5.83329Z" fill="#22272F"></path>
+                                </svg>
+                                <p class="comments__title">
+                                    Phân tích
+                                </p>
+                            </div>
+                            <div class="comments__body">
+                                <div class="list-post">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title">
+                                                    dsfs dfs df sd fsd fs dfHành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ads box-border">
+                            <div class="ads__content">
+                                ADS
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block-10">
+                <div class="block three-col">
+                    <div class="block__col">
+                        <div class="block__col--head">
+                            <div class="title-and-line">
+                                <span class="title-and-line__line"></span>
+                                <p class="title-and-line__title">
+                                    Ngôi sao
+                                </p>
+                            </div>
+                        </div>
+                        <div class="block__col--body">
+                            <div class="post-and-list-extend">
+                                <div class="post-and-list-extend__post post">
+                                    <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="post__image">
+
+                                    <div class="post__title-box">
+                                        <p class="post__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+
+                                        <div class="item-info">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <span class="break-line"></span>
+
+                                <div class="list-post">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title limit-row-title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="break-line"></span>
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title limit-row-title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+
+                                <div class="post-and-list-extend__list-extend list-extend">
+                                    <ul class="list-extend__ul">
+                                        <li class="list-extend__li">
+                                            <span>
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li">
+                                            <span>
+                                                Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li --only-hidden-mobile">
+                                            <span>
+                                                Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li --only-hidden-mobile">
+                                            <span>
+                                                Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li --only-hidden-mobile">
+                                            <span>
+                                                Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="focus-football d-flex d-lg-none">
+                        <div class="focus-football__title-box">
+                            <p class="focus-football__title">tiêu điểm bóng đá</p>
+                            <p class="focus-football__see-more">Xem thêm +</p>
+                        </div>
+                        <div class="focus-football__list-extend list-extend">
+                            <ul class="list-extend__ul">
+                                <li class="list-extend__li">
+                                    <span>
+                                        Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                    </span>
+                                </li>
+                                <li class="list-extend__li">
+                                    <span>
+                                        Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="block__col">
+                        <div class="col__head">
+                            <div class="title-and-line">
+                                <span class="title-and-line__line"></span>
+                                <p class="title-and-line__title">
+                                    Góc fandom
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col__body">
+                            <div class="post-and-list-extend">
+                                <div class="post-and-list-extend__post post">
+                                    <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="post__image">
+
+                                    <div class="post__title-box">
+                                        <p class="post__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+
+                                        <div class="item-info">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <span class="break-line"></span>
+
+                                <div class="list-post">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title limit-row-title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="break-line"></span>
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title limit-row-title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+
+                                <div class="post-and-list-extend__list-extend list-extend">
+                                    <ul class="list-extend__ul">
+                                        <li class="list-extend__li">
+                                            <span>
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li">
+                                            <span>
+                                                Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li --only-hidden-mobile">
+                                            <span>
+                                                Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li --only-hidden-mobile">
+                                            <span>
+                                                Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li --only-hidden-mobile">
+                                            <span>
+                                                Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__col">
+                        <div class="col__head">
+                            <div class="title-and-line">
+                                <span class="title-and-line__line"></span>
+                                <p class="title-and-line__title">
+                                    Livestream
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col__body">
+                            <div class="post-and-list-extend">
+                                <div class="post-and-list-extend__post post">
+                                    <img src="https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="post__image">
+
+                                    <div class="post__title-box">
+                                        <p class="post__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+
+                                        <div class="item-info">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <span class="break-line"></span>
+
+                                <div class="list-post">
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title limit-row-title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="break-line"></span>
+                                    <div class="item">
+                                        <div class="item__content">
+                                            <div class="item__text-content">
+                                                <p class="item__title limit-row-title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                                </p>
+                                            </div>
+                                            <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                        </div>
+                                        <div class="item-info-mb d-flex d-lg-none">
+                                            <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info-mb__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="break-line"></span>
+                                </div>
+
+                                <div class="post-and-list-extend__list-extend list-extend">
+                                    <ul class="list-extend__ul">
+                                        <li class="list-extend__li">
+                                            <span>
+                                                Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li">
+                                            <span>
+                                                Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li --only-hidden-mobile">
+                                            <span>
+                                                Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li --only-hidden-mobile">
+                                            <span>
+                                                Cosplay Yor Forger khiến fan xịt máu mũi của Aqua
+                                            </span>
+                                        </li>
+                                        <li class="list-extend__li --only-hidden-mobile">
+                                            <span>
+                                                Giải đấu lớn nhất thế giới của Dota 2 trở lại trong năm nay
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block__left d-none d-lg-block">
+                        <div class="list-post">
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="break-line"></span>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="item__text-content">
+                                        <p class="item__title">
+                                            Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
+                                        </p>
+                                        <div class="item-info d-none d-lg-flex">
+                                            <span class="item-info__created-at">23/01/2022 18:24 </span>
+                                            <ul>
+                                                <li class="item-info__category">Ngôi sao</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <img src=" https://s3-alpha-sig.figma.com/img/2c2c/078d/cb2601a2b022a9e2791d70aaafae7e12?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=DcpgqWpV5qA9K1ensQWFhNpMGmv~zunzcK-6Xo8A4ACHZ~2hvI1FjM47i~UEuQ7e1pYsjcvhuFcF9KNyxdTI1F9E4~XG8RaGh7nX1TNJZu3x9zZ3WLjIhlJuBPUVMcOEk~pgHnpBCf1Iu2x9TXuZIovul9~rZAhJ0rFRTLX6yo2iPoIraRB~HkZYxtgB5UwtTgtFqtx7sK5qx5JdtTHf2idEqYdbXoaIMrEdgW96o3dsnh0o~z8cihTBvakFGP8CSN68w8HsNltJ~eI-36IXg4bnJeW~CWo-0FsVaW0lKrLUYAZmRzlxuMEm2cQ8LsEYT1Amo8p8xuONoAaumzBbGQ__" alt="" class="item__image">
+                                </div>
+                                <div class="item-info-mb d-flex d-lg-none">
+                                    <span class="item-info-mb__created-at">23/01/2022 18:24 </span>
+                                    <ul>
+                                        <li class="item-info-mb__category">Ngôi sao</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hidden-box">
+                            <div class="hidden-block">
+
+                                <button class="btn btn-see-more">
+                                    Xem thêm tin
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.53033 6.46967C8.23744 6.17678 7.76256 6.17678 7.46967 6.46967C7.17678 6.76256 7.17678 7.23744 7.46967 7.53033L7.96967 8.03033L11.4697 11.5303C11.7626 11.8232 12.2374 11.8232 12.5303 11.5303L16.0303 8.03033L16.5303 7.53033C16.8232 7.23744 16.8232 6.76256 16.5303 6.46967C16.2374 6.17678 15.7626 6.17678 15.4697 6.46967L14.9697 6.96967L12 9.93934L9.03033 6.96967L8.53033 6.46967ZM4.53033 9.46967C4.23744 9.17678 3.76256 9.17678 3.46967 9.46967C3.17678 9.76256 3.17678 10.2374 3.46967 10.5303L9.20693 16.2676L9.22845 16.2891L9.22846 16.2891C9.60615 16.6668 9.9214 16.9821 10.2 17.2186C10.4906 17.4653 10.7902 17.67 11.1502 17.787C11.7025 17.9664 12.2975 17.9664 12.8498 17.787C13.2098 17.67 13.5094 17.4653 13.8 17.2186C14.0786 16.9821 14.3939 16.6668 14.7716 16.2891L14.7931 16.2676L20.5303 10.5303C20.8232 10.2374 20.8232 9.76256 20.5303 9.46967C20.2374 9.17678 19.7626 9.17678 19.4697 9.46967L13.7324 15.2069C13.3276 15.6117 13.0556 15.883 12.8292 16.0751C12.6096 16.2615 12.4829 16.329 12.3863 16.3604C12.1352 16.442 11.8648 16.442 11.6137 16.3604C11.5171 16.329 11.3904 16.2615 11.1708 16.0751C10.9445 15.883 10.6724 15.6117 10.2676 15.2069L4.53033 9.46967Z" fill="#FF0000" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__right">
+                        <div class="block__right--top box-border d-none d-lg-block">
+                            <div class="ads">ADS</div>
+                        </div>
+                        <div class="block__right--bottom box-border">
+                            <div class="tab-list">
+                                <div class="tab-list__list-tab">
+                                    <ul class="tab-list__list-tab--ul">
+                                        <li class="tab-list__list-tab--li --active" target-data="newest-2">
+                                            Mới nhất
+                                        </li>
+                                        <li class="tab-list__list-tab--li" target-data="read-a-lot-2">
+                                            Đọc nhiều
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="tab-list__tab--content">
+                                    <div id="newest-2" class="tab-list__tab--item-content">
+                                        <ul class="tab-list__list">
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">1</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">2</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">3</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">4</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">5</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">6</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">7</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">8</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">9</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                    <span class="break-line"></span>
+                                                </p>
+                                            </li>
+                                            <li class="tab-list__list--item">
+                                                <span class="tab-list__list--index">10</span>
+                                                <p class="tab-list__list--title">
+                                                    Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh"
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="read-a-lot-2" class="tab-list__tab--item-content --hide">
+                                        Đọc nhiều
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="right-content__block-hide tab-list__block-hide"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tags-hot-trend-mb d-block d-lg-none">
+                <div class="tags-hot-trend box-border">
+                    <div class="tags-hot-trend__head">
+                        <span class="tags-hot-trend__head--icon-box">
+                            <span class="tags-hot-trend__head--icon">
+                                #
+                            </span>
+                        </span>
+                        <span class="tags-hot-trend__head--title">
+                            Tags hot trend
+                        </span>
+                    </div>
+
+                    <div class="tags-hot-trend__body">
+                        <div class="tags-hot-trend__body--tag">
+                            G2 Esport
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Team Liquid
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Natus Vincere
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Fnatic
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            T1
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            G2 Esport
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Team Liquid
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Natus Vincere
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Fnatic
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            T1
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            G2 Esport
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Team Liquid
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Natus Vincere
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Fnatic
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            T1
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            G2 Esport
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Team Liquid
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Natus Vincere
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Fnatic
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            T1
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            G2 Esport
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Team Liquid
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Natus Vincere
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            Fnatic
+                        </div>
+                        <div class="tags-hot-trend__body--tag">
+                            T1
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span class="break-line important"></span>
+        <div class="footer__top container-xl">
+            <img src="https://s3-alpha-sig.figma.com/img/0f91/99fa/4b9ae15b4a831be966df5d1a4a2d3f29?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NeiwMmxmctFy0mCOhNzuGnE7VAwVHHLTJuc-~0G3Tqco2KI1GwZ~df950tNPA9Co1AtasRBREhho8kPvwobTLCS3QTwWC-7QYXchWKt00Vzwe27R~IlgDJHELXoIMTgsHQZDpTFs8tk62wX8t3AMGzZFxc1Ay9bqqEik-FnXwv5MMWqOnXQdTVqHELIxUVyaHJTApuDc1egw0bpzv~iwqVzoDw4SdB7iE-9mL5PcKD2R9ZHfBVh49ppmEJMW4gC8C~1KmTV5WRgHl1qSTfsZHfR~~KkvlF6WODW8kqPSoCeb5SY-DdR1xhvbeLEpsCXlMiebcghrImmiRx9sy5mKBw__" alt="" class="footer__top--logo-1">
+            <div class="logo">
+                <div class="logo__box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="38" viewBox="0 0 30 38" fill="none">
+                        <g clip-path="url(#clip0_1694_2164)">
+                            <path d="M24.6 10.2201C24.3083 10.3923 24.0562 10.624 23.86 10.9001C23.4651 11.5237 22.8895 12.012 22.21 12.3001C22.0697 12.3334 21.9444 12.4123 21.8539 12.5246C21.7634 12.6368 21.7128 12.7759 21.71 12.9201C21.6801 13.3931 21.5016 13.8445 21.2 14.2101C20.8759 14.6348 20.6825 15.1446 20.6435 15.6774C20.6044 16.2101 20.7213 16.7427 20.98 17.2101C21.04 17.3401 21.23 17.5401 21.08 17.6301C20.46 17.9801 20.77 18.4701 20.83 18.9401C21.0748 21.0649 21.205 23.2013 21.22 25.3401C21.22 26.7801 21.08 27.0301 19.74 27.4201C19.19 27.5801 19.19 27.8101 19.43 28.1701C20.3765 29.6698 21.0281 31.3362 21.35 33.0801C21.4041 33.3112 21.5219 33.5225 21.69 33.6901C22.64 34.6201 22.75 36.0001 23.53 37.0201C23.79 37.3601 23.53 37.4901 23.27 37.5901C22.5708 37.8181 21.8307 37.8932 21.1 37.8101C20.79 37.8101 20.71 37.5501 20.71 37.3301C20.71 34.2401 18.65 32.1301 17.01 29.8401C16.0007 28.5395 15.0691 27.1805 14.22 25.7701C14.1272 25.5532 13.9607 25.3761 13.75 25.2701C11.66 24.4201 9.63001 23.2701 7.26001 24.2701C6.82373 24.4632 6.34458 24.539 5.87 24.4901C5.73 24.4901 5.53999 24.4901 5.45999 24.3601C5.37999 24.2301 5.46 24.0601 5.62 23.9601L7.78 22.1501C7.9 22.0501 8.03999 21.9901 8.14999 21.8801C9.21999 20.8801 10.06 20.8801 11.02 22.1501C11.24 22.4301 11.55 22.4201 11.85 22.5701C11.8854 22.1355 11.8126 21.6989 11.6381 21.2993C11.4636 20.8997 11.1928 20.5495 10.85 20.2801C10.5132 19.9866 10.2844 19.5888 10.2 19.1501C10.2118 18.4249 10.0932 17.7034 9.85001 17.0201C9.63001 16.5801 9.97 16.1201 10.31 15.7701C10.65 15.4201 10.88 15.2301 10.68 14.8301C10.12 13.7301 10.68 12.8301 11.21 11.9501C11.5792 11.3322 11.8192 10.6459 11.9155 9.93253C12.0118 9.2192 11.9622 8.49376 11.77 7.80011C11.4658 6.88738 10.9521 6.05858 10.27 5.38012C10.08 5.18012 9.78002 5.0701 9.83002 4.7101C9.83002 4.5301 9.74 4.46011 9.56 4.41011C7.38867 3.77818 5.27183 2.97223 3.23001 2.00011C2.63187 1.75686 1.99537 1.62143 1.35001 1.6001C0.830006 1.6001 0.470006 1.53011 0.350006 0.940113C0.350006 0.730113 0.11 0.560104 0 0.400104C0.575016 0.0345264 1.26493 -0.105413 1.93695 0.00720542C2.60897 0.119824 3.2156 0.477039 3.64001 1.0101C3.90227 1.23153 4.22773 1.36452 4.57001 1.39011C6.34001 1.60011 7.99 2.32011 9.72 2.69011C10.6833 3.02905 11.6989 3.19493 12.72 3.1801C13.27 3.1101 13.72 3.5601 14.13 3.9301C14.8149 4.465 15.673 4.72849 16.54 4.67011C16.76 4.67011 17.12 4.6701 16.98 4.1801C16.826 3.84172 16.7886 3.46181 16.8737 3.09989C16.9587 2.73797 17.1614 2.41448 17.45 2.1801C17.9301 1.66211 18.5473 1.29107 19.23 1.11011C19.7736 0.980904 20.3424 1.00606 20.8725 1.18274C21.4025 1.35942 21.8727 1.6806 22.23 2.11011C22.55 2.47011 22.98 2.87011 22.23 3.52011C21.8 3.88011 21.96 4.93011 21.86 5.67011C21.86 5.67011 21.86 5.67011 21.86 5.73011C23.31 6.06011 24.23 7.45011 25.74 7.66011C26.1 7.81011 26.04 8.10011 25.97 8.38011C25.902 8.77279 25.7425 9.14394 25.5045 9.46358C25.2666 9.78322 24.9567 10.0424 24.6 10.2201Z" fill="#EA1D26"></path>
+                            <path d="M29.17 10.0798C28.9763 9.61005 28.7134 9.17188 28.39 8.77982C27.81 8.20982 27.16 8.37983 26.77 9.10983C26.52 9.57983 26.28 10.0598 26.04 10.5498V10.6398C26.0981 10.7936 26.1319 10.9556 26.14 11.1198C26.1542 11.2615 26.2139 11.3948 26.31 11.4998C26.5736 11.7469 26.906 11.9079 27.2633 11.9614C27.6205 12.015 27.9856 11.9587 28.31 11.7998C28.9 11.3598 28.88 11.1498 28.21 10.6598C27.8 10.3298 27.21 10.3398 26.83 9.71983L27.12 9.77982V9.71983C27.12 9.71983 27.12 9.71982 27.18 9.77982C27.6394 9.86283 28.0659 10.0743 28.41 10.3898C28.6 10.5098 28.77 10.6998 29.02 10.4798C29.27 10.2598 29.24 10.2198 29.17 10.0798Z" fill="#EA1D26"></path>
+                            <path d="M26.2 11.4898C25.92 11.7998 25.59 11.8098 25.36 11.4898C25.13 11.1698 25.45 10.9498 25.71 10.7798C25.84 10.8898 25.78 11.0498 25.81 11.1798C25.8496 11.2501 25.9137 11.3035 25.99 11.3298C26.0754 11.3592 26.149 11.4153 26.2 11.4898Z" fill="#EA1D26"></path>
+                            <path d="M25.58 11.3598L25.7099 10.7798L26.0399 10.5498C26.2199 10.9998 26.05 11.3098 25.58 11.3598Z" fill="#EA1D26"></path>
+                            <path d="M26.2 11.4899H25.86C25.86 11.1899 26.01 11.0099 26.33 11.0199V11.5199L26.2 11.4899Z" fill="#EA1D26"></path>
+                            <path d="M25.3699 10.3102L25.1899 10.2302C25.1899 10.0302 25.3799 10.0002 25.5499 9.99023C25.5899 10.1002 25.5699 10.2302 25.3699 10.3102Z" fill="#EA1D26"></path>
+                            <path d="M26.33 10.9998L25.86 11.4698C25.75 11.4698 25.63 11.4698 25.58 11.3598C25.7076 11.2595 25.8134 11.1341 25.8908 10.9913C25.9682 10.8486 26.0155 10.6915 26.0299 10.5298C26.3699 10.5398 26.36 10.7598 26.33 10.9998Z" fill="#EA1D26"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1694_2164">
+                                <rect width="29.2" height="37.85" fill="white"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="logo__e">
+                        e
+                    </span>
+                    <span class="logo__s">
+                        s
+                    </span>
+                    <span class="logo__p">
+                        p
+                    </span>
+                    <span class="logo__o">
+                        o
+                    </span>
+                    <span class="logo__r">
+                        r
+                    </span>
+                    <span class="logo__t">
+                        t
+                    </span>
+                    <span class="logo__s">
+                        s
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="footer__center container-xl">
+            <div class="footer__center--left">
+                <div class="info">
+                    <div class="info__box-p">
+                        <p class="tag-p-1">Tạp chí của Liên đoàn Bóng đá Việt Nam</p>
+                        <p class="tag-p-2">
+                            <span>
+                                Giấy phép số 02/GP-BTTTT
+                            </span>
+                            <span class="--only-show-mobile"> &#160</span>
+                            <span>
+                                cấp ngày 04/01/2016
+                            </span>
+                        </p>
+                    </div>
+                    <p class="tag-p-3">
+                        Tổng biên tập:
+                        </br>
+                        <b>
+                            Nguyễn Tùng Điển
+                        </b>
+                    </p>
+                </div>
+                <ul class="footer__center--ul d-none d-lg-block">
+                    <li class="footer__center--li">
+                        Tin tức
+                    </li>
+                    <li class="footer__center--li">
+                        Bên lề
+                    </li>
+                    <li class="footer__center--li">
+                        Bình luận
+                    </li>
+                    <li class="footer__center--li">
+                        Chấm điểm
+                    </li>
+                    <li class="footer__center--li">
+                        Chuyên gia
+                    </li>
+                </ul>
+                <ul class="footer__center--ul d-none d-lg-block">
+                    <li class="footer__center--li">
+                        Điểm tin
+                    </li>
+                    <li class="footer__center--li">
+                        Đội tuyển
+                    </li>
+                    <li class="footer__center--li">
+                        Infographic
+                    </li>
+                    <li class="footer__center--li">
+                        Lịch sử
+                    </li>
+                    <li class="footer__center--li">
+                        Longform
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__center--right">
+                <ul class="footer__center--ul d-none d-lg-block">
+                    <li class="footer__center--li">
+                        Magazine
+                    </li>
+                    <li class="footer__center--li">
+                        Nhận định
+                    </li>
+                    <li class="footer__center--li">
+                        Phỏng vấn
+                    </li>
+                    <li class="footer__center--li">
+                        Rùa dự đoán
+                    </li>
+                    <li class="footer__center--li">
+                        Soi kèo
+                    </li>
+                </ul>
+                <ul class="footer__center--ul d-none d-lg-block">
+                    <li class="footer__center--li">
+                        Tư vấn kèo
+                    </li>
+                    <li class="footer__center--li">
+                        Tường thuật
+                    </li>
+                    <li class="footer__center--li">
+                        Highlight
+                    </li>
+                    <li class="footer__center--li">
+                        Toplist
+                    </li>
+                    <li class="footer__center--li">
+                        Hiện trường
+                    </li>
+
+                </ul>
+                <div class="info-follow">
+                    <p class="info-follow__text">Theo dõi thông tin</p>
+                    <div class="info-follow__socials">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="116" height="29" viewBox="0 0 116 29" fill="none">
+                            <path d="M28.2071 14.1897C28.2071 6.35296 21.8927 0 14.1036 0C6.31437 0 0 6.35296 0 14.1897C0 21.2721 5.15744 27.1426 11.8999 28.2071V18.2915H8.31889V14.1897H11.8999V11.0636C11.8999 7.50726 14.0055 5.54287 17.227 5.54287C18.7696 5.54287 20.384 5.82001 20.384 5.82001V9.31202H18.6057C16.8537 9.31202 16.3072 10.4059 16.3072 11.5292V14.1897H20.2188L19.5935 18.2915H16.3072V28.2071C23.0497 27.1426 28.2071 21.2721 28.2071 14.1897Z" fill="#656565" />
+                            <path d="M53.1652 24.6812C63.3634 24.6812 68.9429 16.5413 68.9429 9.48451C68.9429 9.25568 68.9376 9.02176 68.9271 8.79292C70.0124 8.03689 70.9491 7.10044 71.6931 6.02757C70.6822 6.46076 69.609 6.74366 68.51 6.86664C69.6671 6.19856 70.5336 5.14903 70.9486 3.91263C69.86 4.53402 68.6695 4.97236 67.4282 5.20885C66.5918 4.35285 65.4859 3.78608 64.2815 3.59616C63.0771 3.40624 61.8413 3.60375 60.7652 4.15816C59.689 4.71257 58.8325 5.59299 58.3279 6.66331C57.8234 7.73363 57.699 8.93423 57.9739 10.0795C55.7696 9.97294 53.6132 9.42142 51.6445 8.46067C49.6757 7.49992 47.9385 6.1514 46.5456 4.50251C45.8376 5.67819 45.6209 7.06941 45.9397 8.3934C46.2584 9.7174 47.0886 10.8748 48.2614 11.6305C47.3809 11.6036 46.5197 11.3752 45.7489 10.9643V11.0304C45.7481 12.2642 46.1909 13.4602 47.0021 14.4151C47.8133 15.3699 48.9428 16.0247 50.1986 16.2682C49.3829 16.4832 48.5268 16.5145 47.6965 16.3597C48.0509 17.4208 48.7403 18.3488 49.6686 19.0143C50.597 19.6798 51.7178 20.0496 52.8748 20.072C50.9106 21.5581 48.4842 22.3641 45.9864 22.3603C45.5435 22.3597 45.101 22.3335 44.6613 22.282C47.1987 23.85 50.1504 24.6827 53.1652 24.6812Z" fill="#656565" />
+                            <path d="M101.066 0H102.608C103.107 0.0622406 103.608 0.11016 104.103 0.189476C106.548 0.594315 108.752 1.55987 110.671 3.13076C113.507 5.45019 115.22 8.42341 115.773 12.0537C115.838 12.4779 115.883 12.9053 115.939 13.3311V14.8733C115.877 15.363 115.833 15.8548 115.751 16.3412C115.216 19.543 113.763 22.2596 111.38 24.4617C109.255 26.4236 106.757 27.617 103.885 28.0419C103.461 28.1041 103.034 28.152 102.609 28.2071H101.066C100.703 28.1647 100.34 28.1283 99.9791 28.0782C97.1441 27.6822 94.6363 26.5586 92.4992 24.65C89.96 22.3807 88.4172 19.5562 87.9027 16.182C87.8366 15.7491 87.7926 15.3128 87.7375 14.8777V13.3355C87.7546 13.2556 87.776 13.1768 87.7876 13.0959C87.8834 12.4261 87.9418 11.7481 88.0779 11.0865C89.2307 5.46616 94.0882 0.936363 99.7615 0.165241C100.196 0.106305 100.631 0.0550802 101.066 0ZM101.826 19.7738V19.7363C102.009 19.7363 102.193 19.7435 102.377 19.7363C104.016 19.6603 105.656 19.6047 107.293 19.4945C108.248 19.4301 108.852 18.8578 109.071 17.9286C109.137 17.6529 109.185 17.3732 109.215 17.0914C109.423 15.1284 109.407 13.1482 109.166 11.189C109.006 9.90672 108.336 9.2353 107.04 9.13835C105.989 9.05941 104.937 9.0001 103.883 8.96045C101.435 8.86225 98.9828 8.92149 96.5421 9.1378C95.4102 9.24246 94.7244 9.83126 94.5658 10.9554C94.4353 11.9269 94.3546 12.9044 94.324 13.8841C94.2688 15.1861 94.3485 16.4904 94.5619 17.776C94.7222 18.7069 95.2725 19.2836 96.1978 19.4697C96.5572 19.5424 96.9216 19.5871 97.2878 19.6036C98.8003 19.6708 100.313 19.7187 101.826 19.7738Z" fill="#656565" />
+                            <path d="M100.452 16.8985V12.2437L104.177 14.5697L100.452 16.8985Z" fill="#656565" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none">
+                            <g clip-path="url(#clip0_1454_4968)">
+                                <path d="M24.4576 4.20256C19.7409 -0.739276 11.8946 -1.40744 6.22816 2.65115C-0.218446 7.27354 -0.825246 16.2689 4.95337 21.7414C5.1994 21.9743 5.24784 22.2174 5.24784 22.5254C5.24784 24.3606 5.26059 26.1945 5.26951 28.0298C5.26951 28.1214 5.27843 28.2041 5.40591 28.1761C7.06313 27.1974 8.71144 26.2238 10.3534 25.2324C10.4723 25.1509 10.6074 25.096 10.7495 25.0714C10.8917 25.0468 11.0374 25.0531 11.1769 25.0899C14.5767 25.8726 17.8376 25.4958 20.9519 23.8986C28.5255 20.0131 30.2579 10.2898 24.4576 4.20256Z" fill="#656565" />
+                                <path d="M17.0289 15.5271C17.0062 15.5016 17.0143 15.4712 17.0143 15.4425C17.0143 13.236 17.0143 11.0295 17.0143 8.82301C17.0143 8.80384 17.0159 8.78626 17.0159 8.76709C17.4329 8.76709 17.8483 8.76709 18.2653 8.76709C18.2636 8.77348 18.2636 8.77987 18.262 8.78626C18.2247 8.81662 18.1793 8.80863 18.1371 8.80863C17.8239 8.81023 17.5108 8.80863 17.196 8.80863C17.0581 8.80863 17.0581 8.80863 17.0581 8.94763C17.0581 11.087 17.0581 13.228 17.0565 15.3674C17.0581 15.4201 17.0743 15.4792 17.0289 15.5271Z" fill="white" />
+                                <path d="M10.0717 8.76709C10.0717 8.77348 10.0717 8.77827 10.07 8.78466C10.0246 8.81982 9.97269 8.80863 9.92239 8.80863C9.03 8.80863 8.1376 8.80863 7.24683 8.80863C6.309 8.80863 5.37117 8.80863 4.43334 8.80863C4.38304 8.80863 4.3295 8.81982 4.28407 8.78626C4.28245 8.77987 4.28082 8.77348 4.28082 8.76709C6.21002 8.76709 8.14084 8.76709 10.0717 8.76709Z" fill="white" />
+                                <path d="M21.9972 15.9251C21.9534 15.9251 21.9112 15.9251 21.8674 15.9251C21.8626 15.9155 21.8642 15.9075 21.8723 15.9011C21.9129 15.8819 21.9518 15.8819 21.9924 15.9011C22.0005 15.9075 22.0021 15.9155 21.9972 15.9251Z" fill="white" />
+                                <path d="M21.8681 15.9108C21.8681 15.9156 21.8681 15.9188 21.8681 15.9237C21.8355 15.9237 21.8029 15.9237 21.7703 15.9237C21.7703 15.9188 21.7703 15.914 21.7703 15.9108C21.8029 15.8819 21.8355 15.8819 21.8681 15.9108Z" fill="white" />
+                                <path d="M21.9971 15.9249C21.9971 15.92 21.9971 15.9168 21.9971 15.912C22.0297 15.8815 22.0623 15.8815 22.0949 15.912C22.0949 15.9168 22.0949 15.9217 22.0949 15.9249C22.0623 15.9249 22.0297 15.9249 21.9971 15.9249Z" fill="white" />
+                                <path d="M4.28208 8.78591C4.30641 8.78431 4.33075 8.78271 4.35509 8.78271C6.24697 8.78271 8.13723 8.78271 10.0291 8.78271C10.0421 8.78271 10.0567 8.78271 10.0697 8.78431C10.0875 9.147 10.0599 9.5017 9.83927 9.80846C9.72083 9.97303 9.57967 10.1216 9.45149 10.2798C8.27352 11.7353 7.09556 13.1925 5.91597 14.6496C5.90137 14.6688 5.88677 14.688 5.87216 14.7071C5.90137 14.7295 5.9322 14.7183 5.95978 14.7183C7.29838 14.7183 8.63697 14.7199 9.97394 14.7167C10.0583 14.7167 10.0762 14.7407 10.0729 14.8174C10.0664 14.9979 10.0729 15.1801 10.0713 15.3606C10.0681 15.6482 9.8555 15.8575 9.56182 15.8575C7.77216 15.8575 5.9825 15.8575 4.19284 15.8591C4.13442 15.8591 4.11333 15.8479 4.11495 15.7856C4.12144 15.6083 4.10846 15.4293 4.14416 15.252C4.17823 15.081 4.25287 14.9292 4.36158 14.795C5.65637 13.2196 6.94953 11.6411 8.24432 10.0641C8.25892 10.0465 8.2719 10.0274 8.29462 9.997C8.25405 9.997 8.22485 9.997 8.19564 9.997C6.92195 9.997 5.64825 9.997 4.37618 9.9986C4.2983 9.9986 4.27721 9.98102 4.27883 9.90273C4.2837 9.53046 4.28208 9.15818 4.28208 8.78591Z" fill="white" />
+                                <path d="M17.0288 15.527C17.0288 13.3174 17.0288 11.1093 17.0288 8.89962C17.0288 8.76541 17.0125 8.78298 17.144 8.78298C17.5172 8.78298 17.8903 8.78458 18.2635 8.78618C18.2635 8.81015 18.2651 8.83411 18.2651 8.85808C18.2651 11.1604 18.2651 13.4644 18.2668 15.7667C18.2668 15.845 18.2457 15.8626 18.1694 15.861C17.9309 15.8562 17.694 15.8594 17.4555 15.8594C17.2348 15.8578 17.0791 15.7364 17.0288 15.527Z" fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.6453 15.8527C13.4485 16.0077 14.1883 15.8416 14.8682 15.3766C14.9023 15.6834 15.1002 15.8591 15.4004 15.8575C15.4529 15.8575 15.5056 15.8571 15.5583 15.8567C15.6815 15.8557 15.805 15.8547 15.9277 15.8591C16.0088 15.8623 16.0299 15.8416 16.0299 15.7601C16.0283 14.0382 16.0283 12.3164 16.0283 10.5945V10.593C16.0283 10.5888 16.0281 10.5844 16.028 10.58C16.0276 10.5709 16.0272 10.5616 16.0283 10.553C16.0348 10.5067 16.0121 10.4955 15.9683 10.4955C15.6227 10.4971 15.2754 10.4971 14.9298 10.4955C14.8828 10.4955 14.8682 10.5099 14.8698 10.5546C14.8722 10.6319 14.8719 10.7083 14.8716 10.7904C14.8715 10.8187 14.8714 10.8475 14.8714 10.8774C14.2354 10.4412 13.5442 10.267 12.7897 10.3757C12.0304 10.4843 11.417 10.8486 10.9481 11.4462C10.1563 12.4544 10.1888 13.9147 11.0228 14.8973C11.4495 15.4006 11.9914 15.7265 12.6453 15.8527ZM13.2064 14.7616C14.1264 14.7584 14.8646 14.0298 14.863 13.1255C14.8614 12.2212 14.1231 11.4942 13.2015 11.4926C12.2815 11.491 11.5335 12.226 11.5352 13.1287C11.5384 14.033 12.2864 14.7648 13.2064 14.7616Z" fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9969 15.9103H22.0943C22.2533 15.8991 22.4123 15.8783 22.5665 15.8432C24.0673 15.5125 25.0408 14.017 24.7179 12.5375C24.3837 11.0004 22.8585 10.0386 21.2992 10.3805C19.6783 10.7352 18.7032 12.4208 19.2224 13.9738C19.5907 15.0795 20.5642 15.8192 21.7682 15.9103H21.8655H21.9969ZM21.9369 11.4655C21.0088 11.4623 20.2592 12.1957 20.2575 13.108C20.2559 14.0219 21.0007 14.7585 21.9271 14.7601C22.8504 14.7601 23.6 14.0283 23.6032 13.1208C23.6081 12.2085 22.8633 11.4687 21.9369 11.4655Z" fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1454_4968">
+                                    <rect width="26.9273" height="28.1798" fill="white" transform="translate(0.983765)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__bottom">
+            <span class="break-line"></span>
+            <div class="container-xl footer__bottom--content">
+                <div class="footer__bottom--left">
+                    <p class="editorial-infoma">Thông tin toà soạn</p>
+                    <span class="vertical-division"></span>
+                    <p class="ads-contact">Liên hệ quảng cáo</p>
+                </div>
+                <div class="footer__bottom--right">
+                    Bản quyền ©2011 Bongdaplus.vn. Chỉ được phát hành lại thông tin khi có sự đồng ý bằng văn bản của Báo điện tử Bóng đá
+                </div>
+            </div>
         </div>
     </div>
 

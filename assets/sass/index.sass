@@ -7,6 +7,25 @@ body
 p
     margin: 0
 
+.--only-hidden-mobile
+    @media(max-width: 992px)
+        display: none
+
+.--only-show-mobile
+    @media(max-width: 992px)
+        display: block
+
+.limit-row-title
+    display: block
+    display: -webkit-box
+    max-width: 100%
+    // height: 76px need set on current lass used
+    margin: 0 auto
+    -webkit-line-clamp: 4
+    -webkit-box-orient: vertical
+    overflow: hidden
+    text-overflow: ellipsis
+
 .block
     display: flex
     gap: 0 15px
@@ -16,6 +35,8 @@ p
     &.three-col
         display: grid
         grid-template-columns: repeat(3, 1fr)
+        @media(max-width: 992px)
+            grid-template-columns: repeat(1, 1fr)
 
     &__left
         width: calc(100% - 329px)
@@ -104,6 +125,12 @@ p
     gap: 0 12px
     padding: 10px 75px
 
+    &.--fixed
+        position: fixed
+        width: 100%
+        top: 0
+        z-index: 9999
+
     @media (max-width: 992px)
         justify-content: center
         padding: 10px 20px
@@ -130,6 +157,162 @@ p
             line-height: 28px /* 200% */
             text-transform: uppercase
             text-align: center
+
+.footer
+    .break-line.important
+
+        border: 1px solid $redColor1
+        margin: 0 0 16px
+
+    &__top
+        display: flex
+        gap: 0 32px
+        align-items: center
+
+        &--logo-1
+            width: 161px
+            height: 43.636px
+
+        .logo
+            &__t
+                color: $blueColor5
+            &__box
+
+                svg
+                    width: 25.814px
+                    height: 33.462px
+
+                span
+                    -webkit-text-stroke-width: 0.3536232113838196
+                    -webkit-text-stroke-color: $whiteColor
+                    font-size: 30.058px
+                    font-weight: 400
+                    line-height: 24.754px
+
+    &__center
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+
+        @media(max-width:992px)
+            grid-template-columns: repeat(1,1fr)
+            gap: 12px 0
+
+        ul,
+        p
+            list-style: none
+            color: $grayColor7
+            font-family: "Google Sans"
+            font-size: 14px
+            font-style: normal
+            font-weight: 400
+            line-height: 28px
+            margin: 0
+
+        ul
+            height: 140px
+
+        .info-follow
+            display: flex
+            flex-flow: column
+            justify-content: flex-end
+            @media(max-width:992px)
+                gap: 3px 0
+
+        &--left,
+        &--right
+            display: grid
+            grid-template-columns: auto auto auto
+        // grid-template-columns: repeat(6, 1fr)
+        &--left
+            .info
+                display: flex
+                flex-flow: column
+                justify-content: space-between
+                @media(max-width:992px)
+                    gap: 3px
+
+                & p:first-child
+                    font-size: 12px
+                p
+                    line-height: 20px
+
+                &__box-p
+                    @media(max-width:992px)
+                        display: flex
+                        gap: 12px 0
+                        flex-flow: column
+
+                .tag-p-1
+                    color: $grayColor7
+                    font-family: "Google Sans"
+                    font-size: 12px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 28px
+
+                .tag-p-2
+                    color: $grayColor7
+                    font-family: "Google Sans"
+                    font-size: 14px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 20px
+
+                    display: flex
+                    flex-flow: column
+                    @media(max-width:992px)
+                        flex-flow: row
+
+                .tag-p-3
+                    color: $grayColor7
+                    font-family: "Google Sans"
+                    font-size: 15px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 20px
+
+    &__bottom
+        color: #797979
+        font-family: "Google Sans"
+        font-style: normal
+        line-height: 12px
+
+        .break-line
+            margin: 25px 0 0 0
+
+        &--content
+            display: flex
+            justify-content: space-between
+            padding: 6px 0
+            @media(max-width:992px)
+                flex-flow: column
+                padding: 0
+
+        .vertical-division
+            @media(max-width:992px)
+                border: 0.5px solid $grayColor5
+                height: 12px
+
+        &--left
+            display: flex
+            gap: 0 15px
+            font-size: 12px
+            font-weight: 500
+            @media(max-width:992px)
+                order: 2
+                background: var(--Gray-03, #EAEAEA)
+                height: 26px
+                align-items: center
+                justify-content: center
+
+        &--right
+            text-align: right
+            font-size: 10px
+            font-weight: 400
+            @media(max-width:992px)
+                order: 1
+                text-align: unset
+                padding: 8px 12px 7px
 
 .top-bar-pc
     padding: 0 75px
@@ -926,10 +1109,167 @@ p
     &__content
         display: flex
 
-.homepage
+.focus-football
+    margin-top: 29px
+    border: 0.8px solid $borderColor
+    background: $whiteColor
+    padding: 22px 16px 18px
+    display: flex
+    flex-flow: column
+    gap: 16px 0
+
+    &__title-box
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+    &__list-extend
+        overflow-y: scroll
+        height: 482px
+        @media (max-width: 992px)
+            height: auto
+
+    .list-extend__ul
+        padding-left: 15px
+        gap: 12px 0
+        margin: 0
+
+    &__title
+        color: $redColor1
+        font-family: Mulish
+        font-size: 16px
+        font-style: normal
+        font-weight: 700
+        line-height: 20px
+        text-transform: uppercase
+
+    &__see-more
+        color: $grayColor1
+        text-align: right
+        font-family: Mulish
+        font-size: 12px
+        font-style: normal
+        font-weight: 500
+        line-height: 20px
+
+.tags-hot-trend
+    padding: 17px 19px 23px
+    width: 314px
+    height: 468px
+    overflow-y: scroll
+    @media(max-width: 992px)
+        width: 100%
+        height: 100%
+        border: unset
+        padding: 0
+
+    &__head
+        display: flex
+        gap: 0 11px
+        align-items: center
+
+        &--icon-box
+            padding: 4px 6px 4px 5px
+            border-radius: 6px
+            background: $whiteColor1
+            width: 28px
+            height: 28px
+
+        &--icon
+            color: $blackColor
+            text-align: center
+            font-family: Mulish
+            font-size: 16px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+            display: block
+
+        &--title
+            color: $blackColor
+            font-family: Mulish
+            font-size: 16px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+
+    &__body
+        display: flex
+        flex-wrap: wrap
+        gap: 12px
+        margin-top: 16px
+
+        &--tag
+            border-radius: 200px
+            background: $whiteColor1
+            width: 112px
+            height: 32px
+
+            color: $blackColor
+            text-align: center
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 500
+            line-height: 20px
+
+            display: flex
+            align-items: center
+            justify-content: center
+            width: max-content
+            padding: 0 13px
+
+.comments
+    margin-top: 24px
+    border: 0.8px solid $borderColor
+    background: $whiteColor
+    padding: 16px 16px 25px
+    display: flex
+    flex-flow: column
+    gap: 16px 0
+
+    &__body
+        height: 430px
+        overflow-y: scroll
+        @media (max-width: 992px)
+            height: auto
+
+    .list-post
+        display: flex
+        flex-flow: column
+        gap: 11px 0
+
+        .item__image
+            width: 120px
+            height: 67px
+
+        .item__title
+            color: $textColor
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
+
+    &__title-box
+        display: flex
+        gap: 0 9px
+
+    &__title
+        color: $blackColor
+        font-family: Mulish
+        font-size: 16px
+        font-style: normal
+        font-weight: 700
+        line-height: 20px
+
+.page-content
+    margin-top: 16px
+    &.--pushed
+        margin-top: 86px
+
     // ---- START BLOCK 1
     .block-1
-        margin-top: 16px
         display: grid
         grid-template-columns: repeat(2,1fr)
 
@@ -1673,7 +2013,7 @@ p
                     margin: 13px 0
 
             &--body-middle
-                margin-block: 24px
+                margin: 26px 0 24px
 
                 .break-line
                     margin: 14px 0
@@ -1713,6 +2053,7 @@ p
 
             .title-and-line__title
                 left: 0
+                padding-left: 0
 
             .post-and-list-extend
 
@@ -1745,7 +2086,7 @@ p
 
             &--body-bottom
                 height: 476px
-                margin-top: 32px
+                margin-top: 23px
                 padding: 15px 11px 37px
 
                 .tab-list__list
@@ -1753,93 +2094,6 @@ p
 
                 .break-line
                     margin-top: 16px
-
-        .focus-football
-            margin-top: 29px
-            border: 0.8px solid $borderColor
-            background: $whiteColor
-            padding: 22px 16px 18px
-            display: flex
-            flex-flow: column
-            gap: 16px 0
-
-            &__title-box
-                display: flex
-                justify-content: space-between
-                align-items: center
-
-            &__list-extend
-                overflow-y: scroll
-                height: 482px
-                @media (max-width: 992px)
-                    height: auto
-
-            .list-extend__ul
-                padding-left: 15px
-                gap: 12px 0
-                margin: 0
-
-            &__title
-                color: $redColor1
-                font-family: Mulish
-                font-size: 16px
-                font-style: normal
-                font-weight: 700
-                line-height: 20px
-                text-transform: uppercase
-
-            &__see-more
-                color: $grayColor1
-                text-align: right
-                font-family: Mulish
-                font-size: 12px
-                font-style: normal
-                font-weight: 500
-                line-height: 20px
-
-        .comments
-            margin-top: 24px
-            border: 0.8px solid $borderColor
-            background: $whiteColor
-            padding: 16px 16px 25px
-            display: flex
-            flex-flow: column
-            gap: 16px 0
-
-            &__body
-                height: 430px
-                overflow-y: scroll
-                @media (max-width: 992px)
-                    height: auto
-
-            .list-post
-                display: flex
-                flex-flow: column
-                gap: 11px 0
-
-                .item__image
-                    width: 120px
-                    height: 67px
-
-                .item__title
-                    color: $textColor
-                    font-family: Mulish
-                    font-size: 14px
-                    font-style: normal
-                    font-weight: 700
-                    line-height: 20px
-
-            &__title-box
-                display: flex
-                gap: 0 9px
-
-            &__title
-                color: $blackColor
-                font-family: Mulish
-                font-size: 16px
-                font-style: normal
-                font-weight: 700
-                line-height: 20px
     // ---- END BLOCK 7
 
     .results-schedule-mb
@@ -1854,6 +2108,9 @@ p
             width: 314px
             height: 508px
             border: 0.8px solid $borderColor
+
+            @media ( max-width: 992px  )
+                width: 100%
 
             &__body--ul
                 margin: 0
@@ -1891,6 +2148,7 @@ p
         &__right-head
             .title-and-line__title
                 left: 0
+                padding-left: 0
 
         &__right-body
             .post-and-list-extend
@@ -1906,3 +2164,192 @@ p
                 color: $textColor
 
     // ---- END BLOCK 8
+
+    // ---- START BLOCK 9
+    .block-9
+        .block
+            &__left
+                &--top
+                    display: flex
+                    gap: 0 14px
+
+                    .list-scroll ul
+                        margin: 0
+
+                &--center
+                    margin-top: 18px
+                    padding: 15px
+
+                &--bottom
+                    margin-top: 28px
+                    .list-post
+                        .break-line
+                            margin: 14px 0
+
+                        .item__text-content
+                            order: 2
+
+                        .item__image
+                            order: 1
+
+            &__right
+                .ads
+                    margin-top: 21px
+                    padding: 8px 6px 8px
+                    width: 314px
+                    height: 617px
+
+                    &__content
+                        width: 314px
+                        height: 600px
+
+                        border: 0.8px solid $borderColor
+                        background: $grayColor3
+    // ---- END BLOCK 9
+
+    // ---- START BLOCK 10
+    .block-10
+        margin-top: 54px
+
+        .title-and-line__title
+            left: 0
+            padding-left: 0
+
+        .block.three-col
+            gap: 0 17px
+            margin-top: 0
+
+            .list-extend__ul
+                @media (max-width: 992px)
+                    color: $redColor1
+
+            .list-extend__li
+                span
+                    color: $textColor
+
+            .block
+                &__col
+                    @media (max-width: 992px)
+                        border: unset
+                        padding: 0
+
+                    &--body
+                        height: 733px
+                        @media(max-width:992px)
+                            height: auto
+
+            .post-and-list-extend
+                @media (max-width: 992px)
+                    border: unset
+                    padding: 0
+
+                .post__image
+                    width: 100%
+                    height: 209px
+
+            .list-post
+                .item__image
+                    width: 111px
+                    height: 76px
+                    flex-shrink: 0
+
+            .item__title
+                color: #000
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 700
+                line-height: 20px
+
+                // limit row display
+                height: 76px
+
+        .block
+            margin-top: 28px
+
+            &__left
+                position: relative
+                padding-bottom: 60px
+
+                .break-line
+                    margin: 14px 0
+
+                .list-post
+                    .item__text-content
+                        order: 2
+
+                    .item__image
+                        order: 1
+
+                .hidden-box
+                    position: absolute
+                    width: 100%
+                    bottom: 0
+                    height: 345px
+                    background: linear-gradient(0deg, #FFF 17.71%, rgba(255, 255, 255, 0.00) 100%)
+                    .hidden-block
+                        position: relative
+                        height: 100%
+
+                        .btn-see-more
+                            position: absolute
+                            bottom: 44px
+                            left: 50%
+                            transform: translateX(-50%)
+                            border-radius: 200px
+                            border: 1px solid $redColor1
+                            background: $whiteColor
+
+                            color: $redColor1
+                            text-align: center
+                            font-family: Mulish
+                            font-size: 16px
+                            font-style: normal
+                            font-weight: 700
+                            line-height: 20px
+
+            &__right
+                &--top
+                    padding: 8px 6px 8px
+                    .ads
+                        width: 300px
+                        height: 600px
+                        background: $borderColor
+
+                &--bottom
+                    padding: 15px 11px 16px
+                    margin-top: 29px
+                    min-height: 476px
+                    position: relative
+
+                    @media(max-width:992px)
+                        margin-top: 0px
+                        max-height: 508px
+                        overflow: hidden
+
+                tab-list__list--title
+
+                .tab-list
+                    position: relative
+
+                    &__list--title
+                        @media(max-width:992px)
+                            width: 100%
+
+                    &__block-hide
+                        height: 0
+                        position: absolute
+                        width: 100%
+                        left: 0
+                        bottom: 0
+                        z-index: 000
+                        background: linear-gradient(0deg, $whiteColor 45.83%, rgba(255, 255, 255, 0.00) 100%)
+                        @media(max-width:992px)
+                            height: 50px
+
+                    .break-line
+                        margin-top: 16px
+
+    .tags-hot-trend-mb
+        margin: 28px 0 37px
+    // ---- END BLOCK 10
