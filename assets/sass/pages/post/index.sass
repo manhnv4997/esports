@@ -28,12 +28,97 @@
         gap: 0 26px
 
         &__left
+            width: calc(100% - 340px)
+
+            .follow
+                color: $redColor1
+
             .break-line
                 margin: 28px 0 14px
-            .post
-                .break-line
-                    margin: 14px 0
 
+            .widget-box
+                margin: 19px 0 22px
+                padding: 16px 16px 28px
+                &__title-box
+                    display: flex
+                    justify-content: space-between
+
+                &__title
+                    color: $blackColor
+                    font-family: Mulish
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 20px
+
+                &__see-more
+                    color: $grayColor1
+                    text-align: right
+                    font-family: Mulish
+                    font-size: 12px
+                    font-style: normal
+                    font-weight: 500
+                    line-height: 20px
+
+                .list-post
+                    .item
+                        margin-top: 16px
+
+                        &__image
+                            width: 120px
+                            height: 67px
+
+                        &__title
+                            color: $grayColor14
+                            font-family: Mulish
+                            font-size: 14px
+                            font-style: normal
+                            font-weight: 700
+                            line-height: 20px
+            .post
+                display: flex
+                flex-flow: column
+
+                .item-1
+                    order: 1
+                .item-2
+                    order: 2
+                .item-3
+                    order: 3
+                .item-4
+                    order: 4
+                .item-5
+                    order: 5
+                    @media ( max-width: 992px )
+                        order: 2
+                .item-6
+                    order: 6
+                .item-7
+                    order: 7
+                .item-8
+                    order: 8
+                .item-9
+                    order: 9
+                .item-10
+                    order: 10
+                .item-11
+                    order: 11
+                .item-12
+                    order: 12
+
+                .break-line
+                    &.--1
+                        margin: 13px 0
+                        @media ( max-width: 992px )
+                            margin: 16px 0 12px
+                    &.--2
+                        margin: 11px 0 17px
+                        @media ( max-width: 992px )
+                            margin: 14px 0 20px
+                    &.--3
+                        margin: 22px 0 10px
+                        @media ( max-width: 992px )
+                            margin: 20px 0 16px
                 &__title
                     color: $blackColor
                     font-family: Mulish
@@ -41,6 +126,8 @@
                     font-style: normal
                     font-weight: 800
                     line-height: 40px
+                    @media ( max-width: 992px )
+                        margin-bottom: 24px
 
                 &__description
                     color: $grayColor10
@@ -59,6 +146,8 @@
                     line-height: 16px
                     display: flex
                     gap: 0 16px
+                    @media ( max-width: 992px )
+                        margin-bottom: 13px
 
                     &--box-1
                         display: flex
@@ -75,11 +164,37 @@
 
                 &__content
                     margin-top: 22px
+                    @media ( max-width: 992px )
+                        margin-top: 0
 
-                &__image
+                &__image,
+                &__main-image
                     height: 393px
                     width: 100%
                     object-fit: cover
+
+                &__image
+                    margin-top: 24px
+                    @media ( max-width: 992px )
+                        height: 253px
+
+                &__sub-image
+                    color: $grayColor13
+                    font-family: Mulish
+                    font-size: 13px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 16px
+                    margin: 12px 0 21px
+
+                    @media ( max-width: 992px )
+                        margin: 8px 0 21px
+
+                &__main-image
+                    margin-bottom: 26px
+                    @media ( max-width: 992px )
+                        height: 212px
+                        margin-bottom: 8px
 
                 &__author
                     margin-top: 54px
@@ -89,12 +204,19 @@
                     font-style: normal
                     font-weight: 700
                     line-height: 26px
+                    @media ( max-width: 992px )
+                        margin-top: 31px
 
                 &__actions
                     display: flex
                     gap: 0 13px
                     align-items: center
                     margin-bottom: 25px
+                    justify-content: space-around
+
+                    @media ( max-width: 992px )
+                        gap: 0 6px
+                        margin-bottom: 0
 
                     &--item
                         color: $grayColor11
@@ -107,8 +229,18 @@
                         display: flex
                         gap: 0 6px
 
+                        @media ( max-width: 992px )
+                            gap: 0 3px
+
+                        &.--none-text
+                            padding: 0.5rem
+                            @media ( max-width: 992px )
+                                padding: 0 6px
+
                 &__tags
                     margin-bottom: 23px
+                    @media ( max-width: 992px )
+                        margin-bottom: 20px
 
                     .list-scroll__ul
                         gap: 0 40px
@@ -179,6 +311,10 @@
                 .break-line
                     margin-top: 13px
 
+                .title-and-line
+                    @media ( max-width: 992px )
+                        padding-bottom: 16px
+
                 .title-and-line__title
                     left: 0
                     padding-left: 0
@@ -190,17 +326,79 @@
                     padding-top: 18px
                     display: grid
                     gap: 13px 21px
+                    @media ( max-width: 992px )
+                        padding-top: 0
+                        gap: 12px 0
+
+                    .break-line
+                        @media ( max-width: 992px )
+                            margin: 16px 0 0
+
+                    .list-grid-body__item:first-child
+                        .break-line
+                            @media ( max-width: 992px )
+                                margin: 20px 0 0
+
+                        .list-grid-body__item-content
+                            @media ( max-width: 992px )
+                                display: flex
+                                flex-flow: column
+                                order: 2
+                                gap: 16px 0
+
+                        .list-grid-body__item-image
+                            @media ( max-width: 992px )
+                                order: 1
+                                height: 208px
+                                width: 100%
+
+                        .list-grid-body__item-title
+                            @media ( max-width: 992px )
+                                color: $blackColor
+                                font-family: Mulish
+                                font-size: 22px
+                                font-style: normal
+                                font-weight: 800
+                                line-height: 28px
+                                height: auto
+
+                        .list-grid-body__item-info
+                            @media ( max-width: 992px )
+                                order: 3
+                                margin-top: 40px
 
             .esport
                 margin-top: 41px
                 padding: 19px 0 29px 15px
+
+                @media ( max-width: 992px )
+                    margin: 44px 0 32px
+                    padding: 0
+                    border: unset
+
+                .tab-scroll
+                    .break-line
+                        @media ( max-width: 992px )
+                            margin: 14px 0
+
+                    &__body
+                        @media ( max-width: 992px )
+                            margin-top: 14px
+
                 .list-scroll
                     &__li,
                     &__image
                         width: 237px
                         height: 376px
+                        @media ( max-width: 992px )
+                            width: 266.348px
+                            height: 422.561px
 
             .list-post
+                .break-line
+                    @media ( max-width: 992px )
+                        margin: 12px 0
+
                 .item__text-content
                     order: 2
 
@@ -232,3 +430,24 @@
                         font-style: normal
                         font-weight: 700
                         line-height: 20px
+
+            .have-hidden-box
+                @media ( max-width: 992px )
+                    margin-bottom: 84px
+                .hidden-box
+                    position: absolute
+                    width: 100%
+                    bottom: -30px
+                    @media ( max-width: 992px )
+                        bottom: -60px
+
+        &__right
+            .tab-news
+                padding: 18px 11px 29px
+                margin-top: 28px
+
+            .comments
+                margin-top: 20px
+
+            .list-best-of-day
+                margin: 17px 0 26px

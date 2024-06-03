@@ -657,6 +657,37 @@
             height: 111px
             border-radius: 4px
 
+.have-hidden-box
+    position: relative
+    margin-bottom: 63px
+
+    .hidden-box
+        position: absolute
+        width: 100%
+        bottom: 0
+        height: 345px
+        background: linear-gradient(0deg, #FFF 17.71%, rgba(255, 255, 255, 0.00) 100%)
+        .hidden-block
+            position: relative
+            height: 100%
+
+            .btn-see-more
+                position: absolute
+                bottom: 44px
+                left: 50%
+                transform: translateX(-50%)
+                border-radius: 200px
+                border: 1px solid $redColor1
+                background: $whiteColor
+
+                color: $redColor1
+                text-align: center
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 700
+                line-height: 20px
+
 .list-grid-post
     position: relative
 
@@ -839,6 +870,25 @@
             font-weight: 800
             line-height: 20px
 
+.list-wrap
+    &__ul
+        list-style: none
+        gap: 5px 40px
+        display: flex
+        flex-wrap: wrap
+        padding: 0
+        @media ( max-width: 992px )
+            gap: 5px 30px
+
+    &__li
+        span
+            color: $grayColor7
+            font-family: Mulish
+            font-size: 12px
+            font-style: normal
+            font-weight: 500
+            line-height: 26px
+
 .list-post-first-big-post
     .item-info
         margin-top: 20px
@@ -933,11 +983,14 @@
         display: flex
         gap: 0 5px
 
-        &--right
-            width: 100%
-
         .break-line
             margin: 0
+
+        &--right
+            width: 100%
+            .break-line
+                @media ( max-width: 992px )
+                    margin: 14px 0
 
         &--title
             color: $redColor1
