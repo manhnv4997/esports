@@ -1,7 +1,32 @@
 $(document).ready(function () {
-  window.addEventListener("scroll", function () {
-    toggleMenuHeader();
+  handleToggleMenuHeader();
+  handleShowSearchBox();
+
+  $("#field-email").on("input", function () {
+    const inputValue = $(this).val() ?? null;
+    const parent = $(this).parent();
+    const fieldText = $(parent).find(".field-text");
+    if (inputValue !== "" && inputValue != null) {
+      $(parent).addClass("--not-empty");
+      $(fieldText).removeClass("--hidden");
+    } else {
+      $(parent).removeClass("--not-empty");
+      $(fieldText).addClass("--hidden");
+    }
   });
+  $("#field-password").on("input", function () {
+    const inputValue = $(this).val() ?? null;
+    const parent = $(this).parent();
+    const fieldText = $(parent).find(".field-text");
+    if (inputValue !== "" && inputValue != null) {
+      $(parent).addClass("--not-empty");
+      $(fieldText).removeClass("--hidden");
+    } else {
+      $(parent).removeClass("--not-empty");
+      $(fieldText).addClass("--hidden");
+    }
+  });
+
   $("#icon-close-menu-mobile").on("click", function () {
     $("#menu-mobile").toggleClass("--hide");
   });
@@ -34,9 +59,10 @@ $(document).ready(function () {
     const targetData = $(this).attr("target-data");
     $(`#${targetData}`).toggleClass("--hide");
   });
+});
 
+function handleShowSearchBox() {
   $("#search-box").on("click", function () {
-    console.log("Click!!");
     $(".icon-box").addClass("--active");
     $(".icon-box__text").addClass("--active");
     $(".box-search").addClass("--active");
@@ -52,7 +78,13 @@ $(document).ready(function () {
       $(".box-search").removeClass("--active");
     }
   });
-});
+}
+
+function handleToggleMenuHeader() {
+  window.addEventListener("scroll", function () {
+    toggleMenuHeader();
+  });
+}
 
 function toggleMenuHeader() {
   const heightElementTopBarPc = $("#top-bar-pc").height() ?? 0;
@@ -60,7 +92,6 @@ function toggleMenuHeader() {
   const screenWidth = window.screen.width;
 
   const pointCurrentScroll = window.pageYOffset;
-  console.log(pointCurrentScroll > heightElementTopBarPc, window.screen.width);
   if (pointCurrentScroll > heightElementTopBarPc) {
     $("#head-pc").addClass("--fixed");
     $(".page-content").addClass("--pushed");

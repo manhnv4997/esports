@@ -196,17 +196,17 @@ p {
   gap: 0 12px;
   padding: 10px 75px;
 }
-.head.--fixed {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-}
 @media (max-width: 992px) {
   .head {
     justify-content: center;
     padding: 10px 20px;
   }
+}
+.head.--fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
 }
 .head .menu {
   margin: 0;
@@ -230,6 +230,79 @@ p {
   line-height: 28px;
   text-transform: uppercase;
   text-align: center;
+}
+.head #search-box {
+  position: relative;
+  width: 35px;
+  cursor: pointer;
+}
+.head #search-box svg#icon-search {
+  z-index: 99;
+  cursor: pointer;
+}
+.head #search-box .icon-box {
+  display: flex;
+  transition: all 0.5s;
+  z-index: 3;
+  width: 65px;
+  height: 32px;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  justify-content: flex-start;
+  padding-left: 15px;
+  transition: all 0.5s;
+}
+.head #search-box .icon-box.--active {
+  width: 129px;
+  background: #FF7800;
+  height: 32px;
+  border-radius: 200px;
+  gap: 0 9px;
+}
+.head #search-box .icon-box__text {
+  opacity: 0;
+  width: 0;
+  transition: width 0.5s;
+}
+.head #search-box .icon-box__text.--active {
+  text-transform: math-auto;
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  width: auto;
+}
+.head #search-box .icon-box.--active {
+  opacity: 1;
+}
+.head #search-box .box-search {
+  z-index: 1;
+  position: absolute;
+  width: 30px;
+  height: 36px;
+  right: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.head #search-box .box-search.--active {
+  visibility: visible;
+  width: 1006px;
+  right: -2px;
+}
+.head #search-box .box-search input {
+  outline-width: 0;
+  width: 100%;
+  border-radius: 200px;
+  background: #FFF;
+  padding: 2px 22px 0;
+  height: 36px;
+  border: unset;
 }
 
 .block-head {
@@ -465,6 +538,9 @@ p {
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
+}
+.top-bar-pc__login-register-box {
+  cursor: pointer;
 }
 .top-bar-pc__login-register {
   color: #FFF;
@@ -1665,43 +1741,82 @@ p {
   border: 1px solid #56CCF2;
 }
 
-#search-box {
-  position: relative;
-  width: 35px;
-  cursor: pointer;
-}
-#search-box svg#icon-search {
-  z-index: 99;
-  cursor: pointer;
-}
-#search-box .icon-box {
+.modal .modal-header__tabs {
   display: flex;
-  transition: all 0.5s;
-  z-index: 3;
-  width: 65px;
-  height: 32px;
-  right: 0;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+@media (min-width: 992px) {
+  .modal .modal-lg {
+    max-width: 836px;
+  }
+}
+.modal .modal-header__tabs {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.modal .tab-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.modal .tab-content form {
+  display: flex;
+  flex-flow: column;
+}
+.modal .tab-content__text {
+  color: #333;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.modal .tab-content .field-box {
+  position: relative;
+}
+.modal .tab-content .field-box .field-text {
   position: absolute;
-  justify-content: flex-start;
-  padding-left: 15px;
-  transition: all 0.5s;
+  top: 7px;
+  left: 17px;
+  color: #C7C5C5;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
-#search-box .icon-box.--active {
-  width: 129px;
-  background: #FF7800;
-  height: 32px;
+.modal .tab-content .field-box .field-text.--hidden {
+  display: none;
+}
+.modal .tab-content .field-box.--not-empty .field-input {
+  padding: 16px 16px 0;
+}
+.modal .tab-content__left {
+  padding: 30px 0 50px;
+  border-right: 0.5px solid #DBDCDF;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.modal .tab-content__left .field-input {
   border-radius: 200px;
-  gap: 0 9px;
+  border: 1px solid #DBDCDF;
+  background: #FFF;
+  width: 336px;
+  height: 52px;
+  padding: 14px 16px;
 }
-#search-box .icon-box__text {
-  opacity: 0;
-  width: 0;
-  transition: width 0.5s;
+.modal .tab-content__left .field-email {
+  margin-top: 31px;
 }
-#search-box .icon-box__text.--active {
-  text-transform: math-auto;
+.modal .tab-content__left .field-password {
+  margin-top: 24px;
+}
+.modal .tab-content__left .btn-login {
+  margin-top: 24px;
   color: #FFF;
   text-align: center;
   font-family: Mulish;
@@ -1709,34 +1824,59 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  opacity: 1;
-  width: auto;
-}
-#search-box .icon-box.--active {
-  opacity: 1;
-}
-#search-box .box-search {
-  z-index: 1;
-  position: absolute;
-  width: 30px;
-  height: 36px;
-  right: 0;
-  visibility: hidden;
-  transition: all 0.5s;
-}
-#search-box .box-search.--active {
-  visibility: visible;
-  width: 1006px;
-  right: -2px;
-}
-#search-box .box-search input {
-  outline-width: 0;
-  width: 100%;
   border-radius: 200px;
-  background: #FFF;
-  padding: 2px 22px 0;
-  height: 36px;
+  background: #0E3997;
+  width: 336px;
+  height: 48px;
   border: unset;
+  outline: none;
+}
+.modal .tab-content__left .btn-login:hover {
+  background: #0b2f7d;
+}
+.modal .tab-content__left .remember-password {
+  margin-top: 36px;
+}
+.modal .tab-content__left .remember-password,
+.modal .tab-content__left .forgot-password {
+  color: #4A4A4A;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.modal .tab-content__left .forgot-password {
+  margin-top: 28px;
+  text-align: center;
+}
+.modal .tab-content__right {
+  padding: 30px 0 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.modal .tab-content__right .btn-login-with-facebook,
+.modal .tab-content__right .btn-login-with-google {
+  width: 336px;
+  height: 48px;
+  border: unset;
+  border-radius: 200px;
+  color: #FFF;
+}
+.modal .tab-content__right .btn-login-with-facebook {
+  margin-top: 31px;
+  background: #507CC0;
+}
+.modal .tab-content__right .btn-login-with-facebook:hover {
+  background: #3D5D9A;
+}
+.modal .tab-content__right .btn-login-with-google {
+  margin-top: 20px;
+  background: #FF5A5F;
+}
+.modal .tab-content__right .btn-login-with-google:hover {
+  background: #FC151D;
 }
 
 .page-content {

@@ -67,7 +67,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.16665 3.49984C5.16665 2.48732 5.98746 1.6665 6.99998 1.6665C8.0125 1.6665 8.83331 2.48732 8.83331 3.49984C8.83331 4.51236 8.0125 5.33317 6.99998 5.33317C5.98746 5.33317 5.16665 4.51236 5.16665 3.49984ZM6.99998 0.666504C5.43517 0.666504 4.16665 1.93503 4.16665 3.49984C4.16665 5.06464 5.43517 6.33317 6.99998 6.33317C8.56479 6.33317 9.83331 5.06464 9.83331 3.49984C9.83331 1.93503 8.56479 0.666504 6.99998 0.666504ZM5.13331 7.6665C3.31077 7.6665 1.83331 9.14396 1.83331 10.9665C1.83331 12.2736 2.8929 13.3332 4.19998 13.3332H9.79998C11.1071 13.3332 12.1666 12.2736 12.1666 10.9665C12.1666 9.14396 10.6892 7.6665 8.86665 7.6665H5.13331ZM8.86665 8.6665C10.1369 8.6665 11.1666 9.69625 11.1666 10.9665C11.1666 11.7213 10.5548 12.3332 9.79998 12.3332H4.19998C3.44519 12.3332 2.83331 11.7213 2.83331 10.9665C2.83331 9.69625 3.86306 8.6665 5.13331 8.6665H8.86665Z" fill="white" />
                 </svg>
-                <span class="top-bar-pc__login-register">
+                <span id="register-or-login" class="top-bar-pc__login-register" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Đăng nhập/ Đăng ký
                 </span>
             </div>
@@ -5504,6 +5504,67 @@
                         © Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng văn bản của Tạp chí điện tử Bóng đá
                     </p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade model-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-header__tabs">
+                        <h5>Đăng nhập</h5>
+                        <h5>Tạo tài khoản</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="tab-content">
+                        <div class="tab-content__left">
+                            <p class="tab-content__text">
+                                Mời độc giả, Đăng nhập bằng email
+                            </p>
+                            <div class="tab-content__left--login-form">
+                                <form action="">
+                                    <div class="field-email field-box">
+                                        <span class="field-text --hidden">Email của bạn</span>
+                                        <input id="field-email" type="email" class="field-input" placeholder="Nhập email của bạn">
+                                    </div>
+                                    <div class="field-password field-box">
+                                        <span class="field-text --hidden">Mật khẩu</span>
+                                        <input id="field-password" type="password" class="field-input" placeholder="Mật khẩu">
+                                    </div>
+                                    <label for="remember-password" class="remember-password">
+                                        <input type="checkbox" name="" id="remember-password">
+                                        Ghi nhớ mật khẩu
+                                    </label>
+
+                                    <button type="submit" class="btn-login">Đăng nhập</button>
+                                    <a href="#" class="forgot-password">Quên mật khẩu?</a>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-content__right">
+                            <p class="tab-content__text">
+                                Đăng nhập bằng tài khoản
+                            </p>
+                            <button class=" btn-login-with-facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 10 20" fill="none">
+                                    <path d="M9.34469 11.25L9.86325 7.63047H6.62096V5.28164C6.62096 4.29141 7.07388 3.32617 8.526 3.32617H10V0.244531C10 0.244531 8.66239 0 7.38349 0C4.71337 0 2.96806 1.73359 2.96806 4.87187V7.63047H0V11.25H2.96806V20H6.62096V11.25H9.34469Z" fill="white" />
+                                </svg>
+                                Đăng nhập Facebook
+                            </button>
+                            <button class=" btn-login-with-google">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10.3138 20C8.4402 20 6.71214 19.5722 5.1296 18.7166C3.56526 17.8431 2.31924 16.6488 1.39154 15.1337C0.463847 13.6007 0 11.8895 0 10C0 8.11052 0.463847 6.4082 1.39154 4.89305C2.31924 3.36007 3.56526 2.16578 5.1296 1.31016C6.71214 0.43672 8.4402 0 10.3138 0C11.8417 0 13.2333 0.26738 14.4884 0.80214C15.7617 1.31907 16.8531 2.05882 17.7626 3.02139L15.2251 5.45455C14.5703 4.77718 13.8427 4.26916 13.0423 3.93048C12.2601 3.5918 11.3415 3.42246 10.2865 3.42246C9.08595 3.42246 7.98545 3.69875 6.98499 4.25134C5.98454 4.7861 5.18417 5.5615 4.5839 6.57754C4.00182 7.57576 3.71078 8.71658 3.71078 10C3.71078 11.2834 4.01091 12.4332 4.61119 13.4492C5.21146 14.4474 6.01182 15.2228 7.01228 15.7754C8.03092 16.3102 9.14052 16.5775 10.3411 16.5775C12.1601 16.5775 13.6517 16.0517 14.8158 15C15.1796 14.6791 15.498 14.2692 15.7708 13.7701C16.0437 13.2709 16.2437 12.7273 16.3711 12.139H10.2319V9.06417H19.809C19.9363 9.56328 20 10.1248 20 10.7487C20 12.0143 19.7999 13.1907 19.3997 14.2781C19.0177 15.3654 18.4266 16.3191 17.6262 17.139C16.7531 18.066 15.698 18.779 14.4611 19.2781C13.2242 19.7594 11.8417 20 10.3138 20Z" fill="white" />
+                                </svg>
+                                Đăng nhập Google
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

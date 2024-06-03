@@ -2,78 +2,135 @@
 @import 'utils/border'
 @import 'common/base'
 @import 'components/components'
-#search-box
-    position: relative
-    width: 35px
-    cursor: pointer
 
-    svg#icon-search
-        z-index: 99
-        cursor: pointer
+.modal
 
-    .icon-box
-        display: flex
-        transition: all .5s
-        z-index: 3
-        width: 65px
-        height: 32px
-        right: 0
-        align-items: center
-        justify-content: center
-        position: absolute
-        justify-content: flex-start
-        padding-left: 15px
-        transition: all .5s
+    .modal-lg
+        @media ( min-width: 992px )
+            max-width: 836px
 
-        &.--active
-            width: 129px
-            background: $orangeColor2
-            height: 32px
-            border-radius: 200px
-            gap: 0 9px
+    .modal-header
+        &__tabs
+            display: flex
+            width: 100%
+            justify-content: space-around
+    .tab-content
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+
+        form
+            display: flex
+            flex-flow: column
 
         &__text
-            opacity: 0
-            width: 0
-            transition: width .5s
-
-        &__text.--active
-            text-transform: math-auto
-            color: $whiteColor
+            color: $grayColor16
             text-align: center
             font-family: Mulish
-            font-size: 16px
+            font-size: 14px
             font-style: normal
-            font-weight: 700
-            line-height: 24px
-            opacity: 1
-            width: auto
+            font-weight: 400
+            line-height: 20px
 
-        &.--active
-            opacity: 1
+        .field-box
+            position: relative
+            .field-text
+                position: absolute
+                top: 7px
+                left: 17px
+                color: $grayColor17
+                font-family: Mulish
+                font-size: 12px
+                font-style: normal
+                font-weight: 400
+                line-height: 20px
 
-    .box-search
-        z-index: 1
-        position: absolute
-        width: 30px
-        height: 36px
-        right: 0
-        visibility: hidden
-        transition: all .5s
+                &.--hidden
+                    display: none
 
-        &.--active
-            visibility: visible
-            width: 1006px
-            right: -2px
+            &.--not-empty
+                .field-input
+                    padding: 16px 16px 0
 
-        input
-            outline-width: 0
-            width: 100%
-            border-radius: 200px
-            background: $whiteColor
-            padding: 2px 22px 0
-            height: 36px
-            border: unset
+        &__left
+            padding: 30px 0 50px
+            border-right: .5px solid $borderColor
+            display: flex
+            flex-flow: column
+            align-items: center
+
+            .field-input
+                border-radius: 200px
+                border: 1px solid $borderColor
+                background: $whiteColor
+                width: 336px
+                height: 52px
+                padding: 14px 16px
+
+            .field-email
+                margin-top: 31px
+
+            .field-password
+                margin-top: 24px
+
+            .btn-login
+                margin-top: 24px
+                color: $whiteColor
+                text-align: center
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 700
+                line-height: 24px
+                border-radius: 200px
+                background: $blueColor7
+                width: 336px
+                height: 48px
+                border: unset
+                outline: none
+                &:hover
+                    background: $blueColor8
+
+            .remember-password
+                margin-top: 36px
+
+            .remember-password,
+            .forgot-password
+                color: $grayColor15
+                font-family: Mulish
+                font-size: 14px
+                font-style: normal
+                font-weight: 400
+                line-height: 16px
+
+            .forgot-password
+                margin-top: 28px
+                text-align: center
+
+        &__right
+            padding: 30px 0 0
+            display: flex
+            flex-flow: column
+            align-items: center
+
+            .btn-login-with-facebook,
+            .btn-login-with-google
+                width: 336px
+                height: 48px
+                border: unset
+                border-radius: 200px
+                color: $whiteColor
+
+            .btn-login-with-facebook
+                margin-top: 31px
+                background: $blueColor9
+                &:hover
+                    background: $blueColor4
+
+            .btn-login-with-google
+                margin-top: 20px
+                background: $redColor2
+                &:hover
+                    background: $redColor
 
 .page-content
     margin-top: 16px
