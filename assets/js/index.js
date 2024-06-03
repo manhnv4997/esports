@@ -34,6 +34,24 @@ $(document).ready(function () {
     const targetData = $(this).attr("target-data");
     $(`#${targetData}`).toggleClass("--hide");
   });
+
+  $("#search-box").on("click", function () {
+    console.log("Click!!");
+    $(".icon-box").addClass("--active");
+    $(".icon-box__text").addClass("--active");
+    $(".box-search").addClass("--active");
+  });
+  $(document).on("click", function (event) {
+    if (
+      !$(event.target).closest(
+        ".icon-box, #icon-search, icon-box__text, #search-box"
+      ).length
+    ) {
+      $(".icon-box").removeClass("--active");
+      $(".icon-box__text").removeClass("--active");
+      $(".box-search").removeClass("--active");
+    }
+  });
 });
 
 function toggleMenuHeader() {

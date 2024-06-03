@@ -2,6 +2,78 @@
 @import 'utils/border'
 @import 'common/base'
 @import 'components/components'
+#search-box
+    position: relative
+    width: 35px
+    cursor: pointer
+
+    svg#icon-search
+        z-index: 99
+        cursor: pointer
+
+    .icon-box
+        display: flex
+        transition: all .5s
+        z-index: 3
+        width: 65px
+        height: 32px
+        right: 0
+        align-items: center
+        justify-content: center
+        position: absolute
+        justify-content: flex-start
+        padding-left: 15px
+        transition: all .5s
+
+        &.--active
+            width: 129px
+            background: $orangeColor2
+            height: 32px
+            border-radius: 200px
+            gap: 0 9px
+
+        &__text
+            opacity: 0
+            width: 0
+            transition: width .5s
+
+        &__text.--active
+            text-transform: math-auto
+            color: $whiteColor
+            text-align: center
+            font-family: Mulish
+            font-size: 16px
+            font-style: normal
+            font-weight: 700
+            line-height: 24px
+            opacity: 1
+            width: auto
+
+        &.--active
+            opacity: 1
+
+    .box-search
+        z-index: 1
+        position: absolute
+        width: 30px
+        height: 36px
+        right: 0
+        visibility: hidden
+        transition: all .5s
+
+        &.--active
+            visibility: visible
+            width: 1006px
+            right: -2px
+
+        input
+            outline-width: 0
+            width: 100%
+            border-radius: 200px
+            background: $whiteColor
+            padding: 2px 22px 0
+            height: 36px
+            border: unset
 
 .page-content
     margin-top: 16px
