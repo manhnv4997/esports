@@ -54,6 +54,9 @@ p {
   }
 }
 
+.--only-show-mobile {
+  display: none;
+}
 @media (max-width: 992px) {
   .--only-show-mobile {
     display: block;
@@ -233,6 +236,11 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 17px 0 15px;
+}
+@media (max-width: 992px) {
+  .block-head {
+    padding: 13px 0 12px;
+  }
 }
 .block-head__right {
   display: flex;
@@ -1055,6 +1063,36 @@ p {
   font-weight: 800;
   line-height: 20px;
 }
+.list-scroll .video-item__preview {
+  position: relative;
+}
+.list-scroll .video-item__icon-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  align-items: center;
+}
+.list-scroll .video-item__icon-box .time-video {
+  border-radius: 200px;
+  background: #FFF;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-scroll .video-item__icon-box .time {
+  color: #000;
+  text-align: right;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+}
 
 .list-wrap__ul {
   list-style: none;
@@ -1596,28 +1634,37 @@ p {
   margin: 0;
   padding: 0;
 }
+.breadcrumb__li {
+  color: #3A393E;
+  font-family: "Google Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .breadcrumb__li:first-child {
   list-style-type: none;
 }
 
-.page-content .line-color {
+.line-color {
   display: flex;
 }
-.page-content .line-color__item {
+.line-color__item {
   width: 25%;
 }
-.page-content .line-color__item:first-child {
+.line-color__item:first-child {
   border: 1px solid #F2994A;
 }
-.page-content .line-color__item:nth-child(2) {
+.line-color__item:nth-child(2) {
   border: 1px solid #F00;
 }
-.page-content .line-color__item:nth-child(3) {
+.line-color__item:nth-child(3) {
   border: 1px solid #27AE60;
 }
-.page-content .line-color__item:nth-child(4) {
+.line-color__item:nth-child(4) {
   border: 1px solid #56CCF2;
 }
+
 .page-content .block {
   margin-top: 16px;
   gap: 0 26px;

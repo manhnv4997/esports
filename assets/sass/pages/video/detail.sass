@@ -3,8 +3,29 @@
 @import '../../common/base'
 @import '../../components/components'
 .page-content
-    .block-head
-        padding: 10px 0 12px
+
+    .line-color
+        &__item
+            width: 25%
+        &__item:first-child
+            border: 2px solid $orangeColor
+        &__item:nth-child(2)
+            border: 2px solid $redColor1
+        &__item:nth-child(3)
+            border: 2px solid $greenColor2
+        &__item:nth-child(4)
+            border: 2px solid $blueColor3
+        @media ( max-width: 992px )
+            &__item
+                width: 25%
+            &__item:first-child
+                border: 1px solid $orangeColor
+            &__item:nth-child(2)
+                border: 1px solid $redColor1
+            &__item:nth-child(3)
+                border: 1px solid $greenColor2
+            &__item:nth-child(4)
+                border: 1px solid $blueColor3
 
     .video-box
         height: 569px
@@ -18,6 +39,7 @@
             flex-flow: column
             background: unset
             height: auto
+            margin-top: 12px
             padding: 0
 
         &__left

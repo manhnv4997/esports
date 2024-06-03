@@ -114,6 +114,8 @@
     display: flex
     justify-content: space-between
     padding: 17px 0 15px
+    @media (max-width: 992px)
+        padding: 13px 0 12px
 
     &__right
         display: flex
@@ -1434,3 +1436,16 @@
 
     &__li:first-child
         list-style-type: none
+
+.line-color
+    display: flex
+    &__item
+        width: 25%
+    &__item:first-child
+        border: 1px solid $orangeColor
+    &__item:nth-child(2)
+        border: 1px solid $redColor1
+    &__item:nth-child(3)
+        border: 1px solid $greenColor2
+    &__item:nth-child(4)
+        border: 1px solid $blueColor3
