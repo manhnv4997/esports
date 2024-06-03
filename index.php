@@ -737,10 +737,10 @@
 
                 <div class="block">
                     <div class="block__left list-grid-post">
-                        <div class="list-grid-post__head list-grid-head">
-                            <div class="list-grid-head__content-box">
-                                <div class="list-grid-head__content">
-                                    <p class="list-grid-head__title">
+                        <div class="list-grid-post__head  ">
+                            <div class="list-grid-post__head--content-box">
+                                <div class="list-grid-post__head--content">
+                                    <p class="list-grid-post__head--title">
                                         HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
                                     </p>
 
@@ -760,7 +760,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="https://s3-alpha-sig.figma.com/img/ee5c/0e28/21a1cf08b8c1400ffbb22193cb4d3ebe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hlzBhvXRfalfZSjCsX5ub0Dr1CUMSsCso-Qwhb60LpeDZoVWDXsZy0aQme0zzzKQ4ARe-ipBgwwSB0YphYSvL8zUwoLgT0-OROJU98jmmCz0barAKeecbHFg3MJBq0QBHNVdRoKKeDgSpzRP7XyE~0~fmIRuuNNNn-G9poK5pa~MFk2TpOktkKKzklmzja2EzFZglaSURHlCAfON-KQ6EETt9bTlbuETjQuSvIzEWeolbyV2Ipg9F3z2T86pAoauSnBceY~ky-vKzjUy2ZIq2bNXhbBW9znE2r9bGoalfpCTULHVxLJDqCpTh46UkkMv5qh3HuhRuXvzooE1CcN0Fg__" alt="" class="list-grid-head__image">
+                            <img src="https://s3-alpha-sig.figma.com/img/ee5c/0e28/21a1cf08b8c1400ffbb22193cb4d3ebe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hlzBhvXRfalfZSjCsX5ub0Dr1CUMSsCso-Qwhb60LpeDZoVWDXsZy0aQme0zzzKQ4ARe-ipBgwwSB0YphYSvL8zUwoLgT0-OROJU98jmmCz0barAKeecbHFg3MJBq0QBHNVdRoKKeDgSpzRP7XyE~0~fmIRuuNNNn-G9poK5pa~MFk2TpOktkKKzklmzja2EzFZglaSURHlCAfON-KQ6EETt9bTlbuETjQuSvIzEWeolbyV2Ipg9F3z2T86pAoauSnBceY~ky-vKzjUy2ZIq2bNXhbBW9znE2r9bGoalfpCTULHVxLJDqCpTh46UkkMv5qh3HuhRuXvzooE1CcN0Fg__" alt="" class="list-grid-post__head--image">
                         </div>
                         <div class="list-grid-post__body list-grid-body">
                             <div class="list-grid-body__item">
@@ -946,10 +946,10 @@
                 <div class="block-4__main-content">
                     <div class="block-4__left-content d-none d-lg-block">
                         <div class="list-grid-post">
-                            <div class="list-grid-post__head list-grid-head">
-                                <div class="list-grid-head__content-box">
-                                    <div class="list-grid-head__content">
-                                        <p class="list-grid-head__title">
+                            <div class="list-grid-post__head  ">
+                                <div class="list-grid-post__head--content-box">
+                                    <div class="list-grid-post__head--content">
+                                        <p class="list-grid-post__head--title">
                                             HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
                                         </p>
 
@@ -969,7 +969,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://s3-alpha-sig.figma.com/img/ee5c/0e28/21a1cf08b8c1400ffbb22193cb4d3ebe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hlzBhvXRfalfZSjCsX5ub0Dr1CUMSsCso-Qwhb60LpeDZoVWDXsZy0aQme0zzzKQ4ARe-ipBgwwSB0YphYSvL8zUwoLgT0-OROJU98jmmCz0barAKeecbHFg3MJBq0QBHNVdRoKKeDgSpzRP7XyE~0~fmIRuuNNNn-G9poK5pa~MFk2TpOktkKKzklmzja2EzFZglaSURHlCAfON-KQ6EETt9bTlbuETjQuSvIzEWeolbyV2Ipg9F3z2T86pAoauSnBceY~ky-vKzjUy2ZIq2bNXhbBW9znE2r9bGoalfpCTULHVxLJDqCpTh46UkkMv5qh3HuhRuXvzooE1CcN0Fg__" alt="" class="list-grid-head__image">
+                                <img src="https://s3-alpha-sig.figma.com/img/ee5c/0e28/21a1cf08b8c1400ffbb22193cb4d3ebe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hlzBhvXRfalfZSjCsX5ub0Dr1CUMSsCso-Qwhb60LpeDZoVWDXsZy0aQme0zzzKQ4ARe-ipBgwwSB0YphYSvL8zUwoLgT0-OROJU98jmmCz0barAKeecbHFg3MJBq0QBHNVdRoKKeDgSpzRP7XyE~0~fmIRuuNNNn-G9poK5pa~MFk2TpOktkKKzklmzja2EzFZglaSURHlCAfON-KQ6EETt9bTlbuETjQuSvIzEWeolbyV2Ipg9F3z2T86pAoauSnBceY~ky-vKzjUy2ZIq2bNXhbBW9znE2r9bGoalfpCTULHVxLJDqCpTh46UkkMv5qh3HuhRuXvzooE1CcN0Fg__" alt="" class="list-grid-post__head--image">
                             </div>
                             <div class="list-grid-post__body list-grid-body">
                                 <div class="list-grid-body__item">
@@ -1968,10 +1968,10 @@
                 <div class="block">
                     <div class=" block__left">
                         <div class="list-grid-post">
-                            <div class="list-grid-post__head list-grid-head">
-                                <div class="list-grid-head__content-box">
-                                    <div class="list-grid-head__content">
-                                        <p class="list-grid-head__title">
+                            <div class="list-grid-post__head  ">
+                                <div class="list-grid-post__head--content-box">
+                                    <div class="list-grid-post__head--content">
+                                        <p class="list-grid-post__head--title">
                                             HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
                                         </p>
 
@@ -1991,7 +1991,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-head__image">
+                                <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-post__head--image">
                             </div>
                             <div class="list-grid-post__body list-grid-body">
                                 <div class="list-grid-body__item">
@@ -2303,10 +2303,10 @@
                     <div class="block-7__left--body">
                         <div class="block-7__left--body-top">
                             <div class="list-grid-post">
-                                <div class="list-grid-post__head list-grid-head">
-                                    <div class="list-grid-head__content-box">
-                                        <div class="list-grid-head__content">
-                                            <p class="list-grid-head__title">
+                                <div class="list-grid-post__head  ">
+                                    <div class="list-grid-post__head--content-box">
+                                        <div class="list-grid-post__head--content">
+                                            <p class="list-grid-post__head--title">
                                                 HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
                                             </p>
 
@@ -2326,7 +2326,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-head__image">
+                                    <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-post__head--image">
                                 </div>
                                 <div class="list-grid-post__body list-grid-body">
                                     <div class="list-grid-body__item">
@@ -3441,10 +3441,10 @@
                     </div>
                     <div class="block-8__left-body">
                         <div class="list-grid-post">
-                            <div class="list-grid-post__head list-grid-head">
-                                <div class="list-grid-head__content-box">
-                                    <div class="list-grid-head__content">
-                                        <p class="list-grid-head__title">
+                            <div class="list-grid-post__head  ">
+                                <div class="list-grid-post__head--content-box">
+                                    <div class="list-grid-post__head--content">
+                                        <p class="list-grid-post__head--title">
                                             HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
                                         </p>
 
@@ -3464,7 +3464,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-head__image">
+                                <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-post__head--image">
                             </div>
                             <div class="list-grid-post__body list-grid-body">
                                 <div class="list-grid-body__item">
@@ -3660,10 +3660,10 @@
                         </div>
                         <div class="block__left--center box-border">
                             <div class="list-grid-post">
-                                <div class="list-grid-post__head list-grid-head">
-                                    <div class="list-grid-head__content-box">
-                                        <div class="list-grid-head__content">
-                                            <p class="list-grid-head__title">
+                                <div class="list-grid-post__head  ">
+                                    <div class="list-grid-post__head--content-box">
+                                        <div class="list-grid-post__head--content">
+                                            <p class="list-grid-post__head--title">
                                                 HCV đầu tiên của thể thao điện tử Việt Nam tại SEA Games 32
                                             </p>
 
@@ -3683,7 +3683,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-head__image">
+                                    <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-post__head--image">
                                 </div>
                                 <div class="list-grid-post__body list-grid-body">
                                     <div class="list-grid-body__item">
