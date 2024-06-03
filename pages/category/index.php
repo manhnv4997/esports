@@ -1727,17 +1727,17 @@
                         <div class="tab-list">
                             <div class="tab-list__list-tab">
                                 <ul class="tab-list__list-tab--ul">
-                                    <li class="tab-list__list-tab--li --active" target-data="newest">
+                                    <li class="tab-list__list-tab--li --active" target-data="newest-mb">
                                         Mới nhất
                                     </li>
-                                    <li class="tab-list__list-tab--li" target-data="read-a-lot">
+                                    <li class="tab-list__list-tab--li" target-data="read-a-lot-mb">
                                         Đọc nhiều
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="tab-list__tab--content">
-                                <div id="newest" class="tab-list__tab--item-content">
+                                <div id="newest-mb" class="tab-list__tab--item-content">
                                     <ul class="tab-list__list">
                                         <li class="tab-list__list--item">
                                             <span class="tab-list__list--index">1</span>
@@ -1809,7 +1809,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div id="read-a-lot" class="tab-list__tab--item-content --hide">
+                                <div id="read-a-lot-mb" class="tab-list__tab--item-content --hide">
                                     Đọc nhiều
                                 </div>
 

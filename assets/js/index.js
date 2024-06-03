@@ -1,18 +1,6 @@
 $(document).ready(function () {
   window.addEventListener("scroll", function () {
     toggleMenuHeader();
-    // const heightElementTopBarPc = $("#top-bar-pc").height() ?? 0;
-    // const heightElementHead = $("#head-pc").height() ?? 0;
-    // const heightAllElementTopPage = heightElementTopBarPc + heightElementHead;
-
-    // const pointCurrentScroll = window.pageYOffset;
-    // if (pointCurrentScroll > heightElementTopBarPc) {
-    //   $("#head-pc").addClass("--fixed");
-    //   $(".page-content").addClass("--pushed");
-    // } else {
-    //   $("#head-pc").removeClass("--fixed");
-    //   $(".page-content").removeClass("--pushed");
-    // }
   });
   $("#icon-close-menu-mobile").on("click", function () {
     $("#menu-mobile").toggleClass("--hide");

@@ -747,53 +747,6 @@
                 order: 2
                 background: $blueColor
 
-    // .list-grid-head
-        // &__content-box
-        //     height: 100%
-        //     position: absolute
-        //     z-index: 3
-        //     width: 600px
-        //     background: linear-gradient(90deg, $blueColor 63.76%, rgba(17, 20, 53, 0) 101.86%)
-        //     @media (max-width: 992px)
-        //         width: auto
-        //         position: unset
-        //         order: 2
-        //         background: $blueColor
-
-        // &__content
-        //     height: 100%
-        //     width: 350px
-        //     padding: 18px 28px
-        //     display: flex
-        //     flex-flow: column
-        //     justify-content: space-between
-        //     @media (max-width: 992px)
-        //         width: auto
-        //         padding: 20px
-        //         gap: 20px 0
-
-        // &__title
-        //     color: $whiteColor
-        //     font-family: Mulish
-        //     font-size: 22px
-        //     font-style: normal
-        //     font-weight: 800
-        //     line-height: 28px
-
-        // &__image
-        //     width: 449px
-        //     height: 208px
-        //     position: absolute
-        //     flex-shrink: 0
-        //     right: 0
-        //     top: 0
-        //     z-index: 1
-        //     @media (max-width: 992px)
-        //         object-fit: cover
-        //         order: 1
-        //         width: auto
-        //         position: unset
-
     &__body
         padding-top: 18px
         // display: flex
@@ -813,38 +766,28 @@
             @media (max-width: 992px)
                 order: 2
 
-        .list-grid-body
-            &__item
-                // width: calc(50% - 13px)
+        &--item-title
+            display: block
+            display: -webkit-box
+            max-width: 100%
+            height: 100px
+            margin: 0 auto
+            -webkit-line-clamp: 4
+            -webkit-box-orient: vertical
+            overflow: hidden
+            text-overflow: ellipsis
 
-                @media (max-width: 992px)
-                    width: 100%
+            @media (max-width: 992px)
+                order: 1
 
-            &__item-content
-                display: flex
-                gap: 0 12px
-                justify-content: space-between
+        &--item-content
+            display: flex
+            gap: 0 12px
+            justify-content: space-between
 
-            &__item-title
-                display: block
-                display: -webkit-box
-                max-width: 100%
-                height: 100px
-                margin: 0 auto
-                -webkit-line-clamp: 4
-                -webkit-box-orient: vertical
-                overflow: hidden
-                text-overflow: ellipsis
-
-                @media (max-width: 992px)
-                    order: 1
-
-            // &__item-image
-                // border-radius: 4px
-                // width: 157px
-                // height: 111px
-                // @media (max-width: 992px)
-                    order: 2
+        &__item
+            @media (max-width: 992px)
+                width: 100%
 
 .list-extend
     color: $textColor
@@ -973,6 +916,10 @@
         margin-top: 4px
 
 .tab-list
+
+    ul
+        padding: 0
+
     &__list-tab
         display: flex
         justify-content: center
@@ -1003,6 +950,7 @@
 
     &__tab
         &--item-content
+            min-height: 200px
             &.--hide
                 display: none
 

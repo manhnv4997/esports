@@ -762,11 +762,11 @@
                             </div>
                             <img src="https://s3-alpha-sig.figma.com/img/ee5c/0e28/21a1cf08b8c1400ffbb22193cb4d3ebe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hlzBhvXRfalfZSjCsX5ub0Dr1CUMSsCso-Qwhb60LpeDZoVWDXsZy0aQme0zzzKQ4ARe-ipBgwwSB0YphYSvL8zUwoLgT0-OROJU98jmmCz0barAKeecbHFg3MJBq0QBHNVdRoKKeDgSpzRP7XyE~0~fmIRuuNNNn-G9poK5pa~MFk2TpOktkKKzklmzja2EzFZglaSURHlCAfON-KQ6EETt9bTlbuETjQuSvIzEWeolbyV2Ipg9F3z2T86pAoauSnBceY~ky-vKzjUy2ZIq2bNXhbBW9znE2r9bGoalfpCTULHVxLJDqCpTh46UkkMv5qh3HuhRuXvzooE1CcN0Fg__" alt="" class="list-grid-post__head--image">
                         </div>
-                        <div class="list-grid-post__body list-grid-body">
-                            <div class="list-grid-body__item">
-                                <div class="list-grid-body__item-content">
-                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                    <p class="list-grid-body__item-title">
+                        <div class="list-grid-post__body ">
+                            <div class=" list-grid-post__body--item">
+                                <div class="list-grid-post__body--item-content">
+                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                    <p class="list-grid-post__body--item-title">
                                         Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                     </p>
                                 </div>
@@ -778,10 +778,10 @@
                                 </div>
                                 <span class="break-line"></span>
                             </div>
-                            <div class="list-grid-body__item">
-                                <div class="list-grid-body__item-content">
-                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                    <p class="list-grid-body__item-title">
+                            <div class="list-grid-post__body--item">
+                                <div class="list-grid-post__body--item-content">
+                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                    <p class="list-grid-post__body--item-title">
                                         Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                     </p>
                                 </div>
@@ -793,10 +793,10 @@
                                 </div>
                                 <span class="break-line"></span>
                             </div>
-                            <div class="list-grid-body__item">
-                                <div class="list-grid-body__item-content">
-                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                    <p class="list-grid-body__item-title">
+                            <div class="list-grid-post__body--item">
+                                <div class="list-grid-post__body--item-content">
+                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                    <p class="list-grid-post__body--item-title">
                                         Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                     </p>
                                 </div>
@@ -807,10 +807,10 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="list-grid-body__item">
-                                <div class="list-grid-body__item-content">
-                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                    <p class="list-grid-body__item-title">
+                            <div class="list-grid-post__body--item">
+                                <div class="list-grid-post__body--item-content">
+                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                    <p class="list-grid-post__body--item-title">
                                         Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                     </p>
                                 </div>
@@ -821,10 +821,10 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="list-grid-body__item d-block d-lg-none">
-                                <div class="list-grid-body__item-content">
-                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                    <p class="list-grid-body__item-title">
+                            <div class="list-grid-post__body--item d-block d-lg-none">
+                                <div class="list-grid-post__body--item-content">
+                                    <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                    <p class="list-grid-post__body--item-title">
                                         Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                     </p>
                                 </div>
@@ -971,11 +971,11 @@
                                 </div>
                                 <img src="https://s3-alpha-sig.figma.com/img/ee5c/0e28/21a1cf08b8c1400ffbb22193cb4d3ebe?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hlzBhvXRfalfZSjCsX5ub0Dr1CUMSsCso-Qwhb60LpeDZoVWDXsZy0aQme0zzzKQ4ARe-ipBgwwSB0YphYSvL8zUwoLgT0-OROJU98jmmCz0barAKeecbHFg3MJBq0QBHNVdRoKKeDgSpzRP7XyE~0~fmIRuuNNNn-G9poK5pa~MFk2TpOktkKKzklmzja2EzFZglaSURHlCAfON-KQ6EETt9bTlbuETjQuSvIzEWeolbyV2Ipg9F3z2T86pAoauSnBceY~ky-vKzjUy2ZIq2bNXhbBW9znE2r9bGoalfpCTULHVxLJDqCpTh46UkkMv5qh3HuhRuXvzooE1CcN0Fg__" alt="" class="list-grid-post__head--image">
                             </div>
-                            <div class="list-grid-post__body list-grid-body">
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                            <div class="list-grid-post__body  ">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -987,10 +987,10 @@
                                     </div>
                                     <span class="break-line"></span>
                                 </div>
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -1002,10 +1002,10 @@
                                     </div>
                                     <span class="break-line"></span>
                                 </div>
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -1016,10 +1016,10 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -1030,10 +1030,10 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="list-grid-body__item d-block d-lg-none">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item d-block d-lg-none">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -1993,11 +1993,11 @@
                                 </div>
                                 <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-post__head--image">
                             </div>
-                            <div class="list-grid-post__body list-grid-body">
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                            <div class="list-grid-post__body  ">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -2009,10 +2009,10 @@
                                     </div>
                                     <span class="break-line"></span>
                                 </div>
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -2024,10 +2024,10 @@
                                     </div>
                                     <span class="break-line"></span>
                                 </div>
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -2038,10 +2038,10 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -2052,10 +2052,10 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="list-grid-body__item d-block d-lg-none">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item d-block d-lg-none">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -2328,11 +2328,11 @@
                                     </div>
                                     <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-post__head--image">
                                 </div>
-                                <div class="list-grid-post__body list-grid-body">
-                                    <div class="list-grid-body__item">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body  ">
+                                    <div class="list-grid-post__body--item">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
@@ -2344,10 +2344,10 @@
                                         </div>
                                         <span class="break-line"></span>
                                     </div>
-                                    <div class="list-grid-body__item">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                    <div class="list-grid-post__body--item">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
@@ -2359,10 +2359,10 @@
                                         </div>
                                         <span class="break-line"></span>
                                     </div>
-                                    <div class="list-grid-body__item">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                    <div class="list-grid-post__body--item">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
@@ -2374,10 +2374,10 @@
                                         </div>
                                         <span class="break-line d-block d-lg-none"></span>
                                     </div>
-                                    <div class="list-grid-body__item">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                    <div class="list-grid-post__body--item">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
@@ -2389,10 +2389,10 @@
                                         </div>
                                         <span class="break-line d-block d-lg-none"></span>
                                     </div>
-                                    <div class="list-grid-body__item d-block d-lg-none">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                    <div class="list-grid-post__body--item d-block d-lg-none">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
@@ -3466,11 +3466,11 @@
                                 </div>
                                 <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-post__head--image">
                             </div>
-                            <div class="list-grid-post__body list-grid-body">
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                            <div class="list-grid-post__body  ">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -3482,10 +3482,10 @@
                                     </div>
                                     <span class="break-line"></span>
                                 </div>
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -3497,10 +3497,10 @@
                                     </div>
                                     <span class="break-line"></span>
                                 </div>
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -3512,10 +3512,10 @@
                                     </div>
                                     <span class="break-line d-block d-lg-none"></span>
                                 </div>
-                                <div class="list-grid-body__item">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -3527,10 +3527,10 @@
                                     </div>
                                     <span class="break-line d-block d-lg-none"></span>
                                 </div>
-                                <div class="list-grid-body__item d-block d-lg-none">
-                                    <div class="list-grid-body__item-content">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                        <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body--item d-block d-lg-none">
+                                    <div class="list-grid-post__body--item-content">
+                                        <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                        <p class="list-grid-post__body--item-title">
                                             Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                         </p>
                                     </div>
@@ -3685,11 +3685,11 @@
                                     </div>
                                     <img src="https://s3-alpha-sig.figma.com/img/0acd/8271/cfcf317520b9b971b82b224d10f191c8?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=huO2aR7JxeoqFp-OflKKiLKdIoJcCSdyGC4buJ~OkI6-SB8Q~6LM86YUowwAfT8VNuwMJmF2LV163QyOK6TtR1YsTyyvyPzjI8JIHQo7enkOOzNXrbbm3qZiEc8klaJH-BZGYGucHWWXEg8gC62VdpnzaeN9nzzbJtcItDQjGHnzVzF6b2PUtglbrpjEJhH694e6U-1wf8Gsb84U1D32Awa9DvnN2WnbZFcpoqUtVPmoYi-a7ppfRD-gCSvcxYNSNMrIqUFoUXWY~bGqxtHqR9lBD3SM0Nfm9K8wDWupOlG0SilgBpYwldxNbfk5LqdC3JTc3DIwcesitvY-xXU7VQ__" alt="" class="list-grid-post__head--image">
                                 </div>
-                                <div class="list-grid-post__body list-grid-body">
-                                    <div class="list-grid-body__item">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                <div class="list-grid-post__body  ">
+                                    <div class="list-grid-post__body--item">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
@@ -3701,10 +3701,10 @@
                                         </div>
                                         <span class="break-line"></span>
                                     </div>
-                                    <div class="list-grid-body__item">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                    <div class="list-grid-post__body--item">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
@@ -3716,10 +3716,10 @@
                                         </div>
                                         <span class="break-line"></span>
                                     </div>
-                                    <div class="list-grid-body__item">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                    <div class="list-grid-post__body--item">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
@@ -3730,10 +3730,10 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="list-grid-body__item">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                    <div class="list-grid-post__body--item">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
@@ -3744,10 +3744,10 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="list-grid-body__item d-block d-lg-none">
-                                        <div class="list-grid-body__item-content">
-                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-body__item-image">
-                                            <p class="list-grid-body__item-title">
+                                    <div class="list-grid-post__body--item d-block d-lg-none">
+                                        <div class="list-grid-post__body--item-content">
+                                            <img src="https://s3-alpha-sig.figma.com/img/2219/9e53/f3165f0c444ac3c1f8f9fbd83d63d4b0?Expires=1717977600&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VLk0V9YbNrJppg6AD29ApNn-noWOtfeZAYzDVYLgbtkp81yJMg8ldJamP4Cjg9SFsoyMqpMjNoU-hV25n9qhuQPllzoFdXZ00EVSQIjp3KGUBcFLGgQa0x61jo24lBU0W~0Baq96f2gIuz7VN0sHPO8IFT4Kq3lSW2Lq3lVcW9usICXQI3iheed~m9IjnMpdebS~oLCGhz91XjsgZ2qV0feF84NV30QyfjpL8~tSO3fAF2lrByw1UMaOtYPgvN3cvnTWgzYbu2WzOKObXBJmTiPNbBRDAJXCPC9RVjr-HYAei3Dl19pKYUWawnOsrSF6xcMyy7K0KKsF8fdU9yGKEQ__" alt="" class="list-grid-post__body--item-image">
+                                            <p class="list-grid-post__body--item-title">
                                                 Chung kết Thế Giới Naraka: Bladepoint 2022 - Việt Nam xuất sắc có tới 3 đội tuyển góp mặt
                                             </p>
                                         </div>
