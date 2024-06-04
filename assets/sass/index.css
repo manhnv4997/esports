@@ -745,6 +745,7 @@ p {
   width: 100vw;
   top: 0;
   left: 0;
+  z-index: 9999;
   color: #FFF;
   overflow: scroll;
   background-color: #0B1D40;
@@ -1063,6 +1064,8 @@ p {
   width: 161px;
   height: 111px;
   border-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .have-hidden-box {
@@ -1184,6 +1187,8 @@ p {
   border-radius: 4px;
   width: 157px;
   height: 111px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media (max-width: 992px) {
   .list-grid-post__body--item-image {
@@ -2402,6 +2407,11 @@ p {
   font-weight: 600;
   line-height: 20px;
   padding: 16px 15px;
+}
+@media (max-width: 992px) {
+  .page-content .block-1 .left-content__list-post {
+    padding: 16px 27px;
+  }
 }
 .page-content .block-1 .left-content__list-post ul {
   padding: 0;
