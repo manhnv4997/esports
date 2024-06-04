@@ -78,6 +78,7 @@
         width: 100%
         background: #fff
         top: 0
+        z-index: 999
 
     &__main-content
         background-color: $blueColor2
@@ -102,14 +103,14 @@
                 display: flex
                 transition: all .5s
                 z-index: 3
-                width: 65px
+                width: 40px
                 height: 32px
                 right: 0
                 align-items: center
                 justify-content: center
                 position: absolute
                 justify-content: flex-start
-                padding-left: 15px
+                // padding-left: 15px
                 transition: all .5s
 
                 &.--active
@@ -118,6 +119,7 @@
                     height: 32px
                     border-radius: 200px
                     gap: 0 9px
+                    padding-left: 12px
 
                 &__text
                     opacity: 0
@@ -163,7 +165,7 @@
                     border: unset
 
         .menu
-            margin: 0
+            margin: -5px 0
             padding: 0
             align-items: center
             width: 100%
@@ -182,6 +184,120 @@
                 line-height: 28px /* 200% */
                 text-transform: uppercase
                 text-align: center
+                flex-flow: column
+                position: relative
+                height: 100%
+                justify-content: center
+
+                span
+                    color: $whiteColor
+
+                .line-active
+                    width: 0
+                    left: 0
+                    position: absolute
+                    bottom: -5px
+                    transition: width .3s
+
+                .menu__item--childs-box
+                    color: $orangeColor
+                    left: 0
+                    position: absolute
+                    top: 65px
+                    height: 0
+                    width: 0
+                    overflow: hidden
+                    visibility: hidden
+                    transition: height .5s, width .3s
+
+                .icon-arrow-childs-menu
+                    visibility: hidden
+                    position: absolute
+                    bottom: -5px
+                    transition: visibility .1s
+
+                .menu__item--childs
+                    list-style: none
+                    background: $whiteColor
+                    color: $blackColor
+                    width: 210px
+                    padding: 0
+
+            &__item.--active
+                .line-active
+                    width: 100%
+                    transition: width .3s
+
+            &__item:hover
+                .line-active
+                    width: 210px
+                    transition: width .3s
+
+                .menu__item--childs-box
+                    height: auto
+                    width: auto
+                    visibility: visible
+                    fill: $whiteColor
+                    filter: drop-shadow(0px 4px 20px rgba(143, 143, 143, 0.20))
+                    transition: height .5s, width .3s
+
+                .icon-arrow-childs-menu
+                    visibility: visible
+
+            &__item:not(:hover) .menu__item--childs-box
+                transition: all .3s
+
+            &__item:nth-child(1),
+            &__item:nth-child(6)
+                color: $orangeColor
+
+                .line-active
+                    border-bottom: 5px solid $orangeColor
+
+                .menu__item--child-item:hover
+                    background: $orangeColor
+                    color: $whiteColor
+            &__item:nth-child(2),
+            &__item:nth-child(7)
+                color: $redColor
+
+                .line-active
+                    border-bottom: 5px solid $redColor
+
+                .menu__item--child-item:hover
+                    background: $redColor
+                    color: $whiteColor
+            &__item:nth-child(3),
+            &__item:nth-child(8)
+                color: $greenColor2
+
+                .line-active
+                    border-bottom: 5px solid $greenColor2
+
+                .menu__item--child-item:hover
+                    background: $greenColor2
+                    color: $whiteColor
+            &__item:nth-child(4),
+            &__item:nth-child(9)
+                color: $blueColor3
+
+                .line-active
+                    border-bottom: 5px solid $blueColor3
+
+                .menu__item--child-item:hover
+                    background: $blueColor3
+                    color: $whiteColor
+
+            &__item:nth-child(5),
+            &__item:nth-child(10)
+                color: $yellowColor3
+
+                .line-active
+                    border-bottom: 5px solid $yellowColor3
+
+                .menu__item--child-item:hover
+                    background: $yellowColor3
+                    color: $whiteColor
 
     &__submenu
         padding: 8px 12px

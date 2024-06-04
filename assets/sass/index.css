@@ -195,6 +195,7 @@ p {
   width: 100%;
   background: #fff;
   top: 0;
+  z-index: 999;
 }
 .head__main-content {
   background-color: #0B1D40;
@@ -221,14 +222,13 @@ p {
   display: flex;
   transition: all 0.5s;
   z-index: 3;
-  width: 65px;
+  width: 40px;
   height: 32px;
   right: 0;
   align-items: center;
   justify-content: center;
   position: absolute;
   justify-content: flex-start;
-  padding-left: 15px;
   transition: all 0.5s;
 }
 .head__main-content #search-box .icon-box.--active {
@@ -237,6 +237,7 @@ p {
   height: 32px;
   border-radius: 200px;
   gap: 0 9px;
+  padding-left: 12px;
 }
 .head__main-content #search-box .icon-box__text {
   opacity: 0;
@@ -282,7 +283,7 @@ p {
   border: unset;
 }
 .head__main-content .menu {
-  margin: 0;
+  margin: -5px 0;
   padding: 0;
   align-items: center;
   width: 100%;
@@ -301,6 +302,116 @@ p {
   line-height: 28px;
   text-transform: uppercase;
   text-align: center;
+  flex-flow: column;
+  position: relative;
+  height: 100%;
+  justify-content: center;
+}
+.head__main-content .menu__item span {
+  color: #FFF;
+}
+.head__main-content .menu__item .line-active {
+  width: 0;
+  left: 0;
+  position: absolute;
+  bottom: -5px;
+  transition: width 0.3s;
+}
+.head__main-content .menu__item .menu__item--childs-box {
+  color: #F2994A;
+  left: 0;
+  position: absolute;
+  top: 65px;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: height 0.5s, width 0.3s;
+}
+.head__main-content .menu__item .icon-arrow-childs-menu {
+  visibility: hidden;
+  position: absolute;
+  bottom: -5px;
+  transition: visibility 0.1s;
+}
+.head__main-content .menu__item .menu__item--childs {
+  list-style: none;
+  background: #FFF;
+  color: #000;
+  width: 210px;
+  padding: 0;
+}
+.head__main-content .menu__item.--active .line-active {
+  width: 100%;
+  transition: width 0.3s;
+}
+.head__main-content .menu__item:hover .line-active {
+  width: 210px;
+  transition: width 0.3s;
+}
+.head__main-content .menu__item:hover .menu__item--childs-box {
+  height: auto;
+  width: auto;
+  visibility: visible;
+  fill: #FFF;
+  filter: drop-shadow(0px 4px 20px rgba(143, 143, 143, 0.2));
+  transition: height 0.5s, width 0.3s;
+}
+.head__main-content .menu__item:hover .icon-arrow-childs-menu {
+  visibility: visible;
+}
+.head__main-content .menu__item:not(:hover) .menu__item--childs-box {
+  transition: all 0.3s;
+}
+.head__main-content .menu__item:nth-child(1), .head__main-content .menu__item:nth-child(6) {
+  color: #F2994A;
+}
+.head__main-content .menu__item:nth-child(1) .line-active, .head__main-content .menu__item:nth-child(6) .line-active {
+  border-bottom: 5px solid #F2994A;
+}
+.head__main-content .menu__item:nth-child(1) .menu__item--child-item:hover, .head__main-content .menu__item:nth-child(6) .menu__item--child-item:hover {
+  background: #F2994A;
+  color: #FFF;
+}
+.head__main-content .menu__item:nth-child(2), .head__main-content .menu__item:nth-child(7) {
+  color: #FC151D;
+}
+.head__main-content .menu__item:nth-child(2) .line-active, .head__main-content .menu__item:nth-child(7) .line-active {
+  border-bottom: 5px solid #FC151D;
+}
+.head__main-content .menu__item:nth-child(2) .menu__item--child-item:hover, .head__main-content .menu__item:nth-child(7) .menu__item--child-item:hover {
+  background: #FC151D;
+  color: #FFF;
+}
+.head__main-content .menu__item:nth-child(3), .head__main-content .menu__item:nth-child(8) {
+  color: #27AE60;
+}
+.head__main-content .menu__item:nth-child(3) .line-active, .head__main-content .menu__item:nth-child(8) .line-active {
+  border-bottom: 5px solid #27AE60;
+}
+.head__main-content .menu__item:nth-child(3) .menu__item--child-item:hover, .head__main-content .menu__item:nth-child(8) .menu__item--child-item:hover {
+  background: #27AE60;
+  color: #FFF;
+}
+.head__main-content .menu__item:nth-child(4), .head__main-content .menu__item:nth-child(9) {
+  color: #56CCF2;
+}
+.head__main-content .menu__item:nth-child(4) .line-active, .head__main-content .menu__item:nth-child(9) .line-active {
+  border-bottom: 5px solid #56CCF2;
+}
+.head__main-content .menu__item:nth-child(4) .menu__item--child-item:hover, .head__main-content .menu__item:nth-child(9) .menu__item--child-item:hover {
+  background: #56CCF2;
+  color: #FFF;
+}
+.head__main-content .menu__item:nth-child(5), .head__main-content .menu__item:nth-child(10) {
+  color: #BDBDBD;
+}
+.head__main-content .menu__item:nth-child(5) .line-active, .head__main-content .menu__item:nth-child(10) .line-active {
+  border-bottom: 5px solid #BDBDBD;
+}
+.head__main-content .menu__item:nth-child(5) .menu__item--child-item:hover, .head__main-content .menu__item:nth-child(10) .menu__item--child-item:hover {
+  background: #BDBDBD;
+  color: #FFF;
 }
 .head__submenu {
   padding: 8px 12px;

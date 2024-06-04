@@ -121,29 +121,254 @@
                 </p>
             </div>
             <ul class="menu d-none d-md-flex ">
-                <li class="menu__item">
-                    Liên Minh HT
+                <span id="line-focus-item-menu-active" class="--active"></span>
+                <li class="menu__item --active">
+                    <span>
+                        Liên Minh HT
+                    </span>
+                    <span class="line-active"></span>
+                    <svg class="icon-arrow-childs-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                    </svg>
+                    <div class="menu__item--childs-box">
+                        <ul class="menu__item--childs">
+                            <li class="menu__item--child-item">
+                                Tin tức
+                            </li>
+                            <li class="menu__item--child-item">
+                                Chuyển nhượng
+                            </li>
+                            <li class="menu__item--child-item">
+                                Drama
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phân tích
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phỏng vấn
+                            </li>
+                            <li class="menu__item--child-item">
+                                Bản cập nhật
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="menu__item">
-                    Liên Quân Mobile
+                    <span>
+                        Liên Quân Mobile
+                    </span>
+                    <span class="line-active"></span>
+                    <svg class="icon-arrow-childs-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                    </svg>
+                    <div class="menu__item--childs-box">
+                        <ul class="menu__item--childs">
+                            <li class="menu__item--child-item">
+                                Tin tức
+                            </li>
+                            <li class="menu__item--child-item">
+                                Chuyển nhượng
+                            </li>
+                            <li class="menu__item--child-item">
+                                Drama
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phân tích
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phỏng vấn
+                            </li>
+                            <li class="menu__item--child-item">
+                                Bản cập nhật
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="menu__item">
-                    Tốc Chiến
+                    <span>
+                        Tốc Chiến
+                    </span>
+                    <span class="line-active"></span>
+                    <svg class="icon-arrow-childs-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                    </svg>
+                    <div class="menu__item--childs-box">
+                        <ul class="menu__item--childs">
+                            <li class="menu__item--child-item">
+                                Tin tức
+                            </li>
+                            <li class="menu__item--child-item">
+                                Chuyển nhượng
+                            </li>
+                            <li class="menu__item--child-item">
+                                Drama
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phân tích
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phỏng vấn
+                            </li>
+                            <li class="menu__item--child-item">
+                                Bản cập nhật
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="menu__item">
-                    PUBG Mobile
+                    <span>
+                        PUBG Mobile
+                    </span>
+                    <span class="line-active"></span>
+                    <svg class="icon-arrow-childs-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                    </svg>
+                    <div class="menu__item--childs-box">
+                        <ul class="menu__item--childs">
+                            <li class="menu__item--child-item">
+                                Tin tức
+                            </li>
+                            <li class="menu__item--child-item">
+                                Chuyển nhượng
+                            </li>
+                            <li class="menu__item--child-item">
+                                Drama
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phân tích
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phỏng vấn
+                            </li>
+                            <li class="menu__item--child-item">
+                                Bản cập nhật
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="menu__item">
-                    VALORANT
+                    <span>
+                        VALORANT
+                    </span>
+                    <span class="line-active"></span>
+                    <svg class="icon-arrow-childs-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                    </svg>
+                    <div class="menu__item--childs-box">
+                        <ul class="menu__item--childs">
+                            <li class="menu__item--child-item">
+                                Tin tức
+                            </li>
+                            <li class="menu__item--child-item">
+                                Chuyển nhượng
+                            </li>
+                            <li class="menu__item--child-item">
+                                Drama
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phân tích
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phỏng vấn
+                            </li>
+                            <li class="menu__item--child-item">
+                                Bản cập nhật
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="menu__item">
-                    FIFA Online 4
+                    <span>
+                        FIFA Online 4
+                    </span>
+                    <span class="line-active"></span>
+                    <svg class="icon-arrow-childs-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                    </svg>
+                    <div class="menu__item--childs-box">
+                        <ul class="menu__item--childs">
+                            <li class="menu__item--child-item">
+                                Tin tức
+                            </li>
+                            <li class="menu__item--child-item">
+                                Chuyển nhượng
+                            </li>
+                            <li class="menu__item--child-item">
+                                Drama
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phân tích
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phỏng vấn
+                            </li>
+                            <li class="menu__item--child-item">
+                                Bản cập nhật
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="menu__item">
-                    Free Fire
+                    <span>
+                        Free Fire
+                    </span>
+                    <span class="line-active"></span>
+                    <svg class="icon-arrow-childs-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                    </svg>
+                    <div class="menu__item--childs-box">
+                        <ul class="menu__item--childs">
+                            <li class="menu__item--child-item">
+                                Tin tức
+                            </li>
+                            <li class="menu__item--child-item">
+                                Chuyển nhượng
+                            </li>
+                            <li class="menu__item--child-item">
+                                Drama
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phân tích
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phỏng vấn
+                            </li>
+                            <li class="menu__item--child-item">
+                                Bản cập nhật
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="menu__item">
-                    Game Mobile
+                    <span>
+                        Game Mobile
+                    </span>
+                    <span class="line-active"></span>
+                    <svg class="icon-arrow-childs-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+                    </svg>
+                    <div class="menu__item--childs-box">
+                        <ul class="menu__item--childs">
+                            <li class="menu__item--child-item">
+                                Tin tức
+                            </li>
+                            <li class="menu__item--child-item">
+                                Chuyển nhượng
+                            </li>
+                            <li class="menu__item--child-item">
+                                Drama
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phân tích
+                            </li>
+                            <li class="menu__item--child-item">
+                                Phỏng vấn
+                            </li>
+                            <li class="menu__item--child-item">
+                                Bản cập nhật
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="menu__item menu__icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
