@@ -72,116 +72,178 @@
         line-height: 28px
 
 .head
-    background-color: $blueColor2
-    display: flex
-    gap: 0 12px
-    padding: 10px 75px
-
-    @media (max-width: 992px)
-        justify-content: center
-        padding: 10px 20px
 
     &.--fixed
         position: fixed
         width: 100%
+        background: #fff
         top: 0
-        z-index: 9999
 
-    .menu
-        margin: 0
-        padding: 0
-        /* width: 888px */
-        /* display: flex */
-        align-items: center
-        width: 100%
-        text-transform: uppercase
-        width: 100%
-        justify-content: space-between
+    &__main-content
+        background-color: $blueColor2
+        display: flex
+        gap: 0 12px
+        padding: 10px 75px
 
-        &__item
-            display: flex
-            align-items: center
-            color: $whiteColor
-            font-family: Mulish
-            font-size: 14px
-            font-style: normal
-            font-weight: 700
-            line-height: 28px /* 200% */
-            text-transform: uppercase
-            text-align: center
+        @media (max-width: 992px)
+            justify-content: center
+            padding: 10px 20px
 
-    #search-box
-        position: relative
-        width: 35px
-        cursor: pointer
-
-        svg#icon-search
-            z-index: 99
+        #search-box
+            position: relative
+            width: 35px
             cursor: pointer
 
-        .icon-box
-            display: flex
-            transition: all .5s
-            z-index: 3
-            width: 65px
-            height: 32px
-            right: 0
-            align-items: center
-            justify-content: center
-            position: absolute
-            justify-content: flex-start
-            padding-left: 15px
-            transition: all .5s
+            svg#icon-search
+                z-index: 99
+                cursor: pointer
 
-            &.--active
-                width: 129px
-                background: $orangeColor2
+            .icon-box
+                display: flex
+                transition: all .5s
+                z-index: 3
+                width: 65px
                 height: 32px
-                border-radius: 200px
-                gap: 0 9px
+                right: 0
+                align-items: center
+                justify-content: center
+                position: absolute
+                justify-content: flex-start
+                padding-left: 15px
+                transition: all .5s
 
-            &__text
-                opacity: 0
-                width: 0
-                transition: width .5s
+                &.--active
+                    width: 129px
+                    background: $orangeColor2
+                    height: 32px
+                    border-radius: 200px
+                    gap: 0 9px
 
-            &__text.--active
-                text-transform: math-auto
+                &__text
+                    opacity: 0
+                    width: 0
+                    transition: width .5s
+
+                &__text.--active
+                    text-transform: math-auto
+                    color: $whiteColor
+                    text-align: center
+                    font-family: Mulish
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 24px
+                    opacity: 1
+                    width: auto
+
+                &.--active
+                    opacity: 1
+
+            .box-search
+                z-index: 1
+                position: absolute
+                width: 30px
+                height: 36px
+                right: 0
+                visibility: hidden
+                transition: all .5s
+
+                &.--active
+                    visibility: visible
+                    width: 1006px
+                    right: -2px
+
+                input
+                    outline-width: 0
+                    width: 100%
+                    border-radius: 200px
+                    background: $whiteColor
+                    padding: 2px 22px 0
+                    height: 36px
+                    border: unset
+
+        .menu
+            margin: 0
+            padding: 0
+            align-items: center
+            width: 100%
+            text-transform: uppercase
+            width: 100%
+            justify-content: space-between
+
+            &__item
+                display: flex
+                align-items: center
                 color: $whiteColor
-                text-align: center
                 font-family: Mulish
-                font-size: 16px
+                font-size: 14px
                 font-style: normal
                 font-weight: 700
-                line-height: 24px
-                opacity: 1
-                width: auto
+                line-height: 28px /* 200% */
+                text-transform: uppercase
+                text-align: center
 
-            &.--active
-                opacity: 1
+    &__submenu
+        padding: 8px 12px
+        display: flex
+        border-bottom: 1px solid $grayColor5
+        align-items: center
 
-        .box-search
-            z-index: 1
-            position: absolute
-            width: 30px
-            height: 36px
-            right: 0
-            visibility: hidden
-            transition: all .5s
+        &--ul
+            margin: 0
+            display: flex
+            list-style: none
+            color: $grayColor1
+            font-family: Mulish
+            font-size: 12px
+            font-style: normal
+            font-weight: 600
+            line-height: 28px
+            width: 100%
+            justify-content: space-around
+            padding-left: 12px
+            align-items: center
 
-            &.--active
-                visibility: visible
-                width: 1006px
-                right: -2px
+            .vertical-division
+                height: 25px
 
-            input
-                outline-width: 0
-                width: 100%
-                border-radius: 200px
-                background: $whiteColor
-                padding: 2px 22px 0
-                height: 36px
-                border: unset
+    &__submenu-mobile-detail-page
+        display: none
+        justify-content: space-around
+        padding: 8px 0
+        transition: display 1s
+
+        .vertical-division
+            height: 25px
+
+        &.--fixed
+            position: fixed
+            top: 0
+            display: flex
+            width: 100%
+            align-items: center
+            background: $whiteColor
+            box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.20)
+
+        &--text-item
+            font-family: Merriweather
+            font-style: normal
+            font-weight: 400
+            line-height: 20px
+            text-transform: uppercase
+
+        .--1
+            color: $redColor3
+            font-size: 16px
+            text-decoration: underline
+
+        .--2
+            color: $grayColor23
+            font-size: 18px
+
+        .--3
+            color: $grayColor23
+            font-size: 20px
 
 .block-head
     display: flex
@@ -406,15 +468,19 @@
         font-weight: 500
         line-height: 16px
 
+.submenu-mobile-detail-page
+    display: flex
+
 .top-bar-mobile
 
     .vertical-division
         height: 16px
 
-    &__menu
-        padding: 8px 12px
-        display: flex
-        border-bottom: 1px solid $grayColor5
+    // &__menu
+    //     padding: 8px 12px
+    //     display: flex
+    //     border-bottom: 1px solid $grayColor5
+    //     align-items: center
 
     &__widget
         display: flex
@@ -425,20 +491,20 @@
         .list-scroll__ul
             gap: 0 20px
 
-    &__ul
-        margin: 0
-        display: flex
-        list-style: none
-        color: $grayColor1
-        font-family: Mulish
-        font-size: 12px
-        font-style: normal
-        font-weight: 600
-        line-height: 28px
-        width: 100%
-        justify-content: space-between
-        padding-left: 12px
-        align-items: center
+    // &__ul
+    //     margin: 0
+    //     display: flex
+    //     list-style: none
+    //     color: $grayColor1
+    //     font-family: Mulish
+    //     font-size: 12px
+    //     font-style: normal
+    //     font-weight: 600
+    //     line-height: 28px
+    //     width: 100%
+    //     justify-content: space-around
+    //     padding-left: 12px
+    //     align-items: center
 
 .menu-mobile
     height: 100vh
@@ -451,8 +517,11 @@
     background-color: $blueColor2
     transition: left .5s
 
+    &__body
+        min-height: 390px
+
     &.--hide
-        left: -100%
+        left: -110%
 
     &__icon-arrow
         rotate: 0deg
@@ -1527,8 +1596,396 @@
         border: 1px solid $blueColor3
 
 .modal
-    .modal-header
-        &__tabs
+
+    h5
+        margin-bottom: 20px
+        text-align: center
+        font-family: Mulish
+        font-size: 22px
+        font-style: normal
+        font-weight: 700
+        line-height: 20px
+
+    &#modalVerifyEmail
+        .modal-lg
+            width: 624px
+            height: 329px
+
+            @media ( max-width: 992px )
+                max-width: 100%
+                margin: 0
+                width: 100%
+
+    .modal-verify-email
+        height: 100%
+        @media ( max-width: 992px )
+            height: auto !important
+            background: transparent
+
+        .modal-header
             display: flex
+            flex-flow: column
+            align-items: center
+            justify-content: end
+            @media ( max-width: 992px )
+                border: unset
+
+            &__title-box
+                flex-flow: column
+                width: 100%
+
+        .modal-body
+            height: 236px
+            align-items: center
+            display: flex
+            justify-content: center
+            @media ( max-width: 992px )
+                height: calc(100vh - 150px)
+
+            &__content
+                display: flex
+                flex-flow: column
+                width: 336px
+                gap: 55px 0
+                text-align: center
+                @media ( max-width: 992px )
+                    background: $whiteColor
+                    width: 336px
+                    height: 366px
+                    gap: 44px 0
+                    border-radius: 6px
+
+            &__body-content
+                @media ( max-width: 992px )
+                    align-items: center
+                    display: flex
+                    flex-flow: column
+                    gap: 60px 0
+
+                    p
+                        width: 256px
+                        height: 100px
+
+                &--actions-box
+                    display: flex
+                    margin-top: 55px
+                    justify-content: center
+
+                    @media ( max-width: 992px )
+                        gap: 0 16px
+                        margin-top: 0
+
+                    .btn-exit,
+                    .btn-continue
+                        width: 120px
+                        height: 40px
+                        border-radius: 200px
+                        text-align: center
+                        font-family: Mulish
+                        font-size: 16px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 24px
+                        border: unset
+
+                    .btn-exit
+                        background: $grayColor21
+                        color: $grayColor22
+                        &:hover
+                            background: $grayColor8
+
+                    .btn-continue
+                        background: $blueColor7
+                        color: $whiteColor
+                        &:hover
+                            background: $blueColor8
+
+    .modal-login-register
+        @media ( max-width: 992px )
+            max-width: 100%
+            height: 100%
+            margin: auto auto auto
+
+    .modal-lg
+        height: 100%
+        display: flex
+        align-items: center
+
+        @media ( min-width: 992px )
+            max-width: 836px
+
+    .modal-content
+        @media ( max-width: 992px )
+            // height: 100%
+            height: 744px
+
+    .line-color
+        width: 100%
+        display: none
+
+        &.--active
+            display: flex
+
+    .modal-header
+        padding: 0
+        height: 67px
+        position: relative
+        @media ( max-width: 992px )
+            display: flex
+            height: auto
+            flex-flow: column
+            .head__main-content
+                width: 100%
+
+        .btn-close
+            position: absolute
+            right: 20px
+            top: 23px
+            @media ( max-width: 992px )
+                --bs-btn-close-bg: unset
+                --bs-btn-close-focus-shadow: unset
+
+        &__tabs
+            height: 100%
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
             width: 100%
-            justify-content: space-around
+            @media ( max-width: 992px )
+                height: 67px
+
+            &--item
+                height: 100%
+                align-items: center
+                display: flex
+                flex-flow: column
+                justify-content: flex-end
+
+                color: $grayColor18
+
+                &.--active
+                    color: $blackColor2
+
+    .modal-body
+        padding: 0
+        height: 436px
+
+        &__head-content
+            @media ( max-width: 992px )
+                height: 67px
+                display: flex
+                flex-flow: column
+                justify-content: flex-end
+
+    .tab-content
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        @media ( max-width: 992px )
+            grid-template-columns: repeat(1, 1fr)
+
+        &.--hidden
+            display: none
+
+        form
+            display: flex
+            flex-flow: column
+
+        .break-box
+            margin: 51px 0
+            position: relative
+            .break-line
+                margin: 0
+
+            .break-text
+                background: $whiteColor
+                border: 1px solid $borderColor
+                border-radius: 50%
+                padding: 13px 9px
+                position: absolute
+                top: 50%
+                transform: translate(-50%, -50%)
+                left: 50%
+                color: $grayColor20
+                text-align: center
+                font-family: Mulish
+                font-size: 14px
+                font-style: normal
+                font-weight: 400
+                line-height: 16px
+
+        &__text
+            color: $grayColor16
+            text-align: center
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 400
+            line-height: 20px
+            width: 336px
+            @media ( max-width: 992px )
+                &.--login
+                    display: none
+
+                &.--register
+                    margin-top: 48px
+
+        .field-box
+            position: relative
+            .field-text
+                position: absolute
+                top: 7px
+                left: 17px
+                color: $grayColor17
+                font-family: Mulish
+                font-size: 12px
+                font-style: normal
+                font-weight: 400
+                line-height: 20px
+
+                &.--hidden
+                    display: none
+
+            &.--not-empty
+                .field-input
+                    padding: 16px 16px 0
+
+        &__left
+            padding: 30px 0 50px
+            border-right: .5px solid $borderColor
+            display: flex
+            flex-flow: column
+            align-items: center
+            @media ( max-width: 992px )
+                padding: 0
+
+            .box-icon
+                position: absolute
+                top: 13px
+                right: 20px
+
+                .--hidden
+                    display: none
+
+            .field-input
+                border-radius: 200px
+                border: 1px solid $borderColor
+                background: $whiteColor
+                width: 336px
+                height: 52px
+                padding: 14px 16px
+
+            &--register-form
+                .field-email
+                    @media ( max-width: 992px )
+                        margin-top: 28px
+
+            .field-email
+                margin-top: 31px
+                @media ( max-width: 992px )
+                    margin-top: 41px
+
+            .field-password
+                margin-top: 24px
+                position: relative
+
+            .btn-login
+                margin-top: 24px
+                color: $whiteColor
+                text-align: center
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 700
+                line-height: 24px
+                border-radius: 200px
+                background: $blueColor7
+                width: 336px
+                height: 48px
+                border: unset
+                outline: none
+                &:hover
+                    background: $blueColor8
+
+            .btn-register
+                margin-top: 40px
+                border-radius: 200px
+                background: $grayColor19
+                text-align: center
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 700
+                line-height: 24px
+                width: 336px
+                color: $whiteColor
+                height: 48px
+                border: unset
+                outline: none
+
+            .remember-password
+                margin-top: 36px
+
+            .remember-password,
+            .forgot-password,
+            .policy
+                color: $grayColor15
+                font-family: Mulish
+                font-size: 14px
+                font-style: normal
+                font-weight: 400
+                line-height: 16px
+
+            .policy
+                margin-top: 40px
+
+            .forgot-password
+                margin-top: 28px
+                text-align: center
+
+        &__right
+            padding: 30px 0 0
+            display: flex
+            flex-flow: column
+            align-items: center
+
+            @media ( max-width: 992px )
+                padding: 0
+
+            .btn-login-with-facebook,
+            .btn-login-with-google
+                display: flex
+                gap: 0 11px
+                align-items: center
+                justify-content: center
+                width: 336px
+                height: 48px
+                border: unset
+                border-radius: 200px
+                color: $whiteColor
+
+            .btn-login-with-facebook
+                margin-top: 31px
+                background: $blueColor9
+                &:hover
+                    background: $blueColor4
+
+                @media ( max-width: 992px )
+                    margin-top: 0
+
+            .btn-login-with-google
+                margin-top: 20px
+                background: $redColor2
+                &:hover
+                    background: $redColor
+
+        .re-send-email-box
+            display: flex
+            justify-content: center
+            margin-top: 77px
+            color: $blueColor10
+            text-align: center
+            font-family: Mulish
+            font-size: 14px
+            font-style: normal
+            font-weight: 400
+            line-height: 16px
+            text-decoration-line: underline

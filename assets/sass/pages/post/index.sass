@@ -3,6 +3,44 @@
 @import '../../common/base'
 @import '../../components/components'
 
+.head__submenu-mobile-detail-page
+    display: none
+    justify-content: space-around
+    padding: 8px 0
+    transition: display 1s
+
+    .vertical-division
+        height: 25px
+
+    &.--fixed
+        position: fixed
+        top: 0
+        display: flex
+        width: 100%
+        align-items: center
+        background: $whiteColor
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.20)
+
+    &--text-item
+        font-family: Merriweather
+        font-style: normal
+        font-weight: 400
+        line-height: 20px
+        text-transform: uppercase
+
+    .--1
+        color: $redColor3
+        font-size: 16px
+        text-decoration: underline
+
+    .--2
+        color: $grayColor23
+        font-size: 18px
+
+    .--3
+        color: $grayColor23
+        font-size: 20px
+
 .page-content
 
     .block

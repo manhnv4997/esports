@@ -43,11 +43,11 @@ p {
 }
 
 .page-content.--pushed {
-  margin-top: 74px;
+  margin-top: 70px;
 }
 @media (max-width: 992px) {
   .page-content.--pushed {
-    margin-top: 70px;
+    margin-top: 115px;
   }
 }
 
