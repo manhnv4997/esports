@@ -33,7 +33,7 @@
 }
 @font-face {
   font-family: "Google Sans";
-  src: url("/assets/fonts/google-sans/ProductSans-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/google-sans/ProductSans-Regular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -99,19 +99,19 @@
 }
 @font-face {
   font-family: "Mulish";
-  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/mulish/Mulish-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Mulish";
-  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/mulish/Mulish-Regular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Mulish";
-  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/mulish/Mulish-Regular.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -790,6 +790,14 @@ svg {
   font-weight: 400;
   line-height: 20px;
 }
+.footer__center--left .info .tag-p-3 b {
+  color: #656565;
+  font-family: "Google Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
 .footer__bottom {
   color: #797979;
   font-family: "Google Sans";
@@ -838,6 +846,10 @@ svg {
   text-align: right;
   font-size: 10px;
   font-weight: 400;
+  color: #797979;
+  font-family: "Google Sans";
+  font-style: normal;
+  line-height: 12px;
 }
 @media (max-width: 992px) {
   .footer__bottom--right {
@@ -1098,6 +1110,13 @@ svg {
 .menu-mobile__copy-right-text {
   width: 280px;
   margin: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
 }
 .menu-mobile .logo {
   padding: 13px 0;
@@ -1410,7 +1429,7 @@ svg {
   font-family: Mulish;
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 20px;
   display: block;
   display: -webkit-box;
@@ -1964,6 +1983,14 @@ svg {
   color: #F2C94C;
   list-style: circle;
 }
+.list-best-of-day__body .list-extend ul li {
+  color: #3A3A3A;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
 .list-best-of-day__body .carousel-indicators {
   bottom: -20px;
 }
@@ -2077,6 +2104,7 @@ svg {
 .comments .list-post .item__image {
   width: 120px;
   height: 67px;
+  min-width: 120px;
 }
 .comments .list-post .item__title {
   color: #3A3A3A;

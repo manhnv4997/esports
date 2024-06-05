@@ -359,6 +359,14 @@
                     border: unset
                     padding: 0
 
+                .list-grid-post__body--item-title
+                    color: $blackColor
+                    font-family: Mulish
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 20px
+
             &__right
                 position: relative
                 overflow: hidden
@@ -422,7 +430,19 @@
                 .tab-list
                     list-style: none
                     padding: 0
+                    @media (max-width: 992px)
+                        color: $redColor
 
+                    .right-content__list
+                        @media (max-width: 992px)
+                            display: flex
+                            flex-flow: column
+                            gap: 12px 0
+
+                    .right-content__list-item
+                        span
+                            @media (max-width: 992px)
+                                color: $textColor
                     &__item
                         display: flex
                         gap: 0 9px
@@ -471,6 +491,14 @@
                 width: 100%
                 border: unset
                 padding: 15px 0
+
+            .list-grid-post__body--item-title
+                color: $blackColor
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 700
+                line-height: 20px
 
             .list-extend__ul
                 gap: 12px 0
@@ -631,6 +659,14 @@
                             padding-bottom: 0
 
                     tbody
+                        .team-name
+                            color: $blackColor
+                            font-family: Mulish
+                            font-size: 14px
+                            font-style: normal
+                            font-weight: 700
+                            line-height: 14px
+
                         tr:first-child
                             th,
                             td
@@ -703,6 +739,14 @@
                     padding: 0
                     border: unset
 
+                .list-grid-post__body--item-title
+                    color: $blackColor
+                    font-family: Mulish
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 20px
+
             &__right
                 height: 508px
                 padding: 19px 18px 0 18px
@@ -772,6 +816,14 @@
                     width: 266.348px
                     height: 422.561px
 
+            .list-grid-post__body--item-title
+                color: $blackColor
+                font-family: Mulish
+                font-size: 16px
+                font-style: normal
+                font-weight: 700
+                line-height: 20px
+
         &__right
             width: 314px
             @media (max-width: 992px)
@@ -795,6 +847,27 @@
                 .list-extend__li span
                     @media (max-width: 992px)
                         color: $textColor
+
+            .focus-football
+                .list-extend__li
+                    color: $grayColor14
+                    font-family: Mulish
+                    font-size: 14px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 20px
+            .comments
+                .list-post
+
+                    .item__content
+                        gap: 0 12px
+
+                    .item__text-content
+                        order: 1
+                        width: calc(100% - 120px)
+
+                    .item__title
+                        order: 2
 
             &--body-top,
             &--body-middle-2
@@ -934,6 +1007,12 @@
 
                         border: 0.8px solid $borderColor
                         background: $grayColor3
+
+            .comments
+                .item__text-content
+                    order: 2
+                .item__image
+                    order: 1
     // ---- END BLOCK 9
 
     // ---- START BLOCK 10

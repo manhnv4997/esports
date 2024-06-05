@@ -1146,7 +1146,7 @@
                             </div>
                             <div class="right-content__block-hide tab-list__block-hide d-none d-lg-block"></div>
 
-                            <ul class="right-content__list d-block d-lg-none">
+                            <ul class="right-content__list d-flex d-lg-none">
                                 <li class="right-content__list-item">
                                     <span>
                                         Hành trình của eSports Việt Nam trước SEAGames 32: Từ "vô danh" đến chính danh
@@ -1964,84 +1964,84 @@
                                     <tbody>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
@@ -2049,14 +2049,14 @@
 
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">1</th>
-                                            <td>Man City</td>
+                                            <td class="team-name">Man City</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>
                                             <td class="text-center">0</td>

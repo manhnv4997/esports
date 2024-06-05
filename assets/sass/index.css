@@ -33,7 +33,7 @@
 }
 @font-face {
   font-family: "Google Sans";
-  src: url("/assets/fonts/google-sans/ProductSans-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/google-sans/ProductSans-Regular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -99,19 +99,19 @@
 }
 @font-face {
   font-family: "Mulish";
-  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/mulish/Mulish-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Mulish";
-  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/mulish/Mulish-Regular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Mulish";
-  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  src: url("/assets/fonts/mulish/Mulish-Regular.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -790,6 +790,14 @@ svg {
   font-weight: 400;
   line-height: 20px;
 }
+.footer__center--left .info .tag-p-3 b {
+  color: #656565;
+  font-family: "Google Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
 .footer__bottom {
   color: #797979;
   font-family: "Google Sans";
@@ -838,6 +846,10 @@ svg {
   text-align: right;
   font-size: 10px;
   font-weight: 400;
+  color: #797979;
+  font-family: "Google Sans";
+  font-style: normal;
+  line-height: 12px;
 }
 @media (max-width: 992px) {
   .footer__bottom--right {
@@ -1098,6 +1110,13 @@ svg {
 .menu-mobile__copy-right-text {
   width: 280px;
   margin: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
 }
 .menu-mobile .logo {
   padding: 13px 0;
@@ -1410,7 +1429,7 @@ svg {
   font-family: Mulish;
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 20px;
   display: block;
   display: -webkit-box;
@@ -1964,6 +1983,14 @@ svg {
   color: #F2C94C;
   list-style: circle;
 }
+.list-best-of-day__body .list-extend ul li {
+  color: #3A3A3A;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
 .list-best-of-day__body .carousel-indicators {
   bottom: -20px;
 }
@@ -2077,6 +2104,7 @@ svg {
 .comments .list-post .item__image {
   width: 120px;
   height: 67px;
+  min-width: 120px;
 }
 .comments .list-post .item__title {
   color: #3A3A3A;
@@ -3017,6 +3045,14 @@ svg {
     padding: 0;
   }
 }
+.page-content .block-3 .block__left .list-grid-post__body--item-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
 .page-content .block-3 .block__right {
   position: relative;
   overflow: hidden;
@@ -3083,6 +3119,23 @@ svg {
   list-style: none;
   padding: 0;
 }
+@media (max-width: 992px) {
+  .page-content .block-3 .block__right .tab-list {
+    color: #FC151D;
+  }
+}
+@media (max-width: 992px) {
+  .page-content .block-3 .block__right .tab-list .right-content__list {
+    display: flex;
+    flex-flow: column;
+    gap: 12px 0;
+  }
+}
+@media (max-width: 992px) {
+  .page-content .block-3 .block__right .tab-list .right-content__list-item span {
+    color: #3A3A3A;
+  }
+}
 .page-content .block-3 .block__right .tab-list__item {
   display: flex;
   gap: 0 9px;
@@ -3137,6 +3190,14 @@ svg {
     border: unset;
     padding: 15px 0;
   }
+}
+.page-content .block-4__left-content .list-grid-post__body--item-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
 }
 .page-content .block-4__left-content .list-extend__ul {
   gap: 12px 0;
@@ -3295,6 +3356,14 @@ svg {
   padding-top: 0;
   padding-bottom: 0;
 }
+.page-content .block-5 .block__right .table-ranking tbody .team-name {
+  color: #000;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+}
 .page-content .block-5 .block__right .table-ranking tbody tr:first-child th,
 .page-content .block-5 .block__right .table-ranking tbody tr:first-child td {
   border-top: unset;
@@ -3365,6 +3434,14 @@ svg {
     padding: 0;
     border: unset;
   }
+}
+.page-content .block-6 .block__left .list-grid-post__body--item-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
 }
 .page-content .block-6 .block__right {
   height: 508px;
@@ -3447,6 +3524,14 @@ svg {
   width: 266.348px;
   height: 422.561px;
 }
+.page-content .block-7__left .list-grid-post__body--item-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
 .page-content .block-7__right {
   width: 314px;
 }
@@ -3474,6 +3559,24 @@ svg {
   .page-content .block-7__right .post-and-list-extend .list-extend__li span {
     color: #3A3A3A;
   }
+}
+.page-content .block-7__right .focus-football .list-extend__li {
+  color: #3A3A3A;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.page-content .block-7__right .comments .list-post .item__content {
+  gap: 0 12px;
+}
+.page-content .block-7__right .comments .list-post .item__text-content {
+  order: 1;
+  width: calc(100% - 120px);
+}
+.page-content .block-7__right .comments .list-post .item__title {
+  order: 2;
 }
 .page-content .block-7__right--body-top, .page-content .block-7__right--body-middle-2 {
   width: 100%;
@@ -3609,6 +3712,12 @@ svg {
   height: 600px;
   border: 0.8px solid #DBDCDF;
   background: #EDEDED;
+}
+.page-content .block-9 .block .comments .item__text-content {
+  order: 2;
+}
+.page-content .block-9 .block .comments .item__image {
+  order: 1;
 }
 .page-content .block-10 {
   margin-top: 54px;
