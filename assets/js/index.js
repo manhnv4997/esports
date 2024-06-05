@@ -5,6 +5,7 @@ $(document).ready(function () {
   handleShowLabelFieldInModalLoginRegister();
   handleShowPassword();
   handleShowContentTabList();
+  handleToggleDropdownMenuMobile();
 
   $(".menu__item").on("click", function () {
     for (const item of $(".menu__item")) {
@@ -23,31 +24,15 @@ $(document).ready(function () {
   $("#icon-show-menu-mobile").on("click", function () {
     $("#menu-mobile").toggleClass("--hide");
   });
+});
 
-  $(".menu-mobile__icon-arrow").on("click", function () {
-    $(this).toggleClass("--down");
-  });
-
+function handleToggleDropdownMenuMobile() {
   $(".menu-mobile__menu-item").on("click", function () {
     $(this).find(".menu-mobile__child-menu").toggleClass("--hide");
     $(this).toggleClass("--extend");
+    $($(this).find(".menu-mobile__icon-arrow")).toggleClass("--down");
   });
-
-  // $(".tab-list__list-tab--li, .tab-scroll__head--li").on("click", function () {
-  //   const parent = $(this).parent();
-  //   for (const item of $(parent).find("li")) {
-  //     const classString = $(item).attr("class");
-  //     if (classString.includes("--active")) {
-  //       const currentTargetData = $(item).attr("target-data");
-  //       $(`#${currentTargetData}`).toggleClass("--hide");
-  //     }
-  //     $(item).removeClass("--active");
-  //   }
-  //   $(this).toggleClass("--active");
-  //   const targetData = $(this).attr("target-data");
-  //   $(`#${targetData}`).toggleClass("--hide");
-  // });
-});
+}
 
 function handleShowContentTabList() {
   $(".tab-list__list-tab--li, .tab-scroll__head--li").on("click", function () {

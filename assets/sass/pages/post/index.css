@@ -890,6 +890,7 @@ svg {
   padding: 0;
   flex-wrap: wrap;
   display: flex;
+  gap: 8px 0;
 }
 .menu-mobile__menu-item {
   color: #F2994A;
