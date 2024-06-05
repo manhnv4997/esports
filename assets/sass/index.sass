@@ -41,8 +41,13 @@
             &__main-post
                 border-radius: 6px
                 background: linear-gradient(0deg, $blueColor 0%, $blueColor 100%), url(<path-to-image>) lightgray 50% / cover no-repeat
+
                 @media (max-width: 992px)
                     background: unset
+
+                &:hover
+                    .main-post__title
+                        color: $blueColor8
 
             &__list-post
                 color: $textColor
@@ -116,6 +121,7 @@
                     font-weight: 600
                     line-height: 28px
                     text-transform: uppercase
+                    cursor: pointer
                     @media (max-width: 992px)
                         order: 2
                         color: $redColor1
@@ -135,6 +141,7 @@
                     font-style: normal
                     font-weight: 600
                     line-height: 28px
+                    cursor: pointer
 
                     @media (max-width: 992px)
                         color: $grayColor2
@@ -169,9 +176,12 @@
                     font-style: normal
                     font-weight: 600
                     line-height: 28px
+                    cursor: pointer
 
             &__li
                 margin-bottom: 12px
+                &:hover
+                    color: $blueColor8
 
             &__li:last-child
                 margin-bottom: 0px
@@ -305,7 +315,8 @@
         .tags
             overflow: scroll
             &__ul
-                padding: 0
+                margin: 0
+                padding: 0 0 15px
                 list-style: none
                 display: flex
                 gap: 0 15px
@@ -315,13 +326,22 @@
 
             &__li
                 width: max-content
+                padding: 2px 6px
+
+                &:hover
+                    color: $redColor1
+                    border: 1px solid $borderColor
+                    background: $whiteColor
+                    border-radius: 200px
+                    // padding: 2px 6px
+                    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1)
 
                 &.--active
                     border-radius: 200px
                     border: 1px solid $borderColor
                     background: $whiteColor
                     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10)
-                    padding: 2px 6px
+                    // padding: 2px 6px
                     color: $redColor1
 
         .block
@@ -534,6 +554,9 @@
                 font-weight: 700
                 line-height: 20px
 
+                &:hover
+                    color: $redColor1
+
                 &.--active
                     color: $redColor1
 
@@ -554,6 +577,10 @@
 
                     ul
                         list-style: disc
+
+                &__hour,
+                &__date
+                    cursor: pointer
 
         // &__body,
         .block
@@ -582,7 +609,11 @@
 
                     &__table
                         margin-top: 19px
-
+                        tbody
+                            tr:hover
+                                td,
+                                th
+                                    color: $blueColor8
                     th
                         color: $grayColor7
                         font-family: Mulish
@@ -648,6 +679,9 @@
                 list-style-type: disc
 
             &__li
+                :hover
+                    color: $blueColor8
+                    font-weight: 500
                 span
                     color: $textColor
 
@@ -858,9 +892,6 @@
                 @media(max-width: 992px)
                     color: $redColor1
 
-            .list-extend__li span
-                color: $textColor
-
     // ---- END BLOCK 8
 
     // ---- START BLOCK 9
@@ -898,7 +929,7 @@
                     height: 617px
 
                     &__content
-                        width: 314px
+                        width: 300px
                         height: 600px
 
                         border: 0.8px solid $borderColor
@@ -923,9 +954,9 @@
                 @media (max-width: 992px)
                     color: $redColor1
 
-            .list-extend__li
-                span
-                    color: $textColor
+            // .list-extend__li
+            //     span
+            //         color: $textColor
 
             .block
                 &__col
@@ -954,7 +985,7 @@
                     height: 76px
 
             .item__title
-                color: #000
+                // color: #000
                 font-family: Mulish
                 font-size: 16px
                 font-style: normal

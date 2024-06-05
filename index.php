@@ -5096,8 +5096,10 @@
                         </div>
                     </div>
                     <div class="block__right">
-                        <div class="block__right--top box-border d-none d-lg-block">
-                            <div class="ads">ADS</div>
+                        <div class="ads">
+                            <div class="ads__content">
+                                ADS
+                            </div>
                         </div>
                         <div class="block__right--bottom box-border">
                             <div class="tab-list">

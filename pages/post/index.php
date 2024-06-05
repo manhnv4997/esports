@@ -876,43 +876,43 @@
                                     <div class="list-scroll">
                                         <ul class="list-scroll__ul">
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-7.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-7.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-7.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-7.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-7.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-7.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-7.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
@@ -924,43 +924,43 @@
                                     <div class="list-scroll">
                                         <ul class="list-scroll__ul">
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-130.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-130.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-130.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-130.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-130.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-130.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>
                                             </li>
                                             <li class="list-scroll__li">
-                                                <img src="/assets/image/image-152.png" alt="" class="list-scroll__image">
+                                                <img src="/assets/image/image-130.png" alt="" class="list-scroll__image">
                                                 <p class="list-scroll__title">
                                                     Giải đấu lớn nhất thế giới của Dota 2 sẽ quay trở lại năm nay
                                                 </p>

@@ -1,6 +1,7 @@
 @import '../variables/colors'
 
 .logo
+    cursor: pointer
     text-transform: uppercase
 
     &__box
@@ -188,6 +189,7 @@
                 position: relative
                 height: 100%
                 justify-content: center
+                cursor: pointer
 
                 span
                     color: $whiteColor
@@ -304,6 +306,7 @@
         display: flex
         border-bottom: 1px solid $grayColor5
         align-items: center
+        cursor: pointer
 
         &--ul
             margin: 0
@@ -430,6 +433,11 @@
         ul
             height: 140px
 
+        li
+            cursor: pointer
+            &:hover
+                color: $blueColor8
+
         .info-follow
             display: flex
             flex-flow: column
@@ -524,6 +532,9 @@
                 align-items: center
                 justify-content: center
 
+            p
+                cursor: pointer
+
         &--right
             text-align: right
             font-size: 10px
@@ -554,6 +565,9 @@
         border-right: 1px solid $grayColor2
         padding-right: 15px
         margin: 5px 15px 5px 0
+        cursor: pointer
+        &:hover
+            color: $blueColor8
 
     &__li:last-child
         border-right: unset
@@ -572,9 +586,15 @@
         font-style: normal
         font-weight: 500
         line-height: 16px
+        &:hover
+            color: $blueColor8
 
     &__login-register-box
         cursor: pointer
+
+        &:hover
+            .top-bar-pc__login-register
+                color: $blueColor8
 
     &__login-register
         color: $whiteColor
@@ -823,6 +843,8 @@
     ul.time-hour
         padding: 0
         list-style: none
+        li
+            cursor: pointer
 
     &.time-hour
         display: flex
@@ -837,6 +859,7 @@
         font-weight: 500
         line-height: 16px
         text-transform: uppercase
+        cursor: pointer
 
     &__category
         color: $redColor1
@@ -846,6 +869,7 @@
         font-weight: 500
         line-height: 16px
         text-transform: uppercase
+        cursor: pointer
 
     &__time-comments
         gap: 0 13px
@@ -859,6 +883,7 @@
         font-style: normal
         font-weight: 600
         line-height: 28px
+        cursor: pointer
 
     &__comment
         color: $whiteColor
@@ -867,6 +892,7 @@
         font-style: normal
         font-weight: 600
         line-height: 28px
+        cursor: pointer
 
 .title-and-line
     position: relative
@@ -917,6 +943,10 @@
             gap: 0 16px
             justify-content: space-between
 
+            &:hover
+                .item__title
+                    color: $blueColor8
+
         &__text-content
             display: flex
             flex-flow: column
@@ -929,12 +959,15 @@
             font-style: normal
             font-weight: 700
             line-height: 24px
+            &:hover
+                color: $blueColor8
 
         &__image
             width: 161px
             height: 111px
             border-radius: 4px
             object-fit: cover
+            cursor: pointer
 
 .have-hidden-box
     position: relative
@@ -975,10 +1008,14 @@
         position: relative
         border-radius: 6px
         overflow: hidden
+        cursor: pointer
         @media (max-width: 992px)
             display: flex
             flex-flow: column
             height: auto
+
+        &:hover &--title
+            color: $blueColor8
 
         &--title
             color: $whiteColor
@@ -996,6 +1033,8 @@
             right: 0
             top: 0
             z-index: 1
+            object-fit: cover
+
             @media (max-width: 992px)
                 object-fit: cover
                 order: 1
@@ -1043,6 +1082,7 @@
             width: 157px
             height: 111px
             object-fit: cover
+            cursor: pointer
             @media (max-width: 992px)
                 order: 2
 
@@ -1059,6 +1099,9 @@
 
             @media (max-width: 992px)
                 order: 1
+
+            &:hover
+                color: $blueColor8
 
         &--item-content
             display: flex
@@ -1082,8 +1125,13 @@
         display: flex
         flex-flow: column
 
-    &__li span
-        color: $textColor
+    &__li
+        &:hover
+            span
+                color: $blueColor8
+
+        span
+            color: $textColor
 
 .list-scroll
     overflow-y: scroll
@@ -1094,6 +1142,12 @@
         gap: 0 10px
 
     &__li
+        &:hover
+            p,
+            span
+                font-weight: 800
+                color: $blueColor8
+
         span
             width: max-content
             display: block
@@ -1187,6 +1241,13 @@
             gap: 5px 30px
 
     &__li
+        cursor: pointer
+
+        &:hover
+            span
+                color: $blueColor8
+                font-weight: 500
+
         span
             color: $grayColor7
             font-family: Mulish
@@ -1252,7 +1313,10 @@
             padding: 5px 10px
             width: 119px
             height: 34px
+            cursor: pointer
             text-align: center
+
+            &:hover,
             &.--active
                 border-radius: 200px
                 background-color: $redColor1
@@ -1288,6 +1352,8 @@
             font-style: normal
             font-weight: 700
             line-height: 20px
+            &:hover
+                color: $blueColor8
 
 .tab-scroll
     &__head
@@ -1327,6 +1393,7 @@
             line-height: 24px
             text-transform: uppercase
 
+            &:hover,
             &.--active
                 color: $grayColor1
 
@@ -1368,6 +1435,11 @@
         display: flex
         flex-flow: column
         gap: 13px 0
+        cursor: pointer
+
+        &:hover
+            .post__title
+                color: $blueColor8
 
         &__image
             width: 283px
@@ -1397,6 +1469,10 @@
         margin: 0
 
     .list-extend__li
+        &:hover
+            span
+                color: $blueColor8
+
         span
             color: $textColor
 
@@ -1510,6 +1586,7 @@
         font-style: normal
         font-weight: 500
         line-height: 20px
+        cursor: pointer
 
 .list-best-of-day
     border: 1px solid $yellowColor2
@@ -1623,6 +1700,10 @@
             justify-content: center
             width: max-content
             padding: 0 13px
+            cursor: pointer
+
+            &:hover
+                background: $grayColor8
 
 .comments
     margin-top: 24px
@@ -1677,6 +1758,7 @@
         width: 300px
         height: 600px
         background: $grayColor3
+        cursor: pointer
 
 .breadcrumb
     align-items: center
@@ -1697,6 +1779,7 @@
         font-style: normal
         font-weight: 400
         line-height: normal
+        cursor: pointer
 
     &__li:first-child
         list-style-type: none
