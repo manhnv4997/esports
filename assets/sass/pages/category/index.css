@@ -19,6 +19,40 @@
   display: block;
 }
 
+@font-face {
+  font-family: "Google Sans";
+  src: url("/assets/fonts/google-sans/ProductSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/assets/fonts/merriweather/Merriweather-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("/assets/fonts/mulish/Mulish-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nico Moji";
+  src: url("/assets/fonts/Nico-Moji/nicomoji/NicoMoji-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/SFPRODISPLAYREGULAR.OTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -709,6 +743,9 @@ svg {
   margin: 5px 15px 5px 0;
   cursor: pointer;
 }
+.top-bar-pc__li:hover {
+  color: #0b2f7d;
+}
 .top-bar-pc__li:last-child {
   border-right: unset;
   padding-right: 0;
@@ -727,8 +764,14 @@ svg {
   font-weight: 500;
   line-height: 16px;
 }
+.top-bar-pc__date:hover {
+  color: #0b2f7d;
+}
 .top-bar-pc__login-register-box {
   cursor: pointer;
+}
+.top-bar-pc__login-register-box:hover .top-bar-pc__login-register {
+  color: #0b2f7d;
 }
 .top-bar-pc__login-register {
   color: #FFF;
@@ -1397,6 +1440,10 @@ svg {
 }
 .list-wrap__li {
   cursor: pointer;
+}
+.list-wrap__li:hover span {
+  color: #0b2f7d;
+  font-weight: 500;
 }
 .list-wrap__li span {
   color: #656565;
