@@ -432,6 +432,12 @@
   height: 140px;
 }
 .footer__center li {
+  color: #656565;
+  font-family: "Google Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
   cursor: pointer;
 }
 .footer__center li:hover {
@@ -1121,6 +1127,12 @@
   }
 }
 .list-grid-post__body--item-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
   display: block;
   display: -webkit-box;
   max-width: 100%;

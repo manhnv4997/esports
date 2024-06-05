@@ -22,35 +22,156 @@
 @font-face {
   font-family: "Google Sans";
   src: url("/assets/fonts/google-sans/ProductSans-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Google Sans";
+  src: url("/assets/fonts/google-sans/ProductSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Google Sans";
+  src: url("/assets/fonts/google-sans/ProductSans-Bold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Google Sans";
+  src: url("/assets/fonts/google-sans/ProductSans-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Google Sans";
+  src: url("/assets/fonts/google-sans/ProductSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Google Sans";
+  src: url("/assets/fonts/google-sans/ProductSans-Bold.ttf") format("truetype");
+  font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Merriweather";
   src: url("/assets/fonts/merriweather/Merriweather-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/assets/fonts/merriweather/Merriweather-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/assets/fonts/merriweather/Merriweather-Bold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/assets/fonts/merriweather/Merriweather-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/assets/fonts/merriweather/Merriweather-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/assets/fonts/merriweather/Merriweather-Bold.ttf") format("truetype");
+  font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Mulish";
   src: url("/assets/fonts/mulish/Mulish-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("/assets/fonts/mulish/Mulish-Bold.ttf") format("truetype");
+  font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Nico Moji";
   src: url("/assets/fonts/Nico-Moji/nicomoji/NicoMoji-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "SF Pro Display";
-  src: url("/SFPRODISPLAYREGULAR.OTF") format("truetype");
-  font-weight: normal;
+  src: url("/assets/fonts/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/assets/fonts/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/assets/fonts/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/assets/fonts/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/assets/fonts/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/assets/fonts/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF") format("truetype");
+  font-weight: 800;
   font-style: normal;
 }
 body {
   font-family: "Mulish", sans-serif;
+  font-weight: 300;
 }
 
 body {
@@ -590,6 +711,12 @@ svg {
   height: 140px;
 }
 .footer__center li {
+  color: #656565;
+  font-family: "Google Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
   cursor: pointer;
 }
 .footer__center li:hover {
@@ -1279,6 +1406,12 @@ svg {
   }
 }
 .list-grid-post__body--item-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
   display: block;
   display: -webkit-box;
   max-width: 100%;
